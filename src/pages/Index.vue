@@ -1,41 +1,35 @@
 <template>
-  <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">
-        Gridsome Docs
-      </a>
-      <a
-        href="https://github.com/gridsome/gridsome"
-        target="_blank"
-        rel="noopener"
-      >
-        GitHub
-      </a>
-    </p>
-  </Layout>
+  <Landing>
+    <Presentation />
+    <Art />
+    <Music />
+    <Travel />
+    <ShowPosts />
+    <Contact />
+  </Landing>
 </template>
 
 <script>
+import Presentation from '~/components/Landing/Presentation.vue'
+import Art from '~/components/Landing/Art.vue'
+import Music from '~/components/Landing/Music.vue'
+import Travel from '~/components/Landing/Travel.vue'
+import ShowPosts from '~/components/Landing/ShowPosts.vue'
+import Contact from '~/components/Landing/Contact.vue'
+
 export default {
+  components: {
+    Presentation,
+    Art,
+    Music,
+    Travel,
+    ShowPosts,
+    Contact,
+  },
   metaInfo: {
-    title: 'Hello, world!',
+    title: '',
   },
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
+<style></style>
