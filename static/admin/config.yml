@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway #Open source API -> acts as proxy bt auth users and ur repo
+  branch: master #Branch to update
+publish_mode: editorial_workflow #adds interface for drafting, reviewing and approving
+media_folder: 'static/images/uploads' #Media files will be stored in the repo under images/uploads
+public_folder: '/images/uploads'
+
+collections:
+  - name: 'posts' # Used in routes, e.g., /admin/collections/blog
+    label: 'Posts' #Used in the UI
+    folder: 'content/posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: { { slug } }
+    extension: 'md'
+    fields:
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
+      - {
+          label: 'Tags',
+          name: 'tags',
+          widget: 'list',
+          field:
+            { label: 'Tag', name: 'tag', widget: 'string', default: 'tag' },
+        }
+      - {
+          label: 'Tema',
+          name: 'topic',
+          widget: 'select',
+          options: ['art', 'music', 'travel'],
+        }
+      - { label: 'Contenido', name: 'content', widget: 'markdown' }
+  - name: 'topics'
+    label: 'Temas'
+    file: 'static/data/menu.json'
+    fields:
+      - { label: 'Tema', name: 'name', widget: 'string' }
+      - { label: 'Descripción', name: 'description', widget: 'string' }

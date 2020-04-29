@@ -18,6 +18,9 @@ module.exports = {
         shouldTimeTravel: true,
       },
     },
+    {
+      use: 'gridsome-plugin-netlify-cms',
+    },
   ],
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
