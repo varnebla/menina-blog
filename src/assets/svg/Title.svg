@@ -1,3 +1,11 @@
 <template>
-
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- viewBox="-21.3515625 252.7931034 684.703125 124" -->
+  <defs>
+    <text class="svg-stroke svg-text" stroke="" stroke-width="1" id="b3SASQkKU" x="0" y="0" font-size="100" font-family="Dancing Script" font-weight="normal" font-style="normal" letter-spacing="1" alignment-baseline="before-edge" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
+      <tspan x="10" dy="0em" alignment-baseline="before-edge">La menina perdida</tspan>
+    </text>
+  </defs>
+  <use xlink:href="#b3SASQkKU" fill="white" id="d1fdd9FXBU"/>
+</svg>
 </template>

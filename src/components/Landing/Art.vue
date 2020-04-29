@@ -1,7 +1,8 @@
 <template>
-  <div class="presentation art">
-    <h1 class="title">This is the art component</h1>
-  </div>
+  <section class="w-screen h-128 flex justify-between items-center px-2 tablet:px-16 laptop:px-32">
+    <slot name="left-component"></slot>
+    <slot name="right-component"></slot>
+  </section>
 </template>
 
 <script>

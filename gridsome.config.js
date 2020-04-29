@@ -6,7 +6,19 @@
 
 module.exports = {
   siteName: 'La menina perdida',
-  plugins: [],
+  plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      options: {
+        tailwindConfig: './tailwind.config.js',
+        purgeConfig: {},
+        presetEnvConfig: {},
+        shouldPurge: true,
+        shouldImport: true,
+        shouldTimeTravel: true,
+      },
+    },
+  ],
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()

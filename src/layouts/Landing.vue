@@ -1,5 +1,5 @@
 <template>
-  <div class="landing">
+  <div class="container mx-0 box-border">
     <slot></slot>
     <Footer />
   </div>
@@ -24,5 +24,7 @@ export default {
 
 <style scoped>
 .landing {
+  perspective: 8px;
+  perspective-origin: 0%;
 }
 </style>

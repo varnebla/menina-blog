@@ -1,9 +1,24 @@
 <template>
   <Landing>
     <Presentation />
-    <Art />
-    <Music />
-    <Travel />
+    <Art>
+      <div slot="left-component" class="w-1/2 h-full bg-cover bg-no-repeat bg-center" :style="{ backgroundImage: 'url(' + require('~/assets/images/david.jpg') + ')' }"></div>
+      <div slot="right-component" class="w-1/2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices faucibus sem ut laoreet. Sed nec eleifend ex. Aliquam scelerisque pretium lacus, vitae vulputate nisi maximus venenatis.
+      </div>
+    </Art>
+    <Art>
+      <div slot="left-component" class="w-1/2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices faucibus sem ut laoreet. Sed nec eleifend ex. Aliquam scelerisque pretium lacus, vitae vulputate nisi maximus venenatis.
+      </div>
+      <div slot="right-component" class="w-1/2 h-full bg-cover bg-no-repeat bg-center" :style="{ backgroundImage: 'url(' + require('~/assets/images/concert.jpg') + ')' }"></div>
+    </Art>
+    <Art>
+      <div slot="left-component" class="w-1/2 h-full bg-cover bg-no-repeat bg-center" :style="{ backgroundImage: 'url(' + require('~/assets/images/travel.jpg') + ')' }"></div>
+      <div slot="right-component" class="w-1/2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices faucibus sem ut laoreet. Sed nec eleifend ex. Aliquam scelerisque pretium lacus, vitae vulputate nisi maximus venenatis.
+      </div>
+    </Art>
     <ShowPosts />
     <Contact />
   </Landing>
