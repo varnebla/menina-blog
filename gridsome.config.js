@@ -20,9 +20,6 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-netlify-cms',
-      options: {
-        enableIdentityWidget: false,
-      },
     },
   ],
   chainWebpack: config => {
