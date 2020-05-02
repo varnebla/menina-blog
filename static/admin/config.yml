@@ -14,6 +14,7 @@ collections:
     extension: 'md'
     fields:
       - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Abstract', name: 'abstract', widget: 'text' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
       - {

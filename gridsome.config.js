@@ -27,6 +27,13 @@ module.exports = {
       },
     },
   ],
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+    },
+  },
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
