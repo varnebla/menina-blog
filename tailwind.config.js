@@ -34,7 +34,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
-        'Lora',
+        'Noto Serif KR',
         'Georgia',
         'Cambria',
         '"Times New Roman"',
@@ -50,6 +50,7 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      titles: ['Playfair Display', 'Georgia', 'Cambria', '"Times New Roman"'],
     },
   },
   variants: {},

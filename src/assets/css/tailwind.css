@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 @import './styles.css';
+
+h1 {
+  @apply text-5xl font-bold;
+}
+h2 {
+  @apply font-sans text-4xl font-bold;
+}
+h3 {
+  @apply font-sans text-3xl font-semibold;
+}
+h4 {
+  @apply font-sans text-2xl font-semibold;
+}
+h5 {
+  @apply font-sans text-xl font-normal;
+}
+body {
+  @apply font-serif text-lg;
+}
+strong {
+  @apply font-bold;
+}
