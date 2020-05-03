@@ -6,6 +6,9 @@
 
 module.exports = {
   siteName: 'La menina perdida',
+  templates: {
+    Post: '/blog/:title',
+  },
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -25,7 +28,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/posts/*.md',
-        typeName: 'Posts',
+        typeName: 'Post',
       },
     },
   ],

@@ -1,17 +1,23 @@
 <template>
   <Layout>
-    <h1 v-for="edge in $page.posts.edges" key="edge.node.title">
-      {{ edge.node.title }}
-    </h1>
+    <PostCard
+      v-for="edge in $page.posts.edges"
+      key="edge.node.title"
+      :post="edge.node"
+    />
   </Layout>
 </template>
 
 <page-query> 
  query{
-   posts: allPosts{
+   posts: allPost{
      edges{
        node{
          title
+         abstract
+         date
+         thumbnail
+         path
        }
      }
    }
@@ -19,9 +25,13 @@
 </page-query>
 
 <script>
+import PostCard from '~/components/PostCard.vue'
 export default {
   metaInfo: {
     title: 'Blog',
+  },
+  components: {
+    PostCard,
   },
 }
 </script>

@@ -19,7 +19,6 @@ content: >-
 
 
   ![](/images/uploads/whatsapp-image-2020-04-25-at-18.52.00.jpeg)
-image: https://source.unsplash.com/random/1
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
