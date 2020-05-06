@@ -17,6 +17,13 @@ module.exports = {
         '168': '42rem',
       },
     },
+    colors: {
+      primary: '#15161B',
+      secondary: '#7E5E32',
+      gold: '#9B7F5A',
+      olive: '#9B7F5A',
+      cream: '#F0F3EE',
+    },
     fontFamily: {
       sans: [
         'Fira Sans',
