@@ -21,6 +21,19 @@ collections:
       - { label: 'Abstract', name: 'abstract', widget: 'text' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
+        required: false
+        tagname: ''
+        media_library:
+          config:
+            default_transformations:
+              - fetch_format: auto
+                width: 300
+                quality: auto
+                crop: fill
+                effect: grayscale
       - {
           label: 'Tags',
           name: 'tags',
