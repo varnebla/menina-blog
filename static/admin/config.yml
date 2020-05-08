@@ -11,11 +11,11 @@ media_library:
     api_key: 384885582618967
     output_filename_only: false
     config:
-    default_transformations:
-      - - fetch_format: auto
-          width: 200
-          quality: auto
-          crop: scale
+      default_transformations:
+        - - fetch_format: auto
+            width: 200
+            quality: auto
+            crop: scale
 collections:
   - name: 'posts' # Used in routes, e.g., /admin/collections/posts
     label: 'Posts' #Used in the UI
@@ -42,9 +42,12 @@ collections:
           options: ['art', 'music', 'travel'],
         }
       - { label: 'Contenido', name: 'content', widget: 'markdown' }
-  # - name: 'topics'
-  #   label: 'Temas'
-  #   file: 'static/data/menu.json'
-  #   fields:
-  #     - { label: 'Tema', name: 'name', widget: 'string' }
-  #     - { label: 'Descripción', name: 'description', widget: 'string' }
+  - name: 'topics'
+    label: 'Temas'
+    folder: 'content/topics' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    extension: 'md'
+    fields:
+      - { label: 'Tema', name: 'name', widget: 'string' }
+      - { label: 'Descripción', name: 'description', widget: 'string' }
+      - { label: 'Imagen', name: 'thumbnail', widget: 'image' }

@@ -9,7 +9,7 @@
         <h1 class="mt-5 mb-2 font-titles">{{ $page.post.title }}</h1>
         <p class="opacity-50 mb-8">Publicado el {{ $page.post.date }}</p>
         <div
-          class="font-light opacity-75 content"
+          class="font-light content"
           v-html="$page.post.content"
         ></div>
       </div>
@@ -34,6 +34,6 @@ export default {}
 
 <style>
 .content > p {
-  @apply mb-6;
+  @apply mb-6 opacity-75;
 }
 </style>
