@@ -13,7 +13,7 @@ media_library:
     config:
     default_transformations:
       - - fetch_format: auto
-          width: 500
+          width: 200
           quality: auto
           crop: scale
 collections:
