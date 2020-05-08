@@ -49,5 +49,5 @@ collections:
     extension: 'md'
     fields:
       - { label: 'Tema', name: 'name', widget: 'string' }
-      - { label: 'Descripción', name: 'description', widget: 'string' }
+      - { label: 'Descripción', name: 'description', widget: 'text' }
       - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
