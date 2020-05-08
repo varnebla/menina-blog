@@ -25,6 +25,12 @@ content: >-
 
 
   ![](https://res.cloudinary.com/varnebla/image/upload/v1588965044/WhatsApp_Image_2020-04-25_at_18.52.00_1_wlasc7.jpg)
+
+
+  And another smaller:
+
+
+  ![](https://res.cloudinary.com/varnebla/image/upload/v1588970255/WhatsApp_Image_2020-04-25_at_18.50.17_ub76yf.jpg)
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
