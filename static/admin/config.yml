@@ -9,6 +9,13 @@ media_library:
   config:
     cloud_name: varnebla
     api_key: 384885582618967
+    output_filename_only: false
+    config:
+    default_transformations:
+      - - fetch_format: auto
+          width: 160
+          quality: auto
+          crop: scale
 collections:
   - name: 'posts' # Used in routes, e.g., /admin/collections/posts
     label: 'Posts' #Used in the UI
@@ -21,19 +28,6 @@ collections:
       - { label: 'Abstract', name: 'abstract', widget: 'text' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
-      - label: 'Cover Image'
-        name: 'image'
-        widget: 'image'
-        required: false
-        tagname: ''
-        media_library:
-          config:
-            default_transformations:
-              - fetch_format: auto
-                width: 300
-                quality: auto
-                crop: fill
-                effect: grayscale
       - {
           label: 'Tags',
           name: 'tags',
