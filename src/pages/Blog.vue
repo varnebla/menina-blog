@@ -17,7 +17,7 @@
          abstract
          date
         #  thumbnail
-         thumbnail (width: 50, height: 50, quality: 90)
+         thumbnail
          path
        }
      }
