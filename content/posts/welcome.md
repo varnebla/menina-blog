@@ -18,7 +18,7 @@ content: >-
   En contraposición con la luz que incide directamente en la mujer, contrastan dos personajes masculinos. En las sombras de los árboles, sentado en un banco de piedra, un hombre de avanzada edad (como parece indicar su pelo blanco), controla el mecanismo de cuerdas que mueve el columpio de la mujer, seguramente su esposa. El personaje que cierra el grupo es un hombre aparentemente más joven, que está tumbado en primer término, mirando directamente a la mujer (y seguramente lo que hay bajo sus faldas). Este personaje ha sido interpretado como el amante, que se burla. Por tanto, **las tres figuras forman un triángulo,** tanto en el soporte plástico como en la vida real.
 
 
-  ![](https://res.cloudinary.com/varnebla/image/upload/v1588955091/whatsapp-image-2020-04-25-at-18.52.00_q56zh2.jpg)
+  ![](https://res.cloudinary.com/varnebla/image/upload/c_scale,q_59,w_721/v1588955091/whatsapp-image-2020-04-25-at-18.52.00_q56zh2.jpg)
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
