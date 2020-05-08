@@ -4,7 +4,11 @@ backend:
 publish_mode: editorial_workflow #adds interface for drafting, reviewing and approving
 media_folder: 'static/images/uploads' #Media files will be stored in the repo under images/uploads
 public_folder: '/images/uploads'
-
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: varnebla
+    api_key: 384885582618967
 collections:
   - name: 'posts' # Used in routes, e.g., /admin/collections/posts
     label: 'Posts' #Used in the UI
