@@ -1,7 +1,7 @@
 ---
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 author: Mario Rossi
-title: My First Article
+title: El columpio
 date: 2020-05-02T13:03:50.289Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1588956207/whatsapp-image-2020-04-25-at-18.52.00_q56zh2_dgjznv.jpg
 tags:
@@ -19,6 +19,12 @@ content: >-
 
 
   ![](https://res.cloudinary.com/varnebla/image/upload/c_scale,q_59,w_721/v1588955091/whatsapp-image-2020-04-25-at-18.52.00_q56zh2.jpg)
+
+
+  Let's try another image:
+
+
+  ![](https://res.cloudinary.com/varnebla/image/upload/v1588965044/WhatsApp_Image_2020-04-25_at_18.52.00_1_wlasc7.jpg)
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
