@@ -3,7 +3,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 author: Mario Rossi
 title: My First Article
 date: 2020-05-02T13:03:50.289Z
-thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1588952226/sample.jpg
+thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1588956207/whatsapp-image-2020-04-25-at-18.52.00_q56zh2_dgjznv.jpg
 tags:
   - art
 topic: art
