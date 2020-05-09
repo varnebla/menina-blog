@@ -7,17 +7,15 @@ tags:
   - tag
 topic: art
 content: >-
-  Entre las obras más importantes del**[Museo del
-  Louvre](https://www.louvre.fr/en)**se encuentra “La balsa de la Medusa” de
+  Entre las obras más importantes del **[Museo del
+  Louvre](https://www.louvre.fr/en)** se encuentra “La balsa de la Medusa” de
   Théodore Géricault. Lo primero que capta nuestra atención cuando nos detenemos
   delante del cuadro son sus dimensiones, pues esta gran obra mide 4 metros de
   alto por 7 de largo. Lo segundo, es la gran fuerza que desprenden todos los
   elementos que aparecen en la obra.
 
 
-  Al fondo, el cielo oscuro lleno de nubes que amenazan tormenta y el mar embravecido que dificulta cualquier navegación. En primer término, un barco que se compone de unos pocos tablones y al que apenas le quedan velas, navega con dificultad con unas veinte personas en posturas dramáticas. Y si esta primera visión no es suficiente para impactarnos, seguro que hay un factor que acaba por sobrecogernos: el tema elegido por T. Géricault**está basado en hechos reales**.
-
-
+  Al fondo, el cielo oscuro lleno de nubes que amenazan tormenta y el mar embravecido que dificulta cualquier navegación. En primer término, un barco que se compone de unos pocos tablones y al que apenas le quedan velas, navega con dificultad con unas veinte personas en posturas dramáticas. Y si esta primera visión no es suficiente para impactarnos, seguro que hay un factor que acaba por sobrecogernos: el tema elegido por T. Géricault **está basado en hechos reales**.
 
 
   ![](https://lameninaperdida.files.wordpress.com/2019/11/fffbd53464bfda97417cffcf2a3d718f.jpg?w=300&h=200)
