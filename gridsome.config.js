@@ -4,23 +4,14 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const tailwindcss = require('tailwindcss')
+
 module.exports = {
   siteName: 'La menina perdida',
   templates: {
     Post: '/blog/:title',
   },
   plugins: [
-    {
-      use: 'gridsome-plugin-tailwindcss',
-      options: {
-        tailwindConfig: './tailwind.config.js',
-        purgeConfig: {},
-        presetEnvConfig: {},
-        shouldPurge: true,
-        shouldImport: true,
-        shouldTimeTravel: true,
-      },
-    },
     {
       use: 'gridsome-plugin-netlify-cms',
     },
@@ -39,6 +30,13 @@ module.exports = {
       },
     },
   ],
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: [tailwindcss],
+      },
+    },
+  },
   transformers: {
     remark: {
       externalLinksTarget: '_blank',

@@ -1,5 +1,5 @@
 <template>
-  <section class=" w-screen h-128 relative flex justify-center items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32" :style="{ backgroundImage: 'url(' + require('~/assets/images/menina_background.jpeg') + ')' }">
+  <section class=" w-screen h-128 relative flex justify-center items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 mb-12 tablet:mb-32" :style="{ backgroundImage: 'url(' + require('~/assets/images/menina_background.jpeg') + ')' }">
 
     <Title
       class=" w-full tablet:w-128 laptop:w-168 laptop:h-28"

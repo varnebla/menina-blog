@@ -1,6 +1,5 @@
-const plugin = require('tailwindcss/plugin')
-
 module.exports = {
+  purge: ['./src/**/*.html', './src/**/*.vue', './src/**/*.jsx'],
   theme: {
     screens: {
       mobile: '640px',
@@ -16,13 +15,13 @@ module.exports = {
         '140': '38rem',
         '168': '42rem',
       },
-    },
-    colors: {
-      primary: '#15161B',
-      secondary: '#7E5E32',
-      gold: '#9B7F5A',
-      olive: '#9B7F5A',
-      cream: '#F0F3EE',
+      colors: {
+        primary: '#15161B',
+        secondary: '#7E5E32',
+        gold: '#9B7F5A',
+        olive: '#9B7F5A',
+        cream: '#F0F3EE',
+      },
     },
     fontFamily: {
       sans: [
@@ -61,15 +60,4 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [
-    plugin(function({ addUtilities }) {
-      const newUtilities = {
-        '.perspective-3': {
-          perspective: '3px',
-        },
-      }
-
-      addUtilities(newUtilities)
-    }),
-  ],
 }

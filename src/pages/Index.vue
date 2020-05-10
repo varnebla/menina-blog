@@ -1,7 +1,12 @@
 <template>
   <Landing>
     <Presentation />
-    <Art v-for="(edge, index) in $page.topics.edges" :topic="edge.node" :key="edge.node.id" :position="getOddOrEven(index)"/>
+    <Art
+      v-for="(edge, index) in $page.topics.edges"
+      :topic="edge.node"
+      :key="edge.node.id"
+      :position="getOddOrEven(index)"
+    />
     <ShowPosts />
     <Contact />
   </Landing>
@@ -18,7 +23,19 @@
       thumbnail
     } 
     }
-  }
+  },
+  posts: allPost{
+     edges{
+       node{
+         title
+         abstract
+         date
+        #  thumbnail
+         thumbnail
+         path
+       }
+     }
+   }
   }
 </page-query>
 
