@@ -1,28 +1,26 @@
 <template>
   <Landing>
     <Presentation />
-    <Art>
-      <div slot="left-component" class="w-1/2 h-full bg-cover bg-no-repeat bg-center" :style="{ backgroundImage: 'url(' + require('~/assets/images/david.jpg') + ')' }"></div>
-      <div slot="right-component" class="w-1/2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices faucibus sem ut laoreet. Sed nec eleifend ex. Aliquam scelerisque pretium lacus, vitae vulputate nisi maximus venenatis.
-      </div>
-    </Art>
-    <Art>
-      <div slot="left-component" class="w-1/2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices faucibus sem ut laoreet. Sed nec eleifend ex. Aliquam scelerisque pretium lacus, vitae vulputate nisi maximus venenatis.
-      </div>
-      <div slot="right-component" class="w-1/2 h-full bg-cover bg-no-repeat bg-center" :style="{ backgroundImage: 'url(' + require('~/assets/images/concert.jpg') + ')' }"></div>
-    </Art>
-    <Art>
-      <div slot="left-component" class="w-1/2 h-full bg-cover bg-no-repeat bg-center" :style="{ backgroundImage: 'url(' + require('~/assets/images/travel.jpg') + ')' }"></div>
-      <div slot="right-component" class="w-1/2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices faucibus sem ut laoreet. Sed nec eleifend ex. Aliquam scelerisque pretium lacus, vitae vulputate nisi maximus venenatis.
-      </div>
-    </Art>
+    <Art v-for="(edge, index) in $page.topics.edges" :topic="edge.node" :key="edge.node.id" :position="getOddOrEven(index)"/>
     <ShowPosts />
     <Contact />
   </Landing>
 </template>
+
+<page-query>
+  query{
+    topics: allTopic{
+    edges{
+     node{
+      id
+      name
+      description
+      thumbnail
+    } 
+    }
+  }
+  }
+</page-query>
 
 <script>
 import Presentation from '~/components/Landing/Presentation.vue'
@@ -43,6 +41,14 @@ export default {
   },
   metaInfo: {
     title: '',
+  },
+  mounted: function() {
+    console.log(this.$page.topics.edges)
+  },
+  methods: {
+    getOddOrEven(index) {
+      return index % 2 == 0 // if true, number is even
+    },
   },
 }
 </script>

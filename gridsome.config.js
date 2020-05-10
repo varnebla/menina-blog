@@ -31,6 +31,13 @@ module.exports = {
         typeName: 'Post',
       },
     },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/topics/*.md',
+        typeName: 'Topic',
+      },
+    },
   ],
   transformers: {
     remark: {
