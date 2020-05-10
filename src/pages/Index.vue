@@ -7,7 +7,15 @@
       :key="edge.node.id"
       :position="getOddOrEven(index)"
     />
-    <ShowPosts />
+    <div
+      class="flex justify-between w-screen h-140 px-2 tablet:px-16 laptop:px-32 py-8"
+    >
+      <ShowPosts
+        v-for="edge in $page.posts.edges"
+        :post="edge.node"
+        :key="edge.node.id"
+      />
+    </div>
     <Contact />
   </Landing>
 </template>
@@ -24,9 +32,10 @@
     } 
     }
   },
-  posts: allPost{
+  posts: allPost(sortBy: "date", order: DESC, limit:3){
      edges{
        node{
+         id
          title
          abstract
          date
