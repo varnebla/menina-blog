@@ -1,6 +1,7 @@
 ---
 title: La balsa de la medusa
-abstract: Es una obra muy bonita
+abstract: Entre las obras más importantes del Museo del Louvre se encuentra “La
+  balsa de la Medusa” de Théodore Géricault.
 date: 2020-05-09T15:36:53.038Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1589035417/WhatsApp_Image_2020-04-25_at_18.52.00_1_wlasc7_gnvd7h.jpg
 tags:
