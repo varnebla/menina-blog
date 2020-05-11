@@ -15,7 +15,7 @@
        node{
          title
          abstract
-         date
+         date(format: "DD/MM/YYYY")
         #  thumbnail
          thumbnail
          path

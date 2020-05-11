@@ -1,12 +1,14 @@
 <template>
-  <div class="w-1/4 h-96 shadow-lg bg-white">
+  <div class="w-full">
     <div
       class="w-full  h-48 bg-cover bg-no-repeat bg-center"
       :style="{ backgroundImage: 'url(' + post.thumbnail + ')' }"
     ></div>
-    <div class="p-3 flex flex-col justify-between h-full">
-      <h3 class="font-serif leading-tight font-bold mb-2">{{ post.title }}</h3>
-      <p>{{ post.abstract }}</p>
+    <div class="p-3 flex flex-col justify-start h-full">
+      <h4 class="font-serif leading-tight font-bold mb-2">{{ post.title }}</h4>
+      <p class="opacity-50 mb-4">{{ post.date }}</p>
+      <p class="text-base">{{ post.abstract }}</p>
+      <g-link class="text-olive mt-4" :to="post.path">Seguir leyendo</g-link>
     </div>
   </div>
 </template>

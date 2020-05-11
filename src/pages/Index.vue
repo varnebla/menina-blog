@@ -8,7 +8,7 @@
       :position="getOddOrEven(index)"
     />
     <div
-      class="flex justify-between w-screen h-140 px-2 tablet:px-16 laptop:px-32 py-8"
+      class="grid grid-cols-3 gap-8 w-screen h-140 px-2 tablet:px-16 laptop:px-32 py-8"
     >
       <ShowPosts
         v-for="edge in $page.posts.edges"
@@ -38,7 +38,7 @@
          id
          title
          abstract
-         date
+         date (format: "DD/MM/YYYY")
         #  thumbnail
          thumbnail
          path
