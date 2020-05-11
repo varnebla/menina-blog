@@ -1,5 +1,7 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+abstract: "El por qué es evidente: una mujer elegantemente vestida se balancea
+  en un columpio y sus faldas se levantan debido al movimiento, lo que nos
+  permite ver sus piernas."
 author: Mario Rossi
 title: El columpio
 date: 2020-05-02T13:03:50.289Z
