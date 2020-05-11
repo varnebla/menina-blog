@@ -1,8 +1,7 @@
 ---
 title: Los beneficios de la música en directo
 abstract: "Cuando queremos mejorar algo, ponemos música. Para mejorar una comida
-  o cena: música. En una fiesta: ¡sube la música! A un evento deportivo, le
-  añadimos música. Cuando marca nuestro equipo: coreamos el himno"
+  o cena: música. En una fiesta: ¡sube la música! "
 date: 2020-05-09T21:32:24.672Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1589148679/audience-868074_1280_zge3nt.jpg
 tags:
