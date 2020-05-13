@@ -25,6 +25,10 @@ module.exports = {
         olive: '#9B7F5A',
         cream: '#F0F3EE',
       },
+      boxShadow: {
+        '3d-effect': '4px 33px 30px -16px rgba(0,0,0,0.5)',
+        '3xl': '0 20px 25px -5px rgba(0,0,0,0.7)',
+      },
     },
     fontFamily: {
       sans: [

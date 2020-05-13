@@ -22,9 +22,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.landing {
-  perspective: 8px;
-  perspective-origin: 0%;
-}
-</style>
+<style scoped></style>

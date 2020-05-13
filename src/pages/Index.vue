@@ -8,7 +8,7 @@
       :position="getOddOrEven(index)"
     />
     <div
-      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-32 laptop:px-32 py-8"
+      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-32 laptop:px-32 py-8 mt-12 tablet:mt-16"
     >
       <ShowPosts
         v-for="edge in $page.posts.edges"
