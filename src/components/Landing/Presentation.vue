@@ -1,51 +1,55 @@
 <template>
-  <section class=" w-screen h-128 relative flex justify-center items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 mb-12 tablet:mb-32" :style="{ backgroundImage: 'url(' + require('~/assets/images/menina_background.jpeg') + ')' }">
-
-    <Title
-      class=" w-full tablet:w-128 laptop:w-168 laptop:h-28"
-      viewBox="-10 0 720 120"
-    />
-    <!-- <ArrowDown class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" /> -->
+  <section
+    class="w-full h-screen relative flex justify-left items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 mb-12 tablet:mb-32"
+    :style="{
+      backgroundImage:
+        'url(' + require('~/assets/images/menina_background.jpeg') + ')',
+    }"
+  >
+    <div
+      class="w-96 h-128 flex justify-center items-center border-4 border-white"
+    >
+      <div class="w-11/12 h-120 border-2 border-white p-4">
+        <h1
+          class="text-white leading-tight font-normal font-landing text-6xl text-right mb-4"
+        >
+          la menina perdida
+        </h1>
+        <h5 class="text-white font-sans text-right font-thin uppercase mb-8">
+          Para que veas el arte con otros ojos
+        </h5>
+        <div class="flex justify-end">
+          <Instagram
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            class="fill-current text-white transform scale-125 mr-6"
+          />
+          <Twitter
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            class="fill-current text-white transform scale-125 mr-3"
+          />
+          <Facebook
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            class="fill-current text-white transform scale-125 mx-1"
+          />
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
-import Title from '~/assets/svg/Title.svg'
-import ArrowDown from '~/assets/svg/ArrowDown.svg'
+import Instagram from '~/assets/svg/Instagram.svg'
+import Twitter from '~/assets/svg/Twitter.svg'
+import Facebook from '~/assets/svg/Facebook.svg'
 export default {
-  components: { Title, ArrowDown },
+  components: { Instagram, Twitter, Facebook },
 }
 </script>
 
-<style scoped>
-/*ANIMATION FOR TITLE*/
-.svg-stroke {
-  text-align: center;
-  stroke: white;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 8s linear forwards, fill-opacity 2s linear forwards;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-@keyframes fill-opacity {
-  0% {
-    fill-opacity: 0;
-  }
-  100% {
-    fill-opacity: 1;
-  }
-}
-/*TODO add prefixes*/
-
-.arrow-icon {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: scale(2);
-}
-</style>
+<style scoped></style>

@@ -11164,6 +11164,11 @@ typeface-playfair-display@^1.1.4:
   resolved "https://registry.yarnpkg.com/typeface-playfair-display/-/typeface-playfair-display-1.1.4.tgz#ef37c9847a48996e1250cfd726387c36b34ecd07"
   integrity sha512-FhzVmu6EE3LMsYTxG4x3DFkzhGHnv7/5Ltf6U9i6kDnQZQ4STtB2sVdrZ+wEqvr7oX0s+E8IjfL5ycMzBofiWw==
 
+typeface-yeseva-one@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-yeseva-one/-/typeface-yeseva-one-0.0.72.tgz#e066c5f489d6d810d7236d52d8342b9ed97298ae"
+  integrity sha512-SVunjXkI5vF6Jjq+xhvpp2/6DKWx9/XdujwRjngm3qLBOVXhNTGoyX+tw8thB4J5lGC732lLlCNpo7KKHj4Z9g==
+
 ua-parser-js@^0.7.18:
   version "0.7.21"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"

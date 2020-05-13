@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-2xl p-3 my-0 mx-auto">
+  <div class="max-w-2xl p-3 my-0 mx-auto overflow-hidden">
     <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>

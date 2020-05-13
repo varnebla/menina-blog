@@ -14,7 +14,8 @@
     "netlify-cms": "^2.10.47",
     "tailwindcss": "^1.4.6",
     "typeface-noto-serif-kr": "^0.0.75",
-    "typeface-playfair-display": "^1.1.4"
+    "typeface-playfair-display": "^1.1.4",
+    "typeface-yeseva-one": "^0.0.72"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

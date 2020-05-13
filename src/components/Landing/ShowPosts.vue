@@ -5,7 +5,7 @@
       :style="{ backgroundImage: 'url(' + post.thumbnail + ')' }"
     ></div>
     <div class="p-3 flex flex-col justify-start h-full">
-      <h4 class="font-serif leading-tight font-bold mb-2">{{ post.title }}</h4>
+      <h4 class="font-titles leading-tight font-bold mb-2">{{ post.title }}</h4>
       <p class="opacity-50 mb-4">{{ post.date }}</p>
       <p class="text-base">{{ post.abstract }}</p>
       <g-link class="text-olive mt-4" :to="post.path">Seguir leyendo</g-link>

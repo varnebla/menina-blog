@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-0 box-border">
+  <div class="my-0 max-w-full mx-auto overflow-hidden">
     <slot></slot>
     <Footer />
   </div>

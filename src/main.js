@@ -6,6 +6,7 @@ import LandingLayout from '~/layouts/Landing.vue'
 import '~/assets/css/tailwind.css'
 require('typeface-playfair-display')
 require('typeface-noto-serif-kr')
+require('typeface-yeseva-one')
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
