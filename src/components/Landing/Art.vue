@@ -1,5 +1,6 @@
 <template>
   <section
+    name="art-component"
     class="w-full h-140 tablet:h-96 laptop:h-128 flex flex-col items-center px-2 tablet:px-16 laptop:px-32 py-8 my-16"
     :class="position ? 'tablet:flex-row' : 'tablet:flex-row-reverse'"
   >
@@ -19,7 +20,6 @@
         >Ir a los posts de {{ topic.name }}</g-link
       >
     </div>
-    <slot name="right-component"></slot>
   </section>
 </template>
 
