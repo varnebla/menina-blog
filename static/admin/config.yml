@@ -67,16 +67,12 @@ collections:
               - { label: 'Tema', name: 'name', widget: 'string' }
               - { label: 'Descripción', name: 'description', widget: 'text' }
               - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
-          - { label: 'Contacto', name: 'contact', widget: 'text' }
+          - { label: 'Contacto', name: 'contact', widget: 'markdown' }
           - {
               label: 'Imágen de Contacto',
               name: 'contact_picture',
               widget: 'image',
-            }
-          - {
-              label: 'Email de contacto',
-              name: 'contact_email',
-              widget: 'string',
+              required: 'false',
             }
       - name: 'about'
         label: 'Sobre mí'
