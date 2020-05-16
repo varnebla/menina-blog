@@ -42,38 +42,45 @@ collections:
           options: ['art', 'music', 'travel'],
         }
       - { label: 'Contenido', name: 'content', widget: 'markdown' }
-  - name: 'topics'
-    label: 'Temas'
-    folder: 'content/topics' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    extension: 'md'
-    identifier_field: 'name'
-    fields:
-      - { label: 'Tema', name: 'name', widget: 'string' }
-      - { label: 'Descripción', name: 'description', widget: 'text' }
-      - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
-      - name: 'pages'
+  # - name: 'topics'
+  #   label: 'Temas'
+  #   folder: 'content/topics' # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   extension: 'md'
+  #   identifier_field: 'name'
+  #   fields:
+  #     - { label: 'Tema', name: 'name', widget: 'string' }
+  #     - { label: 'Descripción', name: 'description', widget: 'text' }
+  #     - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
+  - name: 'pages'
     label: 'Páginas'
     files:
       - name: 'landing'
-      label: 'Landing'
-      file: 'content/landing.yml'
-      fields:
-        - { label: 'Eslogan', name: 'slogan', widget: 'string'}
-        - label: 'Temas'
-        name: 'topics'
-        widget: 'list'
+        label: 'Landing'
+        file: 'content/landing.yml'
         fields:
-          - { label: 'Tema', name: 'name', widget: 'string' }
-          - { label: 'Descripción', name: 'description', widget: 'text' }
-          - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
-        - { label: 'Contacto', name: 'contact', widget: 'text'}
-        - { label: 'Imágen de Contacto', name: 'contact_picture', widget: 'image'}
-        - { label: 'Email de contacto', name: 'contact_email', widget: 'string'}
-      name: 'about'
-      label: 'Sobre mí'
-      file: 'content/about.yml'
-      fields:
-        - { label: 'Imagen', name: 'profile_picture', widget: 'image'}
-        - { label: 'Contenido', name: 'about_content', widget: 'markdown'}
-        
+          - { label: 'Eslogan', name: 'slogan', widget: 'string' }
+          - label: 'Temas'
+            name: 'topics'
+            widget: 'list'
+            fields:
+              - { label: 'Tema', name: 'name', widget: 'string' }
+              - { label: 'Descripción', name: 'description', widget: 'text' }
+              - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
+          - { label: 'Contacto', name: 'contact', widget: 'text' }
+          - {
+              label: 'Imágen de Contacto',
+              name: 'contact_picture',
+              widget: 'image',
+            }
+          - {
+              label: 'Email de contacto',
+              name: 'contact_email',
+              widget: 'string',
+            }
+      - name: 'about'
+        label: 'Sobre mí'
+        file: 'content/about.yml'
+        fields:
+          - { label: 'Imagen', name: 'profile_picture', widget: 'image' }
+          - { label: 'Contenido', name: 'about_content', widget: 'markdown' }
