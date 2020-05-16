@@ -72,7 +72,7 @@ collections:
               label: 'Imágen de Contacto',
               name: 'contact_picture',
               widget: 'image',
-              required: 'false',
+              required: false,
             }
       - name: 'about'
         label: 'Sobre mí'
