@@ -14,10 +14,10 @@ topics:
     description: Todo sobre los espacios culturales que no os podéis perder, los
       sitios más “fotografiables” y, por supuesto, dónde comer y dormir.
     thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1588979563/travel_lcxvdl.jpg
-contact: >-
-  ¿Hay alguna obra artística de la que te gustaría saber más? ¿Quieres
-    información sobre eventos o museos? ¿Alguna ciudad que llame tu atención y de
-    la que quieras hacer un plan de ruta? Estaré encantada de comentarlo contigo.
-    No dudes en enviarme un [tweet](https://www.twitter.com/lameninaperdida) o un
-    [email](<mailto: jenniferarellano93@gmail.com>).
+contact: "¿Hay alguna obra artística de la que te gustaría saber más?
+  ¿Quieres   información sobre eventos o museos? ¿Alguna ciudad que llame tu
+  atención y de la que quieras hacer un plan de ruta? Estaré encantada de
+  comentarlo contigo. No dudes en enviarme un
+  [tweet](https://www.twitter.com/lameninaperdida) o un [email](<mailto:
+  jenniferarellano93@gmail.com>)."
 ---
