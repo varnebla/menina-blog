@@ -57,7 +57,7 @@ collections:
     files:
       - name: 'landing'
         label: 'Landing'
-        file: 'content/landing.yml'
+        file: 'content/landing.md'
         fields:
           - { label: 'Eslogan', name: 'slogan', widget: 'string' }
           - label: 'Temas'
@@ -76,7 +76,7 @@ collections:
             }
       - name: 'about'
         label: 'Sobre mí'
-        file: 'content/about.yml'
+        file: 'content/about.md'
         fields:
           - { label: 'Imagen', name: 'profile_picture', widget: 'image' }
           - { label: 'Contenido', name: 'about_content', widget: 'markdown' }
