@@ -36,6 +36,13 @@ module.exports = {
         typeName: 'Landing',
       },
     },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/about.md',
+        typeName: 'About',
+      },
+    },
   ],
   css: {
     loaderOptions: {

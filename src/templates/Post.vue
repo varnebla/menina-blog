@@ -8,10 +8,7 @@
       <div class="px-5 ">
         <h1 class="mt-5 mb-2 font-titles">{{ $page.post.title }}</h1>
         <p class="opacity-50 mb-8">Publicado el {{ $page.post.date }}</p>
-        <div
-          class="font-light content"
-          v-html="$page.post.content"
-        ></div>
+        <div class="font-light content" v-html="$page.post.content"></div>
       </div>
     </div>
   </Layout>
@@ -29,7 +26,11 @@
 </page-query>
 
 <script>
-export default {}
+export default {
+  mounted: function() {
+    console.log(content, 'content')
+  },
+}
 </script>
 
 <style>

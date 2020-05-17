@@ -2,9 +2,9 @@
   <Landing>
     <Presentation />
     <Art
-      v-for="(edge, index) in $page.topics.edges"
-      :topic="edge.node"
-      :key="edge.node.id"
+      v-for="(edge, index) in $page.landing.edges[0].node.topics"
+      :topic="edge"
+      :key="edge.name"
       :position="getOddOrEven(index)"
     />
     <div
@@ -16,12 +16,26 @@
         :key="edge.node.id"
       />
     </div>
-    <Contact />
+    <Contact :contact="landingInfo.contact" />
   </Landing>
 </template>
 
 <page-query>
   query{
+    landing: allLanding{
+      edges{
+        node{
+          slogan
+          topics{
+            name
+            description
+            thumbnail
+          }
+          contact
+        }
+      }
+    }
+
     topics: allTopic{
     edges{
      node{
@@ -69,11 +83,16 @@ export default {
     title: '',
   },
   mounted: function() {
-    console.log(this.$page.topics.edges)
+    console.log(this.$page.landing.edges[0].node)
   },
   methods: {
     getOddOrEven(index) {
       return index % 2 == 0 // if true, number is even
+    },
+  },
+  computed: {
+    landingInfo: function() {
+      return this.$page.landing.edges[0].node
     },
   },
 }

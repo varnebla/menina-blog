@@ -1,11 +1,17 @@
 <template>
   <div class="contact">
-    <h1 class="title">This is the Contact component</h1>
+    <div v-html="contact"></div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: ['contact'],
+
+  mounted: function() {
+    console.log(this.contact, 'contact')
+  },
+}
 </script>
 
 <style scoped>
