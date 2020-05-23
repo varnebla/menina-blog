@@ -1,15 +1,18 @@
 <template>
   <div class="contact">
-    <div v-html="contact"></div>
+    <div v-html="contactText"></div>
   </div>
 </template>
 
 <script>
+import { Remarkable } from 'remarkable'
 export default {
   props: ['contact'],
-
-  mounted: function() {
-    console.log(this.contact, 'contact')
+  computed: {
+    contactText: function() {
+      var md = new Remarkable()
+      return md.render(this.contact)
+    },
   },
 }
 </script>

@@ -1,14 +1,17 @@
 <template>
   <Landing>
     <Presentation />
-    <Art
-      v-for="(edge, index) in $page.landing.edges[0].node.topics"
-      :topic="edge"
-      :key="edge.name"
-      :position="getOddOrEven(index)"
-    />
+    <div class="px-2 tablet:px-16 laptop:px-32 landscape:px-96">
+      <Art
+        v-for="(edge, index) in $page.landing.edges[0].node.topics"
+        :topic="edge"
+        :key="edge.name"
+        :position="getOddOrEven(index)"
+        class="max-w-screen-xl"
+      />
+    </div>
     <div
-      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-32 laptop:px-32 py-8 mt-12 tablet:mt-16"
+      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 py-8 mt-12 tablet:mt-16"
     >
       <ShowPosts
         v-for="edge in $page.posts.edges"
@@ -16,7 +19,10 @@
         :key="edge.node.id"
       />
     </div>
-    <Contact :contact="landingInfo.contact" />
+    <Contact
+      :contact="landingInfo.contact"
+      class="px-2 tablet:px-16 laptop:px-32 landscape:px-96"
+    />
   </Landing>
 </template>
 

@@ -1,12 +1,7 @@
 <template>
   <Layout>
-    <h1 class="font-titles">About us</h1>
-    <p v-html="$page.about.edges[0].node.about_content">
-      <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque
-      omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum
-      odit fugit assumenda rem dolores inventore iste reprehenderit maxime!
-      Iusto. -->
-    </p>
+    <h1 class="font-titles">Sobre mí</h1>
+    <p v-html="aboutText"></p>
   </Layout>
 </template>
 <page-query>
@@ -21,9 +16,16 @@
   }
 </page-query>
 <script>
+import { Remarkable } from 'remarkable'
 export default {
   metaInfo: {
     title: 'About us',
+  },
+  computed: {
+    aboutText: function() {
+      var md = new Remarkable()
+      return md.render(this.$page.about.edges[0].node.about_content)
+    },
   },
 }
 </script>
