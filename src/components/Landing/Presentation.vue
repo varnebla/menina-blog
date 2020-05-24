@@ -3,7 +3,7 @@
     class="w-full h-screen relative flex justify-left items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 landscape:px-96 mb-12 tablet:mb-32"
     :style="{
       backgroundImage:
-        'url(https://res.cloudinary.com/varnebla/image/upload/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.jpg)',
+        'url(https://res.cloudinary.com/varnebla/image/upload/c_crop/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.webp)',
     }"
   >
     <div
