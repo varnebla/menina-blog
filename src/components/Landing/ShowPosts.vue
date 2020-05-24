@@ -4,7 +4,7 @@
       class="w-full h-56 bg-cover bg-no-repeat bg-center"
       :style="{ backgroundImage: 'url(' + post.thumbnail + ')' }"
     ></div>
-    <div class="p-3 flex flex-col justify-start h-full">
+    <div class="p-3 flex flex-col justify-start">
       <h4 class="font-titles leading-tight font-bold mb-2">{{ post.title }}</h4>
       <p class="opacity-50 mb-4">{{ post.date }}</p>
       <p class="text-base opacity-75">{{ post.abstract }}</p>

@@ -19,10 +19,7 @@
         :key="edge.node.id"
       />
     </div>
-    <Contact
-      :contact="landingInfo.contact"
-      class="px-2 tablet:px-16 laptop:px-32 landscape:px-96"
-    />
+    <Contact :contact="landingInfo.contact" />
   </Landing>
 </template>
 

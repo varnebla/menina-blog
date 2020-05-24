@@ -1,6 +1,10 @@
 <template>
-  <div class="contact">
-    <div v-html="contactText"></div>
+  <div
+    class="w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 my-32 flex justify-center items-center"
+  >
+    <div class="w-full tablet:w-8/12">
+      <div v-html="contactText" class="p-8 shadow shadow-lg"></div>
+    </div>
   </div>
 </template>
 
@@ -18,17 +22,7 @@ export default {
 </script>
 
 <style scoped>
-.contact {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 60vh;
-  margin: 0%;
-  background-color: white;
-}
-.title {
-  color: darkslategrey;
+.contact-paragraph > p {
+  @apply p-8 bg-red-100;
 }
 </style>

@@ -3,7 +3,7 @@
     class="w-full h-screen relative flex justify-left items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 landscape:px-96 mb-12 tablet:mb-32"
     :style="{
       backgroundImage:
-        'url(' + require('~/assets/images/menina_background.jpeg') + ')',
+        'url(https://res.cloudinary.com/varnebla/image/upload/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.jpg)',
     }"
   >
     <div
@@ -22,6 +22,7 @@
           <g-link
             class="border-2 border-white rounded-full p-2 hover:bg-white icon-transparent transition-all duration-200 ease-in-out"
             to="https://instagram.com/lameninaperdida"
+            aria-label="Ir a instagram"
           >
             <Instagram
               viewBox="0 0 24 24"
@@ -29,11 +30,13 @@
               height="24"
               class=" text-white transform scale-75"
               key="instagram"
+              focusable="false"
             />
           </g-link>
           <g-link
             class="border-2 border-white rounded-full p-2 hover:bg-white icon-transparent transition-all duration-200 ease-in-out ml-2"
             to="https://twitter.com/lameninaperdida"
+            aria-label="Ir a twitter"
           >
             <Twitter
               viewBox="0 0 24 24"
@@ -41,11 +44,13 @@
               height="24"
               class=" text-white transform scale-75"
               key="twitter"
+              focusable="false"
             />
           </g-link>
           <g-link
             class="border-2 border-white rounded-full p-2 hover:bg-white icon-transparent transition-all duration-200 ease-in-out ml-2"
             to="https://facebook.com/lameninaperdida"
+            aria-label="Ir a facebook"
           >
             <Facebook
               viewBox="0 0 24 24"
@@ -53,11 +58,13 @@
               height="24"
               class=" text-white transform scale-75"
               key="facebook"
+              focusable="false"
             />
           </g-link>
           <g-link
             class="border-2 border-white rounded-full p-2 hover:bg-white icon-transparent transition-all duration-200 ease-in-out ml-2"
             to="https://linkedin.com/in/jenniferarellano-cm"
+            aria-label="Ir a linkedin"
           >
             <Linkedin
               viewBox="0 0 24 24"
@@ -65,33 +72,9 @@
               height="24"
               class=" text-white transform scale-75"
               key="linkedin"
+              focusable="false"
             />
           </g-link>
-
-          <!-- <Instagram
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            class="fill-current text-white transform scale-125 mr-6"
-          /> -->
-          <!-- <Twitter
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            class="fill-current text-white transform scale-150 ml-6"
-          />
-          <Facebook
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            class="fill-current text-white transform scale-150 ml-6"
-          />
-          <LinkedinEmpty
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            class="fill-current text-white transform scale-150 ml-6 mr-1"
-          /> -->
         </div>
       </div>
     </div>
@@ -109,20 +92,6 @@ export default {
     Twitter,
     Facebook,
     Linkedin,
-  },
-
-  data: function() {
-    return {
-      instagram: 'instagram-empty',
-    }
-  },
-  methods: {
-    showInstaFull: function() {
-      this.instagram = 'instagram-full'
-    },
-    hideInstaFull: function() {
-      this.instagram = 'instagram-empty'
-    },
   },
 }
 </script>

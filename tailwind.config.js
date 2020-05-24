@@ -23,7 +23,7 @@ module.exports = {
         primary: '#15161B',
         secondary: '#7E5E32',
         gold: '#9B7F5A',
-        olive: '#9B7F5A',
+        olive: '#766e53',
         cream: '#F0F3EE',
       },
       boxShadow: {
