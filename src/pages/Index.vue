@@ -85,9 +85,6 @@ export default {
   metaInfo: {
     title: '',
   },
-  mounted: function() {
-    console.log(this.$page.landing.edges[0].node)
-  },
   methods: {
     getOddOrEven(index) {
       return index % 2 == 0 // if true, number is even

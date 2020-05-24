@@ -26,11 +26,7 @@
 </page-query>
 
 <script>
-export default {
-  mounted: function() {
-    console.log(content, 'content')
-  },
-}
+export default {}
 </script>
 
 <style>

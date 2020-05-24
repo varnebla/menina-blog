@@ -4,10 +4,18 @@
     class="w-full h-full tablet:h-96 laptop:h-128 flex flex-col items-center py-8 my-16"
     :class="position ? 'tablet:flex-row' : 'tablet:flex-row-reverse'"
   >
-    <div
+    <!-- <div
       class="w-full tablet:w-1/2 h-full bg-cover bg-no-repeat bg-center border-8 border-gold transition duration-500 ease-in-out shadow-3xl tablet:shadow-3d-effect hover:shadow-md mb-6 tablet:mb-auto"
       :style="{ backgroundImage: 'url(' + topic.thumbnail + ')' }"
-    ></div>
+    ></div> -->
+    <div
+      class="w-full tablet:w-1/2 h-64 tablet:h-full border-8 border-gold transition duration-500 ease-in-out shadow-3xl tablet:shadow-3d-effect hover:shadow-md mb-6 tablet:mb-auto"
+    >
+      <g-image
+        class="object-cover w-full h-full"
+        :src="topic.thumbnail"
+      ></g-image>
+    </div>
     <div
       class="w-full tablet:w-1/2 h-full flex flex-col items-center justify-center px-8"
     >
@@ -26,9 +34,6 @@
 <script>
 export default {
   props: ['topic', 'position'],
-  mounted: function() {
-    console.log(this.topic.name, this.position)
-  },
 }
 </script>
 
