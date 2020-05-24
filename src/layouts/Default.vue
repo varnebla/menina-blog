@@ -1,15 +1,20 @@
 <template>
-  <div class="max-w-2xl p-3 my-0 mx-auto overflow-hidden">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot />
+  <div
+    class="max-w-full my-0 mx-auto overflow-hidden flex flex-col justify-center items-center"
+  >
+    <div class="max-w-2xl p-3">
+      <header class="header">
+        <strong>
+          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        </strong>
+        <nav class="nav">
+          <g-link class="nav__link" to="/">Home</g-link>
+          <g-link class="nav__link" to="/about/">About</g-link>
+        </nav>
+      </header>
+      <slot />
+    </div>
+    <Footer />
   </div>
 </template>
 
@@ -20,6 +25,15 @@ query {
   }
 }
 </static-query>
+
+<script>
+import Footer from '~/components/Footers/Footer.vue'
+export default {
+  components: {
+    Footer,
+  },
+}
+</script>
 
 <style>
 body {

@@ -1,9 +1,11 @@
 <template>
   <div class="w-full">
-    <div
-      class="w-full h-56 bg-cover bg-no-repeat bg-center"
-      :style="{ backgroundImage: 'url(' + post.thumbnail + ')' }"
-    ></div>
+    <div class="w-full h-56">
+      <g-image
+        class="object-cover w-full h-full"
+        :src="post.thumbnail"
+      ></g-image>
+    </div>
     <div class="p-3 flex flex-col justify-start">
       <h4 class="font-titles leading-tight font-bold mb-2">{{ post.title }}</h4>
       <p class="opacity-50 mb-4">{{ post.date }}</p>

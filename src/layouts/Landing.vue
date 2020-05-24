@@ -1,6 +1,6 @@
 <template>
   <div class="my-0 max-w-full mx-auto overflow-hidden">
-    <slot></slot>
+    <slot />
     <Footer />
   </div>
 </template>

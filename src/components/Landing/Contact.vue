@@ -1,9 +1,12 @@
 <template>
   <div
-    class="w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 my-32 flex justify-center items-center"
+    class="w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 my-24 flex justify-center items-center"
   >
     <div class="w-full tablet:w-8/12">
-      <div v-html="contactText" class="p-8 shadow shadow-lg"></div>
+      <div
+        v-html="contactText"
+        class="p-8 border-8 border-secondary bg-cream text-xl shadow-3d-effect contact"
+      ></div>
     </div>
   </div>
 </template>
@@ -21,8 +24,8 @@ export default {
 }
 </script>
 
-<style scoped>
-.contact-paragraph > p {
-  @apply p-8 bg-red-100;
+<style>
+.contact > p > a {
+  @apply underline text-secondary;
 }
 </style>
