@@ -2,7 +2,7 @@
   <div
     class="max-w-full my-0 mx-auto overflow-hidden flex flex-col justify-center items-center"
   >
-    <div class="max-w-2xl p-3">
+    <div class="w-full max-w-2xl p-3">
       <header class="header">
         <strong>
           <g-link to="/">{{ $static.metadata.siteName }}</g-link>

@@ -1,5 +1,7 @@
 <template>
-  <div class="pt-12 justify-center w-full h-48 bg-black grid grid-rows-4 gap-8">
+  <div
+    class="pt-12 justify-center w-full h-48 bg-primary grid grid-rows-4 gap-8"
+  >
     <div class="flex justify-around text-white text-center">
       <g-link class="underline" to="/about">Sobre mí</g-link>
       <g-link class="underline" to="/blog">Blog</g-link>
@@ -11,7 +13,7 @@
     <p class="text-gray-500 text-center">
       Web creada por
       <g-link class="text-gold underline" to="https://twitter.com/varnebla"
-        >Víctor Arnedo Blanco</g-link
+        >Víctor Arnedo</g-link
       >
     </p>
   </div>
