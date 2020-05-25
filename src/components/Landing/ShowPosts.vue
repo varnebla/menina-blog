@@ -8,13 +8,24 @@
       <g-image
         class="object-cover w-full h-full"
         :src="post.thumbnail"
+        :alt="post.title"
       ></g-image>
     </div>
-    <div class="p-3 flex flex-col justify-start">
-      <h4 class="font-titles leading-tight font-bold mb-2">{{ post.title }}</h4>
+    <div class="py-3 flex flex-col justify-start">
+      <g-link :to="post.path"
+        ><h4
+          class="font-titles leading-tight font-bold hover:text-secondary transition-colors duration-200 ease-in-out mb-2"
+        >
+          {{ post.title }}
+        </h4></g-link
+      >
       <p class="opacity-50 mb-4">{{ post.date }}</p>
       <p class="text-base opacity-75">{{ post.abstract }}</p>
-      <g-link class="text-olive mt-4" :to="post.path">Seguir leyendo</g-link>
+      <g-link
+        class="text-secondary hover:text-gold transition-colors duration-200 ease-in-out mt-4"
+        :to="post.path"
+        >Seguir leyendo</g-link
+      >
     </div>
   </div>
 </template>

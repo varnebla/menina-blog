@@ -14,6 +14,9 @@
       <g-image
         class="object-cover w-full h-full"
         :src="topic.thumbnail"
+        width="500"
+        height="400"
+        :alt="topic.name"
       ></g-image>
     </div>
     <div
@@ -24,7 +27,9 @@
       </h1>
 
       <p class="py-8 text-center opacity-75 text-xl">{{ topic.description }}</p>
-      <g-link to="/blog/" class="bg-secondary text-white py-3 px-2 font-titles"
+      <g-link
+        to="/blog/"
+        class="bg-secondary shadow-inner hover:bg-gold text-white py-3 px-2 font-titles"
         >Ir a los posts de {{ topic.name }}</g-link
       >
     </div>
