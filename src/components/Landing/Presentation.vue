@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full h-screen relative flex justify-left items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 landscape:px-96 mb-12 tablet:mb-32"
+    class="w-full h-screen relative flex justify-left items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 landscape:px-96 mb-12 tablet:mb-12"
     :style="{
       backgroundImage:
         'url(https://res.cloudinary.com/varnebla/image/upload/c_crop/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.webp)',
@@ -11,14 +11,18 @@
     >
       <div class="w-11/12 h-120 border-2 border-white p-4">
         <h1
+          data-cy="app_title"
           class="text-white leading-tight font-normal font-landing text-6xl text-right mb-4"
         >
           la menina perdida
         </h1>
-        <h5 class="text-white font-sans text-right font-thin uppercase mb-8">
+        <h5
+          data-cy="app_subtitle"
+          class="text-white font-sans text-right font-thin uppercase mb-8"
+        >
           Para que veas el arte con otros ojos
         </h5>
-        <div class="flex justify-end">
+        <div class="flex justify-end" data-cy="links">
           <g-link
             class="border-2 border-white rounded-full p-2 hover:bg-white icon-transparent transition-all duration-200 ease-in-out"
             to="https://instagram.com/lameninaperdida"

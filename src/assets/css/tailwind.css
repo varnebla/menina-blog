@@ -23,3 +23,20 @@ strong {
 @tailwind components;
 @tailwind utilities;
 /* @import './styles.css'; */
+
+.theme-light {
+  --background: #f0f3ee;
+  --primary: #15161b;
+  --secondary: #7e5e32;
+  --gold: #9b7f5a;
+  --olive: #766e53;
+  --dark: #15161b;
+}
+.theme-dark {
+  --background: #17181c;
+  --primary: #f0f2ee;
+  --secondary: #7c6748;
+  --gold: #9b876d;
+  --olive: #756f5c;
+  --dark: #15161b;
+}

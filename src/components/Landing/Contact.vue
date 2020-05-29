@@ -5,7 +5,7 @@
     <div class="w-full laptop:w-8/12">
       <div
         v-html="contactText"
-        class="p-8 border-8 border-secondary bg-cream text-xl shadow-3d-effect contact"
+        class="p-8 border-8 border-secondary dark:border-gold bg-cream dark:bg-dark text-xl shadow-3d-effect opacity-75 contact"
       ></div>
     </div>
   </div>
@@ -26,6 +26,6 @@ export default {
 
 <style>
 .contact > p > a {
-  @apply underline text-secondary;
+  @apply underline text-gold;
 }
 </style>

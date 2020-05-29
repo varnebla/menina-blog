@@ -1,6 +1,6 @@
 <template>
   <section
-    name="art-component"
+    data-cy="art-component"
     class="w-full h-full tablet:h-96 laptop:h-128 flex flex-col items-center py-8 my-16"
     :class="position ? 'tablet:flex-row' : 'tablet:flex-row-reverse'"
   >
@@ -22,14 +22,16 @@
     <div
       class="w-full tablet:w-1/2 h-full flex flex-col items-center justify-center px-8"
     >
-      <h1 class="font-titles uppercase text-secondary border-b border-olive">
+      <h1
+        class="font-titles uppercase text-secondary dark:text-gold border-b border-olive"
+      >
         {{ topic.name }}
       </h1>
 
       <p class="py-8 text-center opacity-75 text-xl">{{ topic.description }}</p>
       <g-link
         to="/blog/"
-        class="bg-secondary shadow-inner hover:bg-gold text-white py-3 px-2 font-titles"
+        class="bg-secondary dark:bg-gold shadow-inner hover:bg-gold text-white py-3 px-2 font-titles"
         >Ir a los posts de {{ topic.name }}</g-link
       >
     </div>

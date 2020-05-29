@@ -1,15 +1,20 @@
 <template>
   <div
-    class="max-w-full my-0 mx-auto overflow-hidden flex flex-col justify-center items-center"
+    class="max-w-full my-0 mx-auto overflow-hidden flex flex-col justify-center items-center bg-background text-primary transition-all duration-300 ease-in-out"
+    :class="theme"
   >
     <div class="w-full max-w-2xl p-3">
       <header class="header">
-        <strong>
-          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-        </strong>
-        <nav class="nav">
-          <g-link class="nav__link" to="/blog">Blog</g-link>
-          <g-link class="nav__link" to="/about/">Sobre mí</g-link>
+        <g-link to="/"
+          ><h5 class="font-landing">
+            {{ $static.metadata.siteName }}
+          </h5></g-link
+        >
+
+        <nav class="flex">
+          <ModeToggle :changeMode="changeMode" />
+          <g-link class="ml-5" to="/blog">Blog</g-link>
+          <g-link class="ml-5" to="/about/">Sobre mí</g-link>
         </nav>
       </header>
       <slot />
@@ -28,9 +33,25 @@ query {
 
 <script>
 import Footer from '~/components/Footers/Footer.vue'
+import ModeToggle from '~/components/Headers/ModeToggle.vue'
 export default {
   components: {
     Footer,
+    ModeToggle,
+  },
+  data: function() {
+    return {
+      theme: localStorage.getItem('theme'),
+    }
+  },
+  created: function() {
+    !localStorage.getItem('theme') &&
+      localStorage.setItem('theme', 'theme-light')
+  },
+  methods: {
+    changeMode: function(mode) {
+      this.theme = mode
+    },
   },
 }
 </script>
@@ -58,9 +79,5 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
 }
 </style>

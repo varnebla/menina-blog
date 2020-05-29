@@ -10,8 +10,13 @@
         class="max-w-screen-xl"
       />
     </div>
+    <h2
+      class="text-secondary w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96"
+    >
+      Últimos posts
+    </h2>
     <div
-      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 py-8 mt-12 tablet:mt-16"
+      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 py-8"
     >
       <ShowPosts
         v-for="edge in $page.posts.edges"
