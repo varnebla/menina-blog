@@ -41,10 +41,10 @@ export default {
   },
   data: function() {
     return {
-      theme: localStorage.getItem('theme'),
+      theme: localStorage.getItem('theme') || 'theme-light',
     }
   },
-  created: function() {
+  mounted: function() {
     !localStorage.getItem('theme') &&
       localStorage.setItem('theme', 'theme-light')
   },
