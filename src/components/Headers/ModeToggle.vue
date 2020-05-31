@@ -46,7 +46,6 @@ export default {
   },
   methods: {
     toggleMode: function() {
-      console.log('clicked')
       this.currentMode =
         this.currentMode === 'theme-light' ? 'theme-dark' : 'theme-light'
       localStorage.theme = this.currentMode

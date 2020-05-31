@@ -100,13 +100,13 @@ export default {
     Footer,
     ModeToggle,
   },
-  created: function() {
+  mounted: function() {
     !localStorage.getItem('theme') &&
       localStorage.setItem('theme', 'theme-light')
   },
   data: function() {
     return {
-      theme: localStorage.getItem('theme'),
+      theme: localStorage.getItem('theme') || 'theme-light',
     }
   },
   computed: {
