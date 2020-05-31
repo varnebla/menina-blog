@@ -52,9 +52,6 @@ export default {
       this.changeMode(this.currentMode)
     },
   },
-  mounted: function() {
-    console.log(this.currentColor)
-  },
 }
 </script>
 

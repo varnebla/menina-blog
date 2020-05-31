@@ -41,12 +41,8 @@ export default {
   },
   data: function() {
     return {
-      theme: localStorage.getItem('theme') || 'theme-light',
+      theme: (!!localStorage && localStorage.getItem('theme')) || 'theme-light',
     }
-  },
-  mounted: function() {
-    !localStorage.getItem('theme') &&
-      localStorage.setItem('theme', 'theme-light')
   },
   methods: {
     changeMode: function(mode) {
