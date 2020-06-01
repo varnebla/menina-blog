@@ -102,9 +102,7 @@ export default {
   },
   data: function() {
     return {
-      theme:
-        (!!window.localStorage && window.localStorage.getItem('theme')) ||
-        'theme-light',
+      theme: (!!localStorage && localStorage.getItem('theme')) || 'theme-light',
     }
   },
   computed: {

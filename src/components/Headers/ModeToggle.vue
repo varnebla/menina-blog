@@ -37,8 +37,7 @@ export default {
   data: function() {
     return {
       currentMode:
-        (window.localStorage && window.localStorage.getItem('theme')) ||
-        'theme-light',
+        (localStorage && localStorage.getItem('theme')) || 'theme-light',
     }
   },
   computed: {
