@@ -36,14 +36,17 @@ export default {
   props: ['iconColor', 'changeMode'],
   data: function() {
     return {
-      currentMode:
-        (process.isClient && localStorage.getItem('theme')) || 'theme-light',
+      currentMode: 'theme-light',
     }
   },
   computed: {
     currentColor: function() {
       return this.iconColor ? this.iconColor : 'text-primary'
     },
+  },
+  mounted: function() {
+    this.currentMode =
+      (localStorage && localStorage.getItem('theme')) || 'theme-light'
   },
   methods: {
     toggleMode: function() {

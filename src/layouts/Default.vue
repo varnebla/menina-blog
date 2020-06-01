@@ -15,7 +15,9 @@
             viewBox="0 0 24 24"
             width="24"
             height="24"
-            class="transform scale-125"
+            class="transform scale-125 fill-current text-primary"
+            @click="toggleMenu"
+            
           />
         </nav>
         <nav class="hidden tablet:flex">
@@ -24,6 +26,7 @@
           <g-link class="ml-5" to="/about/">Sobre mí</g-link>
         </nav>
       </header>
+      <DropdownMenu v-if="showMenu" :toggleMenu="toggleMenu" :changeMode="changeMode"/>
       <slot />
     </div>
     <Footer />
@@ -41,16 +44,19 @@ query {
 <script>
 import Footer from '~/components/Footers/Footer.vue'
 import ModeToggle from '~/components/Headers/ModeToggle.vue'
+import DropdownMenu from '~/components/Headers/DropdownMenu.vue'
 import Menu from '~/assets/svg/Menu.svg'
 export default {
   components: {
     Footer,
     ModeToggle,
     Menu,
+    DropdownMenu,
   },
   data: function() {
     return {
       theme: 'theme-light',
+      showMenu: false,
     }
   },
   mounted: function() {
@@ -60,6 +66,9 @@ export default {
   methods: {
     changeMode: function(mode) {
       this.theme = mode
+    },
+    toggleMenu: function() {
+      this.showMenu = !this.showMenu
     },
   },
 }
