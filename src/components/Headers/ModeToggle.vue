@@ -37,7 +37,7 @@ export default {
   data: function() {
     return {
       currentMode:
-        (localStorage && localStorage.getItem('theme')) || 'theme-light',
+        (process.isClient && localStorage.getItem('theme')) || 'theme-light',
     }
   },
   computed: {

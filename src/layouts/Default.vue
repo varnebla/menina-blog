@@ -41,7 +41,8 @@ export default {
   },
   data: function() {
     return {
-      theme: (!!localStorage && localStorage.getItem('theme')) || 'theme-light',
+      theme:
+        (process.isClient && localStorage.getItem('theme')) || 'theme-light',
     }
   },
   methods: {
