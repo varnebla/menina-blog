@@ -36,7 +36,9 @@ export default {
   props: ['iconColor', 'changeMode'],
   data: function() {
     return {
-      currentMode: localStorage.getItem('theme'),
+      currentMode:
+        (window.localStorage && window.localStorage.getItem('theme')) ||
+        'theme-light',
     }
   },
   computed: {
