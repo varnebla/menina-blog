@@ -102,14 +102,17 @@ export default {
   },
   data: function() {
     return {
-      theme:
-        (process.isClient && localStorage.getItem('theme')) || 'theme-light',
+      theme: 'theme-light',
     }
   },
   computed: {
     landingInfo: function() {
       return this.$page.landing.edges[0].node
     },
+  },
+  mounted: function() {
+    this.theme =
+      (localStorage && localStorage.getItem('theme')) || 'theme-light'
   },
   methods: {
     getOddOrEven(index) {

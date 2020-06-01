@@ -10,8 +10,15 @@
             {{ $static.metadata.siteName }}
           </h5></g-link
         >
-
-        <nav class="flex">
+        <nav class="flex tablet:hidden">
+          <Menu
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            class="transform scale-125"
+          />
+        </nav>
+        <nav class="hidden tablet:flex">
           <ModeToggle :changeMode="changeMode" />
           <g-link class="ml-5" to="/blog">Blog</g-link>
           <g-link class="ml-5" to="/about/">Sobre mí</g-link>
@@ -34,16 +41,21 @@ query {
 <script>
 import Footer from '~/components/Footers/Footer.vue'
 import ModeToggle from '~/components/Headers/ModeToggle.vue'
+import Menu from '~/assets/svg/Menu.svg'
 export default {
   components: {
     Footer,
     ModeToggle,
+    Menu,
   },
   data: function() {
     return {
-      theme:
-        (process.isClient && localStorage.getItem('theme')) || 'theme-light',
+      theme: 'theme-light',
     }
+  },
+  mounted: function() {
+    this.theme =
+      (localStorage && localStorage.getItem('theme')) || 'theme-light'
   },
   methods: {
     changeMode: function(mode) {
