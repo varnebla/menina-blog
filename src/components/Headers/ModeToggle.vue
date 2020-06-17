@@ -36,7 +36,7 @@ export default {
   props: ['iconColor', 'changeMode'],
   data: function() {
     return {
-      currentMode: 'theme-light',
+      currentMode: this.$cookies.get('theme') || 'theme-light',
     }
   },
   computed: {
@@ -44,17 +44,25 @@ export default {
       return this.iconColor ? this.iconColor : 'text-primary'
     },
   },
-  mounted: function() {
-    this.currentMode =
-      (localStorage && localStorage.getItem('theme')) || 'theme-light'
-  },
+  // mounted: function() {
+  //   this.currentMode =
+  //     (localStorage && localStorage.getItem('theme')) || 'theme-light'
+  // },
   methods: {
     toggleMode: function() {
       this.currentMode =
         this.currentMode === 'theme-light' ? 'theme-dark' : 'theme-light'
-      localStorage.theme = this.currentMode
+      if (this.$cookies.isKey('theme')) this.$cookies.remove('theme')
+      this.$cookies.set('theme', this.currentMode)
+
       this.changeMode(this.currentMode)
     },
+    // toggleMode: function() {
+    //   this.currentMode =
+    //     this.currentMode === 'theme-light' ? 'theme-dark' : 'theme-light'
+    //   localStorage.theme = this.currentMode
+    //   this.changeMode(this.currentMode)
+    // },
   },
 }
 </script>

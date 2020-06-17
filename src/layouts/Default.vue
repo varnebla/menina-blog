@@ -17,7 +17,6 @@
             height="24"
             class="transform scale-125 fill-current text-primary"
             @click="toggleMenu"
-            
           />
         </nav>
         <nav class="hidden tablet:flex">
@@ -26,7 +25,12 @@
           <g-link class="ml-5" to="/about/">Sobre mí</g-link>
         </nav>
       </header>
-      <DropdownMenu v-if="showMenu" :toggleMenu="toggleMenu" :changeMode="changeMode"/>
+      <transition name="fade-backdrop">
+        <Backdrop v-if="showMenu" :toggleMenu="toggleMenu" />
+      </transition>
+      <transition name="slide-menu">
+        <DropdownMenu v-if="showMenu" :changeMode="changeMode" />
+      </transition>
       <slot />
     </div>
     <Footer />
@@ -45,6 +49,7 @@ query {
 import Footer from '~/components/Footers/Footer.vue'
 import ModeToggle from '~/components/Headers/ModeToggle.vue'
 import DropdownMenu from '~/components/Headers/DropdownMenu.vue'
+import Backdrop from '~/components/Headers/Backdrop.vue'
 import Menu from '~/assets/svg/Menu.svg'
 export default {
   components: {
@@ -52,17 +57,17 @@ export default {
     ModeToggle,
     Menu,
     DropdownMenu,
+    Backdrop,
   },
   data: function() {
     return {
-      theme: 'theme-light',
+      theme: this.$cookies.get('theme') || 'theme-light',
       showMenu: false,
     }
   },
-  mounted: function() {
-    this.theme =
-      (localStorage && localStorage.getItem('theme')) || 'theme-light'
-  },
+  // mounted: function() {
+  //   this.theme = (localStorage && localStorage.getItem('theme')) || this.theme
+  // },
   methods: {
     changeMode: function(mode) {
       this.theme = mode
@@ -98,4 +103,6 @@ body {
   margin-bottom: 20px;
   height: 80px;
 }
+
+/*Transitions are located in the involved component to make it easier to find */
 </style>

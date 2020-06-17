@@ -84,6 +84,7 @@ query {
 </static-query>
 
 <script>
+import Vue from 'vue'
 import Presentation from '~/components/Landing/Presentation.vue'
 import Art from '~/components/Landing/Art.vue'
 import ShowPosts from '~/components/Landing/ShowPosts.vue'
@@ -102,7 +103,7 @@ export default {
   },
   data: function() {
     return {
-      theme: 'theme-light',
+      theme: this.$cookies.get('theme') || 'theme-light',
     }
   },
   computed: {
@@ -110,10 +111,10 @@ export default {
       return this.$page.landing.edges[0].node
     },
   },
-  mounted: function() {
-    this.theme =
-      (localStorage && localStorage.getItem('theme')) || 'theme-light'
-  },
+  // mounted: function() {
+  //   this.theme =
+  //     (localStorage && localStorage.getItem('theme')) || 'theme-light'
+  // },
   methods: {
     getOddOrEven(index) {
       return index % 2 == 0 // if true, number is even

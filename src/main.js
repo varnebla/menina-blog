@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import LandingLayout from '~/layouts/Landing.vue'
+import VueCookies from 'vue-cookies'
 import '~/assets/css/tailwind.css'
 require('typeface-playfair-display')
 require('typeface-noto-serif-kr')
@@ -13,6 +14,7 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   Vue.component('Landing', LandingLayout)
   head.bodyAttrs = { class: 'font-serif' }
+  Vue.use(VueCookies)
 
   // head.link.push({
   //   rel: 'stylesheet',
