@@ -26,6 +26,7 @@
 </template>
 
 <script>
+import Vue from 'vue'
 import Moon from '~/assets/svg/Moon.svg'
 import Sun from '~/assets/svg/Sun.svg'
 export default {

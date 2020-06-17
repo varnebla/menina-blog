@@ -46,6 +46,7 @@ query {
 </static-query>
 
 <script>
+import Vue from 'vue'
 import Footer from '~/components/Footers/Footer.vue'
 import ModeToggle from '~/components/Headers/ModeToggle.vue'
 import DropdownMenu from '~/components/Headers/DropdownMenu.vue'
