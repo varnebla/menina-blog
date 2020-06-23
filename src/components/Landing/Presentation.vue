@@ -1,13 +1,16 @@
 <template>
   <section
-    class="w-full h-screen relative flex justify-left items-center  bg-cover bg-no-repeat bg-center px-2 tablet:px-16 laptop:px-32 landscape:px-96 mb-12 tablet:mb-12"
+    class=" mb-12"
+  >
+  <div class="w-full h-screen relative bg-cover bg-no-repeat bg-center  z-0"
     :style="{
       backgroundImage:
-        'url(https://res.cloudinary.com/varnebla/image/upload/c_crop/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.webp)',
-    }"
-  >
+        'url(https://res.cloudinary.com/varnebla/image/upload/c_crop/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.webp)', 'filter': 'brightness(70%)'
+    }">
+
+  </div>
     <div
-      class="w-96 h-128 flex justify-center items-center border-4 border-white"
+      class="w-96 h-128 flex justify-center items-center border-4 border-white absolute z-10 top-0 left-0 mt-32 ml-32"
     >
       <div class="w-11/12 h-120 border-2 border-white p-4">
         <h1

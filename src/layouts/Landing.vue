@@ -103,7 +103,8 @@ export default {
   },
   data: function() {
     return {
-      theme: this.$cookies.get('theme') || 'theme-light',
+      // theme: this.$cookies.get('theme') || 'theme-light',
+      theme: 'theme-light',
     }
   },
   computed: {

@@ -37,7 +37,8 @@ export default {
   props: ['iconColor', 'changeMode'],
   data: function() {
     return {
-      currentMode: this.$cookies.get('theme') || 'theme-light',
+      // currentMode: this.$cookies.get('theme') || 'theme-light',
+      currentMode: 'theme-light',
     }
   },
   computed: {
@@ -53,8 +54,8 @@ export default {
     toggleMode: function() {
       this.currentMode =
         this.currentMode === 'theme-light' ? 'theme-dark' : 'theme-light'
-      if (this.$cookies.isKey('theme')) this.$cookies.remove('theme')
-      this.$cookies.set('theme', this.currentMode)
+      // if (this.$cookies.isKey('theme')) this.$cookies.remove('theme')
+      // this.$cookies.set('theme', this.currentMode)
 
       this.changeMode(this.currentMode)
     },

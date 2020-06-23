@@ -4,12 +4,15 @@
       class="w-full h-56 bg-cover bg-no-repeat bg-center"
       :style="{ backgroundImage: 'url(' + post.thumbnail + ')' }"
     ></div> -->
-    <div class="w-full h-56">
+    <div class="w-full h-56">      
+      <g-link :to="post.path">
       <g-image
         class="object-cover w-full h-full"
         :src="post.thumbnail"
         :alt="post.title"
-      ></g-image>
+      >
+      </g-image>
+      </g-link>
     </div>
     <div class="py-3 flex flex-col justify-start">
       <g-link :to="post.path"
