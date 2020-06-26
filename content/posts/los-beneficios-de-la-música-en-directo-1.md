@@ -51,11 +51,11 @@ content: >-
 
   2. Media hora antes de la venta, tú estás bien preparado en el portal de compra de entradas con, al menos, dos dispositivos 💻📱, no vaya a ser que uno se te cuelgue y te quedes sin tus ansiadas entradas.
 
-  3. Los meses antes al concierto escuchas mil veces todas las canciones :musical_note:. En ocasiones, el resto de grupos dejan de existir para ti, la concentración está claramente dirigida a ser el fan nº 1.
+  3. Los meses antes al concierto escuchas mil veces todas las canciones 🎵. En ocasiones, el resto de grupos dejan de existir para ti, la concentración está claramente dirigida a ser el fan nº 1.
 
   4. Tienes una cuenta atrás bien presente y, a medida que se acerca la fecha, sufres por cualquier imprevisto 🤷🏻‍♂️ que pueda llevar a la cancelación del concierto/festival.
 
-  5. Durante el concierto, te molesta ver que la gente de tu alrededor no baila :dancers: y, lo que es peor, ¡que solo se sabe una canción!
+  5. Durante el concierto, te molesta ver que la gente de tu alrededor no baila 👯‍♀️ y, lo que es peor, ¡que solo se sabe una canción!
 
   6. Has asistido a conciertos en salas pequeñas, grandes auditorios o incluso en estadios de fútbol, y sabes encontrar matices que te hacen apreciar cada uno de los lugares de forma especial 💕.
 
