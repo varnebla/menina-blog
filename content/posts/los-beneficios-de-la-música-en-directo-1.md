@@ -49,19 +49,19 @@ content: >-
 
   1. Cuando sospechas que tu grupo favorito va a anunciar una nueva gira, lo sigues en todas las RRSS (hasta activas las notificaciones🔔), atento al momento en el que anuncien el inicio de la venta de entradas.
 
-  2. Media hora antes de la venta, tú estás bien preparado en el portal de compra de entradas con, al menos, dos dispositivos :computer: :iphone:, no vaya a ser que uno se te cuelgue y te quedes sin tus ansiadas entradas.
+  2. Media hora antes de la venta, tú estás bien preparado en el portal de compra de entradas con, al menos, dos dispositivos 💻📱, no vaya a ser que uno se te cuelgue y te quedes sin tus ansiadas entradas.
 
   3. Los meses antes al concierto escuchas mil veces todas las canciones :musical_note:. En ocasiones, el resto de grupos dejan de existir para ti, la concentración está claramente dirigida a ser el fan nº 1.
 
-  4. Tienes una cuenta atrás bien presente y, a medida que se acerca la fecha, sufres por cualquier imprevisto :man_shrugging: que pueda llevar a la cancelación del concierto/festival.
+  4. Tienes una cuenta atrás bien presente y, a medida que se acerca la fecha, sufres por cualquier imprevisto 🤷🏻‍♂️ que pueda llevar a la cancelación del concierto/festival.
 
   5. Durante el concierto, te molesta ver que la gente de tu alrededor no baila :dancers: y, lo que es peor, ¡que solo se sabe una canción!
 
-  6. Has asistido a conciertos en salas pequeñas, grandes auditorios o incluso en estadios de fútbol, y sabes encontrar matices que te hacen apreciar cada uno de los lugares de forma especial :two_hearts:.
+  6. Has asistido a conciertos en salas pequeñas, grandes auditorios o incluso en estadios de fútbol, y sabes encontrar matices que te hacen apreciar cada uno de los lugares de forma especial 💕.
 
-  7. Te molesta lo caras que son a veces las entradas :money_mouth_face:, pero prefieres dejar de disfrutar de otras cosas e invertir el dinero en la experiencia concierto, incluso aunque ya hayas ido a ver a ese grupo/cantante.
+  7. Te molesta lo caras que son a veces las entradas 🤑, pero prefieres dejar de disfrutar de otras cosas e invertir el dinero en la experiencia concierto, incluso aunque ya hayas ido a ver a ese grupo/cantante.
 
-  8. Tus amigos no tienen que avisarte de que tu grupo favorito ha sacado nueva fecha de concierto porque saben, con total seguridad, que ya hace semanas que tienes las entradas compradas :tickets::microphone:.
+  8. Tus amigos no tienen que avisarte de que tu grupo favorito ha sacado nueva fecha de concierto porque saben, con total seguridad, que ya hace semanas que tienes las entradas compradas 🎟🎤.
 
 
   Si ya lo dijo Nietzsche: **«Sin música, la vida sería un error.»**
