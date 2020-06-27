@@ -23,7 +23,7 @@
         </h4></g-link
       >
       <p class="opacity-50 mb-4">{{ post.date }}</p>
-      <p class="text-base opacity-75">{{ post.abstract }}</p>
+      <p class="text-base opacity-75 abstract-paragraph">{{ post.abstract }}</p>
       <g-link
         class="text-secondary dark:text-gold hover:text-gold transition-colors duration-200 ease-in-out mt-4"
         :to="post.path"

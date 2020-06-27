@@ -1,5 +1,6 @@
 <template>
   <Layout>
+
     <PostCard
       v-for="edge in $page.posts.edges"
       :key="edge.node.title"
@@ -36,3 +37,6 @@ export default {
   },
 }
 </script>
+
+<style>
+</style>

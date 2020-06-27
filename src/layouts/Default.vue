@@ -1,9 +1,10 @@
 <template>
+
   <div
     class="max-w-full my-0 mx-auto overflow-hidden flex flex-col justify-center items-center bg-background text-primary transition-all duration-300 ease-in-out"
     :class="theme"
   >
-    <div class="w-full max-w-2xl p-3">
+    <div class="w-full max-w-3xl p-3">
       <header class="header">
         <g-link to="/"
           ><h5 class="font-landing">
@@ -31,7 +32,12 @@
       <transition name="slide-menu">
         <DropdownMenu v-if="showMenu" :changeMode="changeMode" />
       </transition>
+
+<transition name="blog-fade" appear>
+      <main>
       <slot />
+      </main>
+</transition>
     </div>
     <Footer />
   </div>
@@ -107,4 +113,16 @@ body {
 }
 
 /*Transitions are located in the involved component to make it easier to find */
+.blog-fade-enter-active {
+  transition: opacity 0.5s;
+}
+
+.blog-fade-enter,
+.blog-fade-leave-to {
+  opacity: 0;
+}
+.blog-fade-leave-active {
+  transform: translateX(5%);
+  transition: transform 0.8s;
+}
 </style>

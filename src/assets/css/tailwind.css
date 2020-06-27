@@ -15,7 +15,7 @@ h5 {
   @apply font-titles text-xl font-normal;
 }
 body {
-  @apply font-serif text-lg;
+  @apply font-serif text-lg bg-background;
 }
 strong {
   @apply font-bold;

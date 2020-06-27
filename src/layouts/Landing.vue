@@ -1,4 +1,6 @@
 <template>
+  <transition name="landing-fade">
+
   <div
     class="my-0 max-w-full mx-auto overflow-hidden bg-background text-primary transition-all duration-300 ease-in-out"
     :class="theme"
@@ -36,6 +38,7 @@
     <Contact :contact="landingInfo.contact" />
     <Footer />
   </div>
+  </transition>
 </template>
 
 <static-query>
@@ -127,4 +130,13 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.landing-fade-enter-active {
+  transition: opacity 0.5s;
+}
+
+.landing-fade-enter,
+.landing-fade-leave-to {
+  opacity: 0;
+}
+</style>
