@@ -9,6 +9,8 @@
     }">
 
   </div>
+  <transition name="menina-fade" appear>
+
     <div
       class="w-96 h-128 flex justify-center items-center border-4 border-white absolute z-10 top-0 left-0 mt-32 ml-32"
     >
@@ -85,6 +87,7 @@
         </div>
       </div>
     </div>
+  </transition>
   </section>
 </template>
 
@@ -104,6 +107,16 @@ export default {
 </script>
 
 <style scoped>
+.menina-fade-enter-active {
+  transition: all 1s;
+  /* transition: opacity 1.5s; */
+}
+
+.menina-fade-enter,
+.menina-fade-leave-to {
+  transform: translateX(-30%);
+  opacity: 0;
+}
 .icon-transparent > svg {
   fill: white;
   @apply transition-all duration-200 ease-in-out;

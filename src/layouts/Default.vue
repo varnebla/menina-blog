@@ -123,6 +123,6 @@ body {
 }
 .blog-fade-leave-active {
   transform: translateX(5%);
-  transition: transform 0.8s;
+  transition: transform 0.5s;
 }
 </style>
