@@ -1,5 +1,4 @@
 <template>
-  <transition name="landing-fade">
 
   <div
     class="my-0 max-w-full mx-auto overflow-hidden bg-background text-primary transition-all duration-300 ease-in-out"
@@ -13,7 +12,9 @@
       </nav>
     </transition>
 
-    <Presentation />
+  <transition name="landing-fade" appear>
+    <Presentation data-type="presentation" />
+    </transition>
     <div data-type="art" class="px-2 tablet:px-16 laptop:px-32 landscape:px-96 opacity-0">
       <Art
         v-for="(edge, index) in $page.landing.edges[0].node.topics"
@@ -39,11 +40,9 @@
       />
     </div>
     </div>
-    <!-- </transition> -->
     <Contact :contact="landingInfo.contact" />
     <Footer />
   </div>
-  </transition>
 </template>
 
 <static-query>
@@ -113,6 +112,8 @@ export default {
     return {
       // theme: this.$cookies.get('theme') || 'theme-light',
       theme: 'theme-light',
+      presentationObserver: null,
+      presentationIntersected: false,
       postsObserver: null,
       postsIntersected: false,
       artsObserver: null,
