@@ -59,4 +59,10 @@ h3 {
 .content a {
   @apply underline text-gold;
 }
+.content img < p {
+  @apply flex justify-center;
+}
+.content img:parent {
+  @apply py-8 content-center;
+}
 </style>

@@ -1,18 +1,20 @@
 <template>
   <Layout>
+    <div class="h-full">
 
     <PostCard
       v-for="edge in $page.posts.edges"
       :key="edge.node.title"
       :post="edge.node"
     />
-    <Pager :info="$page.posts.pageInfo" :showLinks="true" :showNavigation="true" class="text-2xl font-bold text-center w-full flex justify-around active:text-gold" prevLabel="<Anterior"nextLabel="Siguiente>"/>
+    <Pager :info="$page.posts.pageInfo" :showLinks="true" :showNavigation="true" class="pager bottom-0 py-8 text-2xl font-bold text-center w-full flex justify-center" prevLabel="👈🏻" nextLabel="👉🏻" :range="2" linkClass="px-3"/>
+    </div>
   </Layout>
 </template>
 
 <page-query> 
  query ($page:Int){
-   posts: allPost(perPage:1, page:$page, sortBy: "date", order: DESC)@paginate {
+   posts: allPost(perPage:3, page:$page, sortBy: "date", order: DESC)@paginate {
      pageInfo{
        totalPages
        currentPage
@@ -46,4 +48,7 @@ export default {
 </script>
 
 <style>
+.pager .active {
+  @apply text-gold underline;
+}
 </style>
