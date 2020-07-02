@@ -1,8 +1,9 @@
 <template>
   <Layout>
     <transition name="post-slide">
+      <div class="mb-8">
 
-    <div>
+    <div class="mb-8">
       <div
         class="w-full h-64 bg-cover bg-center"
         :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
@@ -14,6 +15,12 @@
         <div class="font-light content text-lg laptop:text-xl" v-html="$page.post.content"></div>
       </div>
     </div>
+    <div>
+      <p class="px-5">Si quieres comentar algo no dudes en mandarme un 
+        <a class="underline text-gold" href="https://twitter.com/lameninaperdida">tweet</a>
+      </p>
+    </div>
+      </div>
     </transition>
   </Layout>
 </template>
