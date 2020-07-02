@@ -23,7 +23,7 @@ content: >-
   En contraposición con la luz que incide directamente en la mujer, contrastan dos personajes masculinos. En las sombras de los árboles, sentado en un banco de piedra, un hombre de avanzada edad (como parece indicar su pelo blanco), controla el mecanismo de cuerdas que mueve el columpio de la mujer, seguramente su esposa. El personaje que cierra el grupo es un hombre aparentemente más joven, que está tumbado en primer término, mirando directamente a la mujer (y seguramente lo que hay bajo sus faldas). Este personaje ha sido interpretado como el amante, que se burla. Por tanto, **las tres figuras forman un triángulo,** tanto en el soporte plástico como en la vida real.
 
 
-  ![Triángulo compositivo](https://res.cloudinary.com/varnebla/image/upload/v1593719922/el_columpio/triangulo_ieqdqq.png "Triángulo compositivo")
+  ![Triángulo compositivo](https://res.cloudinary.com/varnebla/image/upload/c_scale,w_364/v1593719922/el_columpio/triangulo_ieqdqq.png "Triángulo compositivo")
 
 
   <div align="center">Triángulo compositivo</div>
@@ -44,7 +44,7 @@ content: >-
   Es interesante notar que, además de las tres figuras humanas, aparecen otras tres figuras de piedra:[ i putti](https://www.glosarioarquitectonico.com/glossary/puttis/) o ángeles escultóricos. El que se sitúa a la izquierda del todo también es alcanzado por el foco de luz de los amantes: se lleva el dedo a la mano, en el gesto mundial de pedir silencio. ¿Una **advertencia a los amantes,** que están siendo demasiado indiscretos? Por otro lado, tenemos a dos pequeños putti en el centro de la composición, entre la luz y las sombras. Están abrazados, lo que se ha interpretado como el amor que el hombre mayor sí siente por su esposa. No obstante, cada uno mira en una dirección: uno de ellos mira a la mujer y, a su vez, es advertido por el Cupido que pide silencio, por tanto, **cómplice del adulterio**. El otro mira al perro que parece ladrar tras una vaya.
 
 
-  ![I putti abrazados y el perro ladrando](https://res.cloudinary.com/varnebla/image/upload/v1593719913/el_columpio/putti-y-perro_d2x1fz.webp "I putti abrazados y el perro ladrando")
+  ![I putti abrazados y el perro ladrando](https://res.cloudinary.com/varnebla/image/upload/c_scale,w_383/v1593719913/el_columpio/putti-y-perro_d2x1fz.jpg "I putti abrazados y el perro ladrando")
 
 
   <div align="center">I putti abrazados y el perro ladrando</div>
