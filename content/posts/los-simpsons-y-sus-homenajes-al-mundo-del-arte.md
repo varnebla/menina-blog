@@ -5,11 +5,11 @@ abstract: El 19 de abril se celebra el Día Mundial de Los Simpson, coincidien
   es, esta serie estadounidense que ha traspasado todas las fronteras no nació
   como tal. ¿Conoces su verdadero origen? Te lo cuento todo en este post.
 date: 2019-04-19T10:00:40.565Z
-thumbnail: https://res.cloudinary.com/varnebla/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_1000/v1593187580/los_simpson_portada_coqdhp.webp
+thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1594223932/simpson/los_simpson_portada_coqdhp.jpg
 tags:
   - arte
 topic: art
-content: >-
+content: >
   ### El autor
 
 
@@ -34,8 +34,6 @@ content: >-
   Podríamos destacar muchos aspectos de esta archiconocida serie: que (curiosamente) parece predecir el futuro, que podemos explicar cualquier vivencia con la frase «esto es como en ese capítulo de Los Simpsons en el que…», que sus personajes nos recuerdan a algunos amigos; en resumen, muchos aspectos. Pero lo que hoy vengo a contaros es algo que me interesa especialmente: los pequeños homenajes que Matt Groening y el resto de guionistas hacen al mundo del arte.Ya sea con la obra artística real o con su versión (me he atrevido a llamarla🧐) «simpsoniesca», son muchas las referencias artísticas que aparecen en la serie.
 
 
-
-
   #### Obras reales
 
 
@@ -46,4 +44,10 @@ content: >-
 
 
   Bart limpia en casa la icónica obra de **Grant Wood** y Lisa contempla el **«Autorretrato con mono» de Frida Kahlo** en un museo:
+
+  * es el turno de un capítulo que se enfoca enteramente en la cultura: “El Homer de Sevilla”, una clara alusión a la ópera de “El barbero de Sevilla”. En este capítulo Homer se convierte en una estrella de la ópera 
+
+  * Quizá sean las manos más reconocidas de la historia del arte. Dios, envuelto en su propio manto en el que refugia a otros personajes
+
+  * Al final del episodio, cansado de una vida con demasiado ajetreo, decide abandonar el mundo del espectáculo por “algo más divertido que puedo hacer tumbado” (dijo él, pícaro).
 ---
