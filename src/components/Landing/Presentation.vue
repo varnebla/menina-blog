@@ -1,23 +1,23 @@
 <template>
   <section
-    class=" mb-12"
+    class="mb-12"
   >
-  <div class="w-full h-screen relative bg-cover bg-no-repeat bg-center  z-0"
+  <div class="w-full h-142 mobileS:h-156 tablet:h-172 relative bg-cover bg-no-repeat bg-center  z-0"
     :style="{
       backgroundImage:
-        'url(https://res.cloudinary.com/varnebla/image/upload/c_crop/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.webp)', 'filter': 'brightness(70%)'
+        'url(https://res.cloudinary.com/varnebla/image/upload/c_crop/v1590331682/WhatsApp_Image_2020-04-26_at_19.10.08_otgort.webp)', 'filter': 'brightness(60%)'
     }">
 
   </div>
   <transition name="menina-fade" appear>
 
     <div
-      class="w-96 h-128 flex justify-center items-center border-4 border-white absolute z-10 top-0 left-0 mt-32 ml-32"
+      class="w-72 mobileS:w-80 tablet:w-96 h-112 mobileS:h-120 tablet:h-128 flex justify-center items-center border-4 border-white absolute z-10 top-0 left-0 mt-24 tablet:mt-32 ml-4 mobileS:ml-6 mobileL:ml-24 laptop:ml-32"
     >
-      <div class="w-11/12 h-120 border-2 border-white p-4">
+      <div class="w-11/12 h-104 mobileS:h-112 tablet:h-120 border-2 border-white p-4">
         <h1
           data-cy="app_title"
-          class="text-white leading-tight font-normal font-landing text-6xl text-right mb-4"
+          class="text-white leading-tight font-normal font-landing text-5xl mobileS:text-6xl text-right mb-4"
         >
           la menina perdida
         </h1>
@@ -109,7 +109,6 @@ export default {
 <style scoped>
 .menina-fade-enter-active {
   transition: all 1s;
-  /* transition: opacity 1.5s; */
 }
 
 .menina-fade-enter,

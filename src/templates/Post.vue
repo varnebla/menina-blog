@@ -8,11 +8,11 @@
         class="w-full h-64 bg-cover bg-center"
         :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
       ></div>
-      <div class="px-5 ">
+      <div class="px-5">
         <h1 class="mt-5 mb-2 font-titles leading-tight">{{ $page.post.title }}</h1>
-        <p class="font-light opacity-75 mb-4 text-lg laptop:text-xl">{{ $page.post.abstract }}</p>
-        <p class="opacity-50 mb-8 text-xl">Publicado el {{ $page.post.date }}</p>
-        <div class="font-light content text-lg laptop:text-xl" v-html="$page.post.content"></div>
+        <p class="font-light opacity-75 mb-4 text-lg laptop:text-lg">{{ $page.post.abstract }}</p>
+        <p class="opacity-50 mb-8 text-lg">Publicado el {{ $page.post.date }}</p>
+        <div class="font-light content text-lg laptop:text-lg" v-html="$page.post.content"></div>
       </div>
     </div>
     <div>
@@ -38,7 +38,23 @@
 </page-query>
 
 <script>
-export default {}
+export default {
+  mounted: function() {
+    this.centerImages()
+  },
+  methods: {
+    centerImages() {
+      const imagesParagraph = document.querySelectorAll('p')
+      imagesParagraph.forEach(el => {
+        if (el.firstChild && el.firstChild.nodeType === 1) {
+          //img is nodeType = 1
+          el.classList.add('flex', 'justify-center')
+          el.firstChild.setAttribute('class', 'mt-8')
+        }
+      })
+    },
+  },
+}
 </script>
 
 <style>
@@ -47,20 +63,21 @@ h2,
 h3 {
   @apply mb-6;
 }
-.content p {
-  @apply mb-4;
+.content p,
+.content div {
+  @apply my-8;
 }
 .content li {
   @apply mb-2;
 }
 .content ol {
-  @apply list-decimal mb-4;
+  @apply list-decimal mb-4 px-6;
 }
 .content a {
   @apply underline text-gold;
 }
-.content img < p {
-  @apply flex justify-center;
+.content p > img {
+  @apply text-center;
 }
 .content img:parent {
   @apply py-8 content-center;
