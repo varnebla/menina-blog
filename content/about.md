@@ -1,8 +1,43 @@
 ---
 profile_picture: https://res.cloudinary.com/varnebla/image/upload/v1588970255/WhatsApp_Image_2020-04-25_at_18.50.17_ub76yf.jpg
 about_content: >-
-  Hola soy Jennifer, escríbeme [aquí](https://twitter.com/lameninaperdida)
+  ¡Hola! Seguramente has llegado hasta aquí porque quieres saber más sobre la
+  chica que se esconde tras «la menina perdida». Empezamos:
 
 
-  Paw at your fat bellyintently stare at the same spot, andcats are the world.Gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye. Need to chase tailget suspicious of own shadow then go play with toilette paperyetweigh eight pounds but take up a full-size bedleave dead animals as gifts, yeti bet my nine lives on you-oooo-ooo-hooostare out cat door then go back insiderun at 3am.Cat sit like breadif human is on laptop sit on the keyboard.Stare out the window.Twitch tail in permanent irritationheadbutt owner's kneeandit's 3am, time to create some chaossoi vomit in the bed in the middle of the nightyetmeowwwwpurr like a car engine oh yes, there is my human slave woman she does best pats ever that all i like about her hiss meow.Friends are not foodscratch my tummy actually i hate you now fight mebring your owner a dead birdsocat fur is the new black.Chase the pig around the houselicks your face.Pet my belly, you know you want to; seize the hand and shred it!spread kitty litter all over housei like frogs and 0 gravity.Scratchbehind the couch,mewl for food at 4amyetclaws in the eye of the beholder.Let me in let me out let me in let me out let me in let me out who broke this door anywayis good you understand your place in my worldstuff and thingsforsleep.Loved it, hated it, loved it, hated ithunt by meowing loudly at 5am next to human slave food dispenseryetrefuse to leave cardboard boxpet my belly, you know you want to; seize the hand and shred it!forwalk on keyboard. Cat snacksyour pillow is now my pet bedrun at 3amthis human feeds me, i should be a godmissing until dinner time, andattempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i shall wash myself intently
+  ### ¿Dónde estoy?
+
+
+  Nací en Barcelona y actualmente sigo viviendo aquí. Aunque también he vivido en Italia, concretamente en La Spezia (2015) y en Roma (2018). Pero si tuviera que elegir un lugar para vivir sería en la Sala 15 A del Museo del Prado.
+
+
+  ### ¿Cuál es mi formación?
+
+
+  Aunque tardé en tenerlo del todo claro, me lancé a estudiar Historia del Arte. Con el paso del tiempo, me fui impregnando de cultura y arte y puedo decir que no me equivoqué con mi elección.
+
+
+  Para reforzar mis conocimientos en arte y patrimonio, realicé un máster en Gestión Cultural. Actualmente estoy abriéndome a otras disciplinas cursando un máster en Marketing Digital. ¡Quiero ser una experta en el manejo y el control de las RRSS!
+
+
+  ### ¿Cómo soy?
+
+
+  Me considero una persona positiva, proactiva y con una gran imaginación.
+
+  Me siento cómoda trabajando en equipo, cooperando en grupo. Siempre llevo post-it y subrayadores de colores a los brainstorming.
+
+  Todos dicen que soy muy ordenada y organizada. Yo lo único que hago es enviarles eventos de Google Calendar para que no olviden que hemos quedado.
+
+
+  ### ¿A qué dedico mi tiempo libre?
+
+
+  Me gusta mucho leer y escuchar música: según mi ranking de Spotify, lo que más suena es Izal, Vetusta Morla y Fito. Pero también me gusta la música internacional, bandas como Foo Fighters, Oasis o Queen. Otra de mis pasiones es ir a tantos conciertos como pueda: nada mejor que la música en directo.
+
+
+  Entre mis aficiones, encontramos actividades como fotografiar edificios a través de las ramas de los árboles, visitar museos y galerías, jugar a fútbol los domingos por la mañana o ver una película hasta que acabo aprendiéndome de memoria los diálogos.
+
+
+  «… Y por si no volvemos a vernos: buenos días, buenas tardes y buenas noches.»
 ---
