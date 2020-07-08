@@ -5,6 +5,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 import LandingLayout from '~/layouts/Landing.vue'
 import VueCookies from 'vue-cookies'
 import '~/assets/css/tailwind.css'
+import '~/assets/css/styles.css'
 require('typeface-playfair-display')
 require('typeface-noto-serif-kr')
 require('typeface-yeseva-one')

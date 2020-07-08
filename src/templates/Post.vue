@@ -58,28 +58,4 @@ export default {
 </script>
 
 <style>
-.content h1,
-h2,
-h3 {
-  @apply mb-6;
-}
-.content p,
-.content div {
-  @apply my-8;
-}
-.content li {
-  @apply mb-2;
-}
-.content ol {
-  @apply list-decimal mb-4 px-6;
-}
-.content a {
-  @apply underline text-gold;
-}
-.content p > img {
-  @apply text-center;
-}
-.content img:parent {
-  @apply py-8 content-center;
-}
 </style>

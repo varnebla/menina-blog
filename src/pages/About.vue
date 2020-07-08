@@ -1,7 +1,9 @@
 <template>
   <Layout>
-    <h1 class="font-titles">Sobre mí</h1>
-    <p v-html="aboutText"></p>
+    <!-- <h1 class="mb-6">Sobre mí</h1> -->
+    <h1 class="text-gold">Jennifer Arellano</h1>
+    <h4 class="opacity-50 mb-10">Historiadora del arte, gestora cultural, community manager</h4>
+    <div class="content" v-html="aboutText"></div>
   </Layout>
 </template>
 <page-query>
