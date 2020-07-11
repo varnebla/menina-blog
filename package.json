@@ -17,6 +17,7 @@
     "tailwindcss": "^1.4.6",
     "typeface-noto-serif-kr": "^0.0.75",
     "typeface-playfair-display": "^1.1.4",
+    "typeface-rubik": "^0.0.72",
     "typeface-yeseva-one": "^0.0.72",
     "vue-cookies": "^1.7.0"
   },

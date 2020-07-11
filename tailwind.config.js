@@ -57,7 +57,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Fira Sans',
+        'Rubik',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',

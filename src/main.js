@@ -9,12 +9,13 @@ import '~/assets/css/styles.css'
 require('typeface-playfair-display')
 require('typeface-noto-serif-kr')
 require('typeface-yeseva-one')
+require('typeface-rubik')
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('Landing', LandingLayout)
-  head.bodyAttrs = { class: 'font-serif bg-background' }
+  head.bodyAttrs = { class: 'font-sans font-light bg-background' }
   Vue.use(VueCookies)
 
   // head.link.push({

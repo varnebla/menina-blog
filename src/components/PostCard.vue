@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full" >
+  <div class="w-full h-full">
     <div class="my-12 flex flex-col tablet:flex-row py-2 post-card">
       <!-- <div
         class="w-full tablet:w-1/3 h-full bg-cover bg-center"
@@ -11,19 +11,23 @@
           :src="post.thumbnail"
           :alt="post.title"
         >
-
         </g-image>
-        </g-link>
+      </g-link>
       <!-- <g-image class="w-full tablet:w-1/3" :src="post.thumbnail" fit="outside"/> -->
       <div
         class="tablet:w-2/3 tablet:pl-5 tablet:pt-0 flex flex-col justify-start"
       >
-      <g-link :to="post.path">
-
-        <h3 class="font-titles mb-2 hover:text-secondary transition-all duration-200 ease-in-out">{{ post.title }}</h3>
-      </g-link>
+        <g-link :to="post.path">
+          <h3
+            class="font-titles mb-2 hover:text-secondary transition-all duration-200 ease-in-out"
+          >
+            {{ post.title }}
+          </h3>
+        </g-link>
         <p class="opacity-50 mb-4">Publicado el {{ post.date }}</p>
-        <p class="font-serif text-base opacity-75 abstract-paragraph">{{ post.abstract }}</p>
+        <p class="text-base opacity-75 abstract-paragraph">
+          {{ post.abstract }}
+        </p>
       </div>
     </div>
   </div>

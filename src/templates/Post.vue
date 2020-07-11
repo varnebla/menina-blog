@@ -2,24 +2,37 @@
   <Layout>
     <transition name="post-slide">
       <div class="mb-8">
-
-    <div class="mb-8">
-      <div
-        class="w-full h-64 bg-cover bg-center"
-        :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
-      ></div>
-      <div class="px-5">
-        <h1 class="mt-5 mb-2 font-titles leading-tight">{{ $page.post.title }}</h1>
-        <p class="font-light opacity-75 mb-4 text-lg laptop:text-lg">{{ $page.post.abstract }}</p>
-        <p class="opacity-50 mb-8 text-lg">Publicado el {{ $page.post.date }}</p>
-        <div class="font-light content text-lg laptop:text-lg" v-html="$page.post.content"></div>
-      </div>
-    </div>
-    <div>
-      <p class="px-5">Si quieres comentar algo no dudes en mandarme un 
-        <a class="underline text-gold" href="https://twitter.com/lameninaperdida">tweet</a>
-      </p>
-    </div>
+        <div class="mb-8">
+          <div
+            class="w-full h-64 bg-cover bg-center"
+            :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
+          ></div>
+          <div class="px-5">
+            <h1 class="mt-5 mb-2 font-titles leading-tight">
+              {{ $page.post.title }}
+            </h1>
+            <p class="font-light opacity-75 mb-4 text-lg">
+              {{ $page.post.abstract }}
+            </p>
+            <p class="opacity-50 mb-8 text-lg">
+              Publicado el {{ $page.post.date }}
+            </p>
+            <div
+              class="font-light content text-lg leading-relaxed"
+              v-html="$page.post.content"
+            ></div>
+          </div>
+        </div>
+        <div>
+          <p class="px-5">
+            Si quieres comentar algo no dudes en mandarme un
+            <a
+              class="underline text-gold"
+              href="https://twitter.com/lameninaperdida"
+              >tweet</a
+            >
+          </p>
+        </div>
       </div>
     </transition>
   </Layout>
@@ -57,5 +70,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
