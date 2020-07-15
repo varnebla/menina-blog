@@ -1,5 +1,5 @@
 <template>
-  <Landing>
+  <Layout>
     <Presentation />
     <div class="px-2 tablet:px-16 laptop:px-32 landscape:px-96">
       <Art
@@ -25,7 +25,7 @@
       />
     </div>
     <Contact :contact="landingInfo.contact" />
-  </Landing>
+  </Layout>
 </template>
 
 <page-query>
