@@ -51,8 +51,8 @@ module.exports = {
         dark: 'var(--dark)',
       },
       boxShadow: {
-        '3d-effect': '4px 33px 30px -16px rgba(0,0,0,0.5)',
-        '3xl': '0 20px 25px -5px rgba(0,0,0,0.7)',
+        '3d-effect': '0 0 12px 3px black',
+        images: '0 0 15px 3px #444242',
       },
     },
     fontFamily: {

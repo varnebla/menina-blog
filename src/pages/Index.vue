@@ -1,36 +1,26 @@
 <template>
   <Landing>
-    <Presentation />
-    <div class="px-2 tablet:px-16 laptop:px-32 landscape:px-96">
-      <Art
-        v-for="(edge, index) in $page.landing.edges[0].node.topics"
-        :topic="edge"
-        :key="edge.name"
-        :position="getOddOrEven(index)"
-        class="max-w-screen-xl"
-      />
-    </div>
-    <h2
-      class="text-secondary w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96"
-    >
-      Últimos posts
-    </h2>
-    <div
-      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 py-8"
-    >
-      <ShowPosts
-        v-for="edge in $page.posts.edges"
-        :post="edge.node"
-        :key="edge.node.id"
-      />
-    </div>
-    <Contact :contact="landingInfo.contact" />
+    <section id="presentation" class="w-full h-142 mobileS:h-156 tablet:h-172 grid grid-cols-12 mb-32">
+      <Slogan class="col-span-6"/>
+      <Presentation class="hidden mobileL:inline col-start-9  laptop:col-start-8 desktop:col-start-6 col-span-4 laptop:col-span-5 desktop:col-span-5"/>
+    </section>
+    <section>
+    </section>
+    <section id="introduction" class="mb-32">
+      <SectionTitle class="mb-12"/>
+      <IntroPic/>
+    </section>
+    <section>
+      <h3 class="text-center">Arte y cultura</h3>
+    </section>
   </Landing>
 </template>
-
-<page-query>
-  query{
-    landing: allLanding{
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+  landing: allLanding{
       edges{
         node{
           slogan
@@ -67,40 +57,23 @@
        }
      }
    }
-  }
-</page-query>
-
+}
+</static-query>
 <script>
+import Slogan from '~/components/Landing/Slogan.vue'
 import Presentation from '~/components/Landing/Presentation.vue'
-import Art from '~/components/Landing/Art.vue'
-import Music from '~/components/Landing/Music.vue'
-import Phrase from '~/components/Landing/Phrase.vue'
-import ShowPosts from '~/components/Landing/ShowPosts.vue'
-import Contact from '~/components/Landing/Contact.vue'
+import SectionTitle from '~/components/Landing/SectionTitle.vue'
+import IntroPic from '~/components/Landing/IntroPic.vue'
 
 export default {
   components: {
+    Slogan,
     Presentation,
-    Art,
-    Music,
-    Phrase,
-    ShowPosts,
-    Contact,
-  },
-  metaInfo: {
-    title: '',
-  },
-  methods: {
-    getOddOrEven(index) {
-      return index % 2 == 0 // if true, number is even
-    },
-  },
-  computed: {
-    landingInfo: function() {
-      return this.$page.landing.edges[0].node
-    },
+    SectionTitle,
+    IntroPic,
   },
 }
 </script>
 
-<style></style>
+<style scoped>
+</style>
