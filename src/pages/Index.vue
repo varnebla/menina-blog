@@ -7,14 +7,16 @@
     <section>
     </section>
     <section id="introduction" class="mb-32">
-      <SectionTitle class="mb-12"/>
+      <IntroInfo class="mb-12"/>
       <IntroPic/>
     </section>
-    <section>
-      <h3 class="text-center">Arte y cultura</h3>
+    <section class="mb-32 max-w-3xl mx-auto">
+      <ArtInfo />
     </section>
   </Landing>
 </template>
+
+
 <static-query>
 query {
   metadata {
@@ -59,18 +61,21 @@ query {
    }
 }
 </static-query>
+
 <script>
 import Slogan from '~/components/Landing/Slogan.vue'
 import Presentation from '~/components/Landing/Presentation.vue'
-import SectionTitle from '~/components/Landing/SectionTitle.vue'
+import IntroInfo from '~/components/Landing/IntroInfo.vue'
 import IntroPic from '~/components/Landing/IntroPic.vue'
+import ArtInfo from '~/components/Landing/ArtInfo.vue'
 
 export default {
   components: {
     Slogan,
     Presentation,
-    SectionTitle,
+    IntroInfo,
     IntroPic,
+    ArtInfo,
   },
 }
 </script>
