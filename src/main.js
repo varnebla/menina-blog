@@ -6,9 +6,9 @@ import LandingLayout from '~/layouts/Landing.vue'
 import VueCookies from 'vue-cookies'
 import '~/assets/css/tailwind.css'
 import '~/assets/css/styles.css'
-require('typeface-playfair-display')
+// require('typeface-playfair-display')
 require('typeface-noto-serif-kr')
-require('typeface-yeseva-one')
+// require('typeface-yeseva-one')
 require('typeface-rubik')
 
 export default function(Vue, { router, head, isClient }) {
@@ -18,9 +18,9 @@ export default function(Vue, { router, head, isClient }) {
   head.bodyAttrs = { class: 'font-sans font-light bg-background' }
   Vue.use(VueCookies)
 
-  // head.link.push({
-  //   rel: 'stylesheet',
-  //   href:
-  //     'https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@700&display=swap"',
-  // })
+  head.link.push({
+    rel: 'stylesheet',
+    href:
+      'https://fonts.googleapis.com/css2?family=Yeseva+One&family=Playfair+Display:wght@700&display=swap"',
+  })
 }

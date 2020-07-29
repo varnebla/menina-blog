@@ -59,20 +59,44 @@ collections:
         label: 'Landing'
         file: 'content/landing.md'
         fields:
-          - { label: 'Eslogan', name: 'slogan', widget: 'string' }
-          - label: 'Temas'
-            name: 'topics'
-            widget: 'list'
-            fields:
-              - { label: 'Tema', name: 'name', widget: 'string' }
-              - { label: 'Descripción', name: 'description', widget: 'text' }
-              - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
-          - { label: 'Contacto', name: 'contact', widget: 'markdown' }
+          # - { label: 'Eslogan', name: 'slogan', widget: 'string' }
+          # - label: 'Temas'
+          #   name: 'topics'
+          #   widget: 'list'
+          #   fields:
+          #     - { label: 'Tema', name: 'name', widget: 'string' }
+          #     - { label: 'Descripción', name: 'description', widget: 'text' }
+          #     - { label: 'Imagen', name: 'thumbnail', widget: 'image' }
+          # - { label: 'Contacto', name: 'contact', widget: 'markdown' }
           - {
-              label: 'Imágen de Contacto',
-              name: 'contact_picture',
+              label: 'Imágen principal presentación',
+              name: 'presentation_picture',
               widget: 'image',
-              required: false,
+              required: true,
+            }
+          - {
+              label: 'Imágen secundaria presentación',
+              name: 'presentation_secondary_picture',
+              widget: 'image',
+              required: true,
+            }
+          - {
+              label: 'Imágen introducción',
+              name: 'intro_picture',
+              widget: 'image',
+              required: true,
+            }
+          - {
+              label: 'Imágen cultura y arte 1',
+              name: 'art_primary_picture',
+              widget: 'image',
+              required: true,
+            }
+          - {
+              label: 'Imágen cultura y arte 2',
+              name: 'art_secondary_picture',
+              widget: 'image',
+              required: true,
             }
       - name: 'about'
         label: 'Sobre mí'

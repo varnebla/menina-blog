@@ -3,22 +3,21 @@
   <transition name="menina-fade" appear>
 
   <div
-      class="w-72 mobileS:w-80 tablet:w-96 h-112 mobileS:h-120 tablet:h-128 flex justify-center items-center border-4 border-primary absolute z-10 top-0 mt-24 tablet:mt-32  ml-4 mobileS:ml-6 mobileL:ml-16 laptop:ml-24"
+      class="flex flex-col justify-center items-end"
     >
     <!-- ml-4 mobileS:ml-6 mobileL:ml-20 laptop:ml-24 -->
 
-        <!-- <h1
+        <h1
           data-cy="app_title"
-          class="text-primary leading-tight font-normal font-landing text-5xl mobileS:text-6xl text-right mb-4"
+          class="laptop:w-2/3 desktop:1/2 text-primary leading-tight font-normal font-landing text-6xl text-right mb-4"
         >
           la menina perdida
-        </h1> -->
-        <h2
-          data-cy="app_subtitle"
-          class="text-primary font-sans text-right font-thin mb-8"
+        </h1>
+        <h1
+          class="text-primary font-sans text-right font-thin mb-8 text-3xl"
         >
-          Para que veas el arte con otros ojos
-        </h2>
+          Para que veas el <i>arte</i> con otros ojos
+        </h1>
         <!-- <Menina
               viewBox="0 0 1016.74 793.49"
               width="1016"
