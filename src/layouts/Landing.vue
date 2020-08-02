@@ -48,43 +48,7 @@ query {
   metadata {
     siteName
   }
-  landing: allLanding{
-      edges{
-        node{
-          slogan
-          topics{
-            name
-            description
-            thumbnail
-          }
-          contact
-        }
-      }
-    }
-
-    topics: allTopic{
-    edges{
-     node{
-      id
-      name
-      description
-      thumbnail
-    } 
-    }
-  },
-  posts: allPost(sortBy: "date", order: DESC, limit:3){
-     edges{
-       node{
-         id
-         title
-         abstract
-         date (format: "DD/MM/YYYY")
-        #  thumbnail
-         thumbnail
-         path
-       }
-     }
-   }
+  
 }
 </static-query>
 

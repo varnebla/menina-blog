@@ -26,13 +26,11 @@ query {
   landing: allLanding{
       edges{
         node{
-          slogan
-          topics{
-            name
-            description
-            thumbnail
-          }
-          contact
+          presentation_picture
+          presentation_secondary_picture
+          intro_picture
+          art_primary_picture
+          art_secondary_picture
         }
       }
     }
