@@ -1,28 +1,33 @@
 <template>
-  <Layout>
+  <Landing>
     <transition name="post-slide">
-      <div class="mb-8">
-        <div class="mb-8">
-          <div
-            class="w-full h-64 bg-cover bg-center"
-            :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
-          ></div>
-          <div class="px-5">
-            <h1 class="mt-5 mb-2 font-titles leading-tight">
-              {{ $page.post.title }}
-            </h1>
-            <p class="font-light opacity-75 mb-4 text-lg">
-              {{ $page.post.abstract }}
-            </p>
-            <p class="opacity-50 mb-8 text-lg">
-              Publicado el {{ $page.post.date }}
-            </p>
+      <section class="mb-8 max-w-3xl m-auto">
+        <article class="mb-8">
+          <p class="opacity-50 text-lg w-full border-b-2 border-primary mb-8">
+            Publicado el {{ $page.post.date }}
+          </p>
+          <div class="grid grid-cols-1 tablet:grid-cols-2 gap-10">
+            <div class="col-span-1">
+              <h1 class="mb-2 font-titles leading-tight">
+                {{ $page.post.title }}
+              </h1>
+              <p class="font-light opacity-50 mb-4 text-base">
+                {{ $page.post.abstract }}
+              </p>
+
+            </div>
+            <div
+              class="cols-span-1 h-80 bg-cover bg-center text-right"
+              :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
+            ></div>
+          </div>
+          <div class="">
             <div
               class="font-light content text-lg leading-relaxed"
               v-html="$page.post.content"
             ></div>
           </div>
-        </div>
+        </article>
         <div>
           <p class="px-5">
             Si quieres comentar algo no dudes en mandarme un
@@ -33,9 +38,9 @@
             >
           </p>
         </div>
-      </div>
+      </section>
     </transition>
-  </Layout>
+  </Landing>
 </template>
 
 <page-query>
@@ -52,13 +57,13 @@
 
 <script>
 export default {
-  mounted: function() {
+  mounted: function () {
     this.centerImages()
   },
   methods: {
     centerImages() {
       const imagesParagraph = document.querySelectorAll('p')
-      imagesParagraph.forEach(el => {
+      imagesParagraph.forEach((el) => {
         if (el.firstChild && el.firstChild.nodeType === 1) {
           //img is nodeType = 1
           el.classList.add('flex', 'justify-center')

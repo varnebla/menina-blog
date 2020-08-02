@@ -1,6 +1,6 @@
 <template>
-  <Layout>
-    <div class="h-full">
+  <Landing>
+    <div class="h-full max-w-3xl mx-auto mt-32">
 
     <PostCard
       v-for="edge in $page.posts.edges"
@@ -9,7 +9,7 @@
     />
     <Pager :info="$page.posts.pageInfo" :showLinks="true" :showNavigation="true" class="pager bottom-0 py-8 text-2xl font-bold text-center w-full flex justify-center" prevLabel="👈🏻" nextLabel="👉🏻" :range="2" linkClass="px-3"/>
     </div>
-  </Layout>
+  </Landing>
 </template>
 
 <page-query> 

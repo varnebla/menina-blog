@@ -21,6 +21,6 @@ export default function(Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href:
-      'https://fonts.googleapis.com/css2?family=Yeseva+One&family=Playfair+Display:wght@700&display=swap"',
+      'https://fonts.googleapis.com/css2?family=Mushli&family=Yeseva+One&family=Playfair+Display:wght@700&display=swap"',
   })
 }

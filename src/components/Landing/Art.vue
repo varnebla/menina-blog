@@ -1,38 +1,35 @@
 <template>
   <section
     data-cy="art-component"
-    class="w-full h-full tablet:h-96 laptop:h-128 flex flex-col items-center py-8 my-16"
-    :class="position ? 'tablet:flex-row' : 'tablet:flex-row-reverse'"
+    class="w-full h-full grid grid-cols-1 tablet:grid-cols-2 py-8"
   >
-    <!-- <div
-      class="w-full tablet:w-1/2 h-full bg-cover bg-no-repeat bg-center border-8 border-gold transition duration-500 ease-in-out shadow-3xl tablet:shadow-3d-effect hover:shadow-md mb-6 tablet:mb-auto"
-      :style="{ backgroundImage: 'url(' + topic.thumbnail + ')' }"
-    ></div> -->
     <div
-      class="w-full tablet:w-1/2 h-64 tablet:h-full border-8 border-gold transition duration-500 ease-in-out shadow-3xl tablet:shadow-3d-effect hover:shadow-md mb-6 tablet:mb-auto"
+      class="w-full  h-48 tablet:h-full p-6 tablet:mb-auto"
+      :class="odd ? 'tablet:order-2' : 'tablet:order-1'"
     >
       <g-image
         class="object-cover w-full h-full"
-        :src="topic.thumbnail"
-        width="500"
-        height="400"
-        :alt="topic.name"
+        :src="option.image"
+        alt="arte"
       ></g-image>
     </div>
     <div
-      class="w-full tablet:w-1/2 h-full flex flex-col items-center justify-center px-8"
+      class="w-full h-full p-6 flex flex-col items-start justify-start"
+     :class="!odd ? 'tablet:order-2' : 'tablet:order-1'"
     >
-      <h1
-        class="font-titles uppercase text-secondary dark:text-gold border-b border-olive"
+      <h4
+        class="text-left font-titles mb-3"
       >
-        {{ topic.name }}
-      </h1>
+        {{option.title}}
+      </h4>
 
-      <p class="py-8 text-center opacity-75 text-xl">{{ topic.description }}</p>
+      <p class="text-left pb-4">
+        {{option.content}}
+      </p>
       <g-link
         to="/blog/"
-        class="bg-secondary dark:bg-gold shadow-inner hover:bg-gold text-white py-3 px-2 font-titles"
-        >Ir a los posts de {{ topic.name }}</g-link
+        class="border border-primary uppercase py-3 px-2 text-base"
+        >Ir a los posts de arte &#8594;</g-link
       >
     </div>
   </section>
@@ -40,7 +37,7 @@
 
 <script>
 export default {
-  props: ['topic', 'position'],
+  props: ['option', 'odd'],
 }
 </script>
 

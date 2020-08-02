@@ -1,9 +1,9 @@
 <template>
   
-  <div class="h-88 bg-cover bg-no-repeat bg-center z-0 bg-gold mx-4 my-24"
+  <div class="h-112 bg-cover bg-no-repeat bg-center z-0 bg-gold mx-2 mt-44"
     :style="{
       backgroundImage:
-        'url(https://res.cloudinary.com/varnebla/image/upload/v1596050507/Tri%CC%81ptico_del_Jardi%CC%81n_de_las_delicias_1_vnztow.jpg)'
+        `url(${picture})`
     }"
     >
 
@@ -13,6 +13,9 @@
 </template>
 
 <script>
+export default {
+  props: ['picture'],
+}
 </script>
 
 <style scoped>

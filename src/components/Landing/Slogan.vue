@@ -14,18 +14,11 @@
           la menina perdida
         </h1>
         <h1
-          class="text-primary font-sans text-right font-thin mb-8 text-3xl"
+          class="laptop:w-2/3 desktop:1/2 text-primary font-sans text-right font-thin mb-8 text-3xl"
         >
           Para que veas el <i>arte</i> con otros ojos
         </h1>
-        <!-- <Menina
-              viewBox="0 0 1016.74 793.49"
-              width="1016"
-              height="793"
-              class=" text-primary transform"
-              key="twitter"
-              focusable="false"
-            /> -->
+        
         <div class="flex justify-end" data-cy="links">
           <g-link
             class="border-2 border-primary rounded-full p-2 hover:bg-primary icon-transparent transition-all duration-200 ease-in-out"
