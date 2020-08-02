@@ -22,7 +22,7 @@
 query {
   metadata {
     siteName
-  }
+  },
   landing: allLanding{
       edges{
         node{
@@ -33,7 +33,7 @@ query {
           art_secondary_picture
         }
       }
-    }
+    },
 
     topics: allTopic{
     edges{
