@@ -1,6 +1,6 @@
 <template>
   <Landing>
-    <div class="h-full max-w-3xl mx-auto mt-32">
+    <div class="h-full max-w-3xl mx-auto">
 
     <PostCard
       v-for="edge in $page.posts.edges"

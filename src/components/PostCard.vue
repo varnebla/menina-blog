@@ -7,7 +7,7 @@
       ></div> -->
       <g-link class="w-full tablet:w-1/3" :to="post.path">
         <g-image
-          class="object-cover w-full h-full "
+          class="object-cover w-full h-56"
           :src="post.thumbnail"
           :alt="post.title"
         >

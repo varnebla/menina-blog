@@ -1,7 +1,7 @@
 .content h1,
 h2,
 h3 {
-  @apply mb-6;
+  @apply mb-6 font-sans;
 }
 .content p,
 .content div {

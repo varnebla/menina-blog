@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-3xl m-auto px-6 desktop:px-0">
-    <h3 class="text-center">           
+    <h3 class="text-center font-titles">           
       ¿Qué es la menina perdida?
     </h3>
     <div class="grid grid-cols-1 tablet:grid-cols-2 gap-12">

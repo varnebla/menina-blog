@@ -1,5 +1,6 @@
 <template>
   <Landing>
+    <ProgressBar :progress="progress"/>
     <transition name="post-slide">
       <section class="mb-8 max-w-3xl m-auto">
         <article class="mb-8">
@@ -28,9 +29,9 @@
             ></div>
           </div>
         </article>
-        <div>
-          <p class="px-5">
-            Si quieres comentar algo no dudes en mandarme un
+        <div class="border-t border-gold mt-12">
+          <p class="mt-12">
+            Espero que te haya gustado este post. Si quieres comentar algo no dudes en mandarme un
             <a
               class="underline text-gold"
               href="https://twitter.com/lameninaperdida"
@@ -56,9 +57,24 @@
 </page-query>
 
 <script>
+import ProgressBar from '~/components/Headers/ProgressBar.vue'
+
 export default {
+  data: function () {
+    return {
+      progress: 0,
+    }
+  },
+  components: { ProgressBar },
   mounted: function () {
     this.centerImages()
+    document.addEventListener(
+      'scroll',
+      (event) => {
+        this.progressState()
+      },
+      { passive: true }
+    )
   },
   methods: {
     centerImages() {
@@ -70,6 +86,13 @@ export default {
           el.firstChild.setAttribute('class', 'mt-8')
         }
       })
+    },
+    progressState() {
+      if (process.isClient)
+        this.progress = (
+          (window.scrollY / (document.body.offsetHeight - window.innerHeight)) *
+          100
+        ).toFixed(2)
     },
   },
 }

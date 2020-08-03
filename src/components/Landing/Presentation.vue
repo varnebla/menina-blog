@@ -1,20 +1,12 @@
-<template>
-  
-  <div class="h-142 mobileS:h-156 tablet:h-164 bg-cover bg-no-repeat bg-center z-0 bg-gold mt-6"
-    :style="{
-      backgroundImage:
-        `url(${picture})`
-    }"
-    >
-
+<template>  
+  <div :class="imgClass">
+    <g-image :src="picture" class="h-full object-cover"/>
   </div>
-  <!-- <g-image src="~/assets/images/los-borrachos.jpg" width="500" class="w-full h-142 mobileS:h-156 tablet:h-172"/> -->
-
 </template>
 
 <script>
 export default {
-  props: ['picture'],
+  props: ['imgClass', 'picture'],
 }
 </script>
 

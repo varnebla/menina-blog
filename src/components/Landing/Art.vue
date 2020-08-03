@@ -28,9 +28,8 @@
       </p>
       <g-link
         to="/blog/"
-        class="border border-primary uppercase py-3 px-2 text-base"
-        >Ir a los posts de arte &#8594;</g-link
-      >
+        class="border border-gold uppercase py-3 px-6 text-base btn-blog flex justify-around"
+        ><div class="mr-2 text-gold">Ir a los posts de arte</div> <div class="arrow text-gold">&#8594;</div></g-link>
     </div>
   </section>
 </template>
@@ -41,4 +40,12 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style>
+.arrow {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-blog:hover .arrow {
+  transform: translateX(10px);
+}
+</style>

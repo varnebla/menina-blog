@@ -2,8 +2,14 @@
   <Landing>
     <section id="presentation" class="w-full h-142 mobileS:h-156 tablet:h-172 grid grid-cols-12 mb-16 tablet:mb-32">
       <Slogan class="col-start-3 col-span-8 tablet:col-start-2 desktop:col-start-1 tablet:col-span-5 desktop:col-span-4"/>
-      <Presentation class="hidden mobileL:inline col-start-9  laptop:col-start-8 desktop:col-start-6 col-span-4 laptop:col-span-5 desktop:col-span-4" :picture="landingInfo.presentation_picture"/>
-      <PresentationSmall class="hidden desktop:inline desktop:col-start-10 desktop:col-span-3" :picture="landingInfo.presentation_secondary_picture"/>
+      <transition name="menina-nav-fade" appear>
+
+      <Presentation class="hidden mobileL:inline col-start-8  laptop:col-start-8 desktop:col-start-6 col-span-5 laptop:col-span-5 desktop:col-span-4" imgClass="h-142 mobileS:h-156 tablet:h-164 z-0 -mt-6" :picture="landingInfo.presentation_picture"/>
+      </transition>
+      <transition name="menina-nav-fade" appear>
+
+      <Presentation class="hidden desktop:inline desktop:col-start-10 desktop:col-span-3" imgClass="h-112 z-0 mx-2 mt-32" :picture="landingInfo.presentation_secondary_picture"/>
+      </transition>
     </section>
     <section>
     </section>
@@ -39,7 +45,7 @@ query Landing{
 <script>
 import Slogan from '~/components/Landing/Slogan.vue'
 import Presentation from '~/components/Landing/Presentation.vue'
-import PresentationSmall from '~/components/Landing/PresentationSmall.vue'
+// import PresentationSmall from '~/components/Landing/PresentationSmall.vue'
 import IntroInfo from '~/components/Landing/IntroInfo.vue'
 import IntroPic from '~/components/Landing/IntroPic.vue'
 import ArtInfo from '~/components/Landing/ArtInfo.vue'
@@ -49,7 +55,7 @@ export default {
   components: {
     Slogan,
     Presentation,
-    PresentationSmall,
+    // PresentationSmall,
     IntroInfo,
     IntroPic,
     ArtInfo,
