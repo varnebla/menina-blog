@@ -5,7 +5,13 @@
     :class="theme"
   >
   <transition name="menina-nav-fade" appear>
-    <Header/>
+    <Header v-on:toggleMenu="toggleMenu"/>
+  </transition>
+  <transition name="fade-backdrop">
+    <Backdrop v-if="showMenu" :toggleMenu="toggleMenu" />
+  </transition>
+  <transition name="slide-menu">
+    <DropdownMenu v-if="showMenu" :changeMode="changeMode" />
   </transition>
   <main>
     <slot />
@@ -60,7 +66,8 @@ import Art from '~/components/Landing/Art.vue'
 import ShowPosts from '~/components/Landing/ShowPosts.vue'
 import Contact from '~/components/Landing/Contact.vue'
 import Footer from '~/components/Footers/Footer.vue'
-// import ModeToggle from '~/components/Headers/ModeToggle.vue'
+import DropdownMenu from '~/components/Headers/DropdownMenu.vue'
+import Backdrop from '~/components/Headers/Backdrop.vue'
 
 export default {
   components: {
@@ -70,12 +77,15 @@ export default {
     ShowPosts,
     Contact,
     Footer,
+    DropdownMenu,
+    Backdrop,
     // ModeToggle,
   },
   data: function () {
     return {
       // theme: this.$cookies.get('theme') || 'theme-light',
       theme: 'theme-light',
+      showMenu: false,
       // presentationObserver: null,
       // presentationIntersected: false,
       // postsObserver: null,
@@ -127,6 +137,9 @@ export default {
     changeMode: function (mode) {
       this.theme = mode
     },
+    toggleMenu: function () {
+      this.showMenu = !this.showMenu
+    },
   },
 }
 </script>
@@ -149,5 +162,17 @@ export default {
 .art-appear {
   opacity: 1;
   transition: all 0.8s ease-in-out;
+}
+.blog-fade-enter-active {
+  transition: opacity 0.5s;
+}
+
+.blog-fade-enter,
+.blog-fade-leave-to {
+  opacity: 0;
+}
+.blog-fade-leave-active {
+  transform: translateX(5%);
+  transition: transform 0.5s;
 }
 </style>
