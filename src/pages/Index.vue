@@ -1,6 +1,6 @@
 <template>
   <Landing>
-    <section id="presentation" class="w-full h-142 mobileS:h-156 tablet:h-172 grid grid-cols-12 mb-16 tablet:mb-32">
+    <section id="presentation" class="w-full h-120 mobileS:h-156 tablet:h-172 grid grid-cols-12 mb-16 tablet:mb-32">
       <Slogan class="col-start-3 col-span-8 tablet:col-start-2 desktop:col-start-1 tablet:col-span-5 desktop:col-span-4"/>
       <transition name="menina-nav-fade" appear>
 

@@ -1,9 +1,9 @@
 <template>
-  <nav class="z-50 right-0 text-primary p-12 flex justify-between">
-    <g-link to="/" class="font-titles">La menina perdida</g-link>
+  <nav class="z-50 right-0 text-primary px-4 py-12 tablet:p-12 flex justify-between">
+    <g-link to="/" class="font-titles header-element">La menina perdida</g-link>
     <div class="flex justify-end">
-      <g-link class="ml-5 hidden laptop:inline" to="/blog">Blog</g-link>
-      <g-link class="ml-5 hidden laptop:inline" to="/about/">Sobre mí</g-link>
+      <g-link class="ml-5 hidden laptop:inline header-element" to="/blog">Blog</g-link>
+      <g-link class="ml-5 hidden laptop:inline header-element" to="/about/">Sobre mí</g-link>
       <MenuThin viewBox="0 0 24 24"
               width="24"
               height="24"
@@ -29,5 +29,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+.header-element {
+  transition: all 0.2s ease-in-out;
+}
+.header-element:hover {
+  color: var(--gold);
+}
 </style>

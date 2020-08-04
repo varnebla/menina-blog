@@ -13,9 +13,11 @@
   <transition name="slide-menu">
     <DropdownMenu v-if="showMenu" :changeMode="changeMode" />
   </transition>
-  <main>
-    <slot />
-  </main>
+  <transition name="landing-fade" appear>
+    <main>
+      <slot />
+    </main>
+  </transition>
   <!-- <transition name="landing-fade" appear>
     </transition>
     <Presentation data-type="presentation" />

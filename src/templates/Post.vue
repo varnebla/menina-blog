@@ -2,7 +2,7 @@
   <Landing>
     <ProgressBar :progress="progress"/>
     <transition name="post-slide">
-      <section class="mb-8 max-w-3xl m-auto px-3">
+      <section class="mb-8 max-w-3xl m-auto px-3 tablet:px-8 laptop:px-0">
         <article class="mb-8">
           <p class="opacity-50 text-lg w-full border-b-2 border-primary mb-8">
             Publicado el {{ $page.post.date }}

@@ -1,13 +1,13 @@
 <template>
   <Landing>
-    <div class="h-full max-w-3xl mx-auto px-2 tablet:px-8 laptop:px-0">
+    <div class="h-full max-w-3xl mx-auto px-3 tablet:px-8 laptop:px-0">
 
     <PostCard
       v-for="edge in $page.posts.edges"
       :key="edge.node.title"
       :post="edge.node"
     />
-    <Pager :info="$page.posts.pageInfo" :showLinks="true" :showNavigation="true" class="pager bottom-0 py-8 text-2xl font-bold text-center w-full flex justify-center" prevLabel="👈🏻" nextLabel="👉🏻" :range="2" linkClass="px-3"/>
+    <Pager :info="$page.posts.pageInfo" :showLinks="true" :showNavigation="true" class="pager bottom-0 pb-8 text-xl text-center w-full flex justify-center" prevLabel="←" nextLabel="→" :range="2" linkClass="px-3"/>
     </div>
   </Landing>
 </template>
