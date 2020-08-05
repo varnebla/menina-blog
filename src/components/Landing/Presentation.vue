@@ -10,11 +10,14 @@ export default {
   computed: {
     //detect browser to get images in the best format
     source: function() {
-      const format = this.$browserDetect.isSafari ? 'jp2' : 'webp'
-      return this.picture.replace(
-        this.picture.substr(this.picture.lastIndexOf('.') + 1),
-        format
-      )
+      if (process.isClient) {
+        const format = this.$browserDetect.isSafari ? 'jp2' : 'webp'
+        return this.picture.replace(
+          this.picture.substr(this.picture.lastIndexOf('.') + 1),
+          format
+        )
+      }
+      return ''
     },
   },
   mounted: function() {
