@@ -59,7 +59,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Mushli',
+        'Rubik',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',

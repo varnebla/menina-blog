@@ -1,24 +1,23 @@
 <template>
-
   <div
     class="my-0 max-w-full mx-auto overflow-hidden bg-background text-primary transition-all duration-300 ease-in-out"
     :class="theme"
   >
-  <transition name="menina-nav-fade" appear>
-    <Header v-on:toggleMenu="toggleMenu"/>
-  </transition>
-  <transition name="fade-backdrop">
-    <Backdrop v-if="showMenu" :toggleMenu="toggleMenu" />
-  </transition>
-  <transition name="slide-menu">
-    <DropdownMenu v-if="showMenu" :changeMode="changeMode" />
-  </transition>
-  <transition name="landing-fade" appear>
-    <main>
-      <slot />
-    </main>
-  </transition>
-  <!-- <transition name="landing-fade" appear>
+    <transition name="menina-nav-fade" appear>
+      <Header v-on:toggleMenu="toggleMenu" />
+    </transition>
+    <transition name="fade-backdrop">
+      <Backdrop v-if="showMenu" :toggleMenu="toggleMenu" />
+    </transition>
+    <transition name="slide-menu">
+      <DropdownMenu v-if="showMenu" :changeMode="changeMode" />
+    </transition>
+    <transition name="landing-fade" appear>
+      <main>
+        <slot />
+      </main>
+    </transition>
+    <!-- <transition name="landing-fade" appear>
     </transition>
     <Presentation data-type="presentation" />
     <div data-type="art" class="px-2 tablet:px-16 laptop:px-32 landscape:px-96 opacity-0">
@@ -83,7 +82,7 @@ export default {
     Backdrop,
     // ModeToggle,
   },
-  data: function () {
+  data: function() {
     return {
       // theme: this.$cookies.get('theme') || 'theme-light',
       theme: 'theme-light',
@@ -97,7 +96,7 @@ export default {
     }
   },
   computed: {
-    landingInfo: function () {
+    landingInfo: function() {
       return this.$page.landing.edges[0].node
     },
   },
@@ -136,10 +135,10 @@ export default {
     getOddOrEven(index) {
       return index % 2 == 0 // if true, number is even
     },
-    changeMode: function (mode) {
+    changeMode: function(mode) {
       this.theme = mode
     },
-    toggleMenu: function () {
+    toggleMenu: function() {
       this.showMenu = !this.showMenu
     },
   },
@@ -147,6 +146,9 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-display: swap;
+}
 .landing-fade-enter-active {
   transition: opacity 0.5s;
 }
