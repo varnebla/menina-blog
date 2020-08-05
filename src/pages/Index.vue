@@ -1,30 +1,39 @@
 <template>
   <Landing>
-    <section id="presentation" class="w-full h-120 mobileS:h-156 tablet:h-172 grid grid-cols-12 mb-16 tablet:mb-32">
-      <Slogan class="col-start-3 col-span-8 tablet:col-start-2 desktop:col-start-1 tablet:col-span-5 desktop:col-span-4"/>
+    <section
+      id="presentation"
+      class="w-full h-120 mobileS:h-156 tablet:h-172 grid grid-cols-12 mb-16 tablet:mb-32"
+    >
+      <Slogan
+        class="col-start-3 col-span-8 tablet:col-start-2 desktop:col-start-1 tablet:col-span-5 desktop:col-span-4"
+      />
       <transition name="menina-nav-fade" appear>
-
-      <Presentation class="hidden mobileL:inline col-start-8  laptop:col-start-8 desktop:col-start-6 col-span-5 laptop:col-span-5 desktop:col-span-4" imgClass="h-142 mobileS:h-156 tablet:h-164 z-0 -mt-6" :picture="landingInfo.presentation_picture"/>
+        <Presentation
+          class="hidden mobileL:inline col-start-8  laptop:col-start-8 desktop:col-start-6 col-span-5 laptop:col-span-5 desktop:col-span-4"
+          imgClass="h-142 mobileS:h-156 tablet:h-164 z-0 -mt-6"
+          :picture="landingInfo.presentation_picture"
+        />
       </transition>
       <transition name="menina-nav-fade" appear>
-
-      <Presentation class="hidden desktop:inline desktop:col-start-10 desktop:col-span-3" imgClass="h-112 z-0 mx-2 mt-32" :picture="landingInfo.presentation_secondary_picture"/>
+        <Presentation
+          class="hidden desktop:inline desktop:col-start-10 desktop:col-span-3"
+          imgClass="h-112 z-0 mx-2 mt-32"
+          :picture="landingInfo.presentation_secondary_picture"
+        />
       </transition>
     </section>
-    <section>
-    </section>
+    <section></section>
     <section id="introduction" class="mb-24 tablet:mb-32">
-      <IntroInfo class="mb-12"/>
-      <IntroPic :option="landingInfo.intro_picture"/>
+      <IntroInfo class="mb-12" />
+      <IntroPic :option="landingInfo.intro_picture" />
     </section>
     <section class="mb-32 max-w-3xl mx-auto">
       <ArtInfo />
-      <Art :option="primaryArt" :odd="true"/>
-      <Art :option="secondaryArt" :odd="false"/>
+      <Art :option="primaryArt" :odd="true" />
+      <Art :option="secondaryArt" :odd="false" />
     </section>
   </Landing>
 </template>
-
 
 <page-query>
 query Landing{
@@ -85,5 +94,4 @@ export default {
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
