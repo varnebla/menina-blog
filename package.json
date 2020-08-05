@@ -19,6 +19,7 @@
     "typeface-playfair-display": "^1.1.4",
     "typeface-rubik": "^0.0.72",
     "typeface-yeseva-one": "^0.0.72",
+    "vue-browser-detect-plugin": "^0.1.13",
     "vue-cookies": "^1.7.0"
   },
   "devDependencies": {

@@ -15,28 +15,32 @@
     </div>
     <div
       class="w-full h-full p-6 flex flex-col items-start justify-start"
-     :class="!odd ? 'tablet:order-2' : 'tablet:order-1'"
+      :class="!odd ? 'tablet:order-2' : 'tablet:order-1'"
     >
-      <h4
-        class="text-left font-titles mb-3"
-      >
-        {{option.title}}
+      <h4 class="text-left font-titles mb-3">
+        {{ option.title }}
       </h4>
 
       <p class="text-left pb-4">
-        {{option.content}}
+        {{ option.content }}
       </p>
       <g-link
         to="/blog/"
         class="border border-primary hover:border-gold text-primary hover:text-gold transition duration-200 ease-in-out uppercase py-3 px-6 text-base btn-blog flex justify-around"
-        ><div class="mr-2">Ir a los posts de arte</div> <div class="arrow">&#8594;</div></g-link>
+        ><div class="mr-2">Ir a los posts de arte</div>
+        <div class="arrow">&#8594;</div></g-link
+      >
     </div>
   </section>
 </template>
 
 <script>
+import Presentation from '~/components/Landing/Presentation.vue'
 export default {
   props: ['option', 'odd'],
+  components: {
+    Presentation,
+  },
 }
 </script>
 
