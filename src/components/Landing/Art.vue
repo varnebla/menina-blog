@@ -3,16 +3,21 @@
     data-cy="art-component"
     class="w-full h-full grid grid-cols-1 tablet:grid-cols-2 py-8"
   >
-    <div
-      class="w-full  h-48 tablet:h-full p-6 tablet:mb-auto"
+    <!-- <div
+      class=""
+      
+    > -->
+    <Presentation
+      :picture="option.image"
+      imgClass="w-full h-88 p-6 tablet:mb-auto"
       :class="odd ? 'tablet:order-2' : 'tablet:order-1'"
-    >
-      <g-image
+    />
+    <!-- <g-image
         class="object-cover w-full h-full"
         :src="option.image"
         alt="arte"
-      ></g-image>
-    </div>
+      ></g-image> -->
+    <!-- </div> -->
     <div
       class="w-full h-full p-6 flex flex-col items-start justify-start"
       :class="!odd ? 'tablet:order-2' : 'tablet:order-1'"
