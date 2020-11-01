@@ -29,9 +29,6 @@ export default {
       return ''
     },
   },
-  mounted: function() {
-    console.log(this.picture)
-  },
 }
 </script>
 

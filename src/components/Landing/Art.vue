@@ -1,11 +1,11 @@
 <template>
   <section
     data-cy="art-component"
-    class="w-full h-full grid grid-cols-1 tablet:grid-cols-2 py-8"
+    class="w-full grid grid-cols-1 tablet:grid-cols-2 py-8"
   >
     <Presentation
       :picture="option.image"
-      imgClass="w-full h-88 p-6 tablet:mb-auto"
+      imgClass="p-6 w-full h-80 tablet:h-128 tablet:m-auto"
       :class="odd ? 'tablet:order-2' : 'tablet:order-1'"
     />
     <div
@@ -22,7 +22,7 @@
       <g-link
         to="/blog/"
         class="border border-primary hover:border-gold text-primary hover:text-gold transition duration-200 ease-in-out uppercase py-3 px-6 text-base btn-blog flex justify-around"
-        ><div class="mr-2">Ir a los posts de arte</div>
+        ><div class="mr-2">Ir a los posts</div>
         <div class="arrow">&#8594;</div></g-link
       >
     </div>

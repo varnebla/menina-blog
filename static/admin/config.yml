@@ -98,6 +98,12 @@ collections:
               widget: 'image',
               required: true,
             }
+          - {
+              label: 'Imágen cultura y arte 3',
+              name: 'art_tertiary_picture',
+              widget: 'image',
+              required: true,
+            }
       - name: 'about'
         label: 'Sobre mí'
         file: 'content/about.md'

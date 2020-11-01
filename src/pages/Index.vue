@@ -9,7 +9,7 @@
       />
       <transition name="menina-nav-fade" appear>
         <Presentation
-          class="hidden mobileL:inline col-start-8  laptop:col-start-8 desktop:col-start-6 col-span-5 laptop:col-span-5 desktop:col-span-4"
+          class="hidden tablet:inline col-start-8  laptop:col-start-8 desktop:col-start-6 col-span-5 laptop:col-span-5 desktop:col-span-4"
           imgClass="h-142 mobileS:h-156 tablet:h-164 z-0 -mt-6"
           :picture="landingInfo.presentation_picture"
         />
@@ -31,6 +31,7 @@
       <ArtInfo />
       <Art :option="primaryArt" :odd="true" />
       <Art :option="secondaryArt" :odd="false" />
+      <Art :option="tertiaryArt" :odd="true" />
     </section>
   </Landing>
 </template>
@@ -76,21 +77,29 @@ export default {
     },
     primaryArt() {
       return {
-        title: 'Cats are fats i like to pets them they like to meow ',
+        title: 'Arte y cultura ',
         content:
-          'Bathe private parts with tongue then lick owners face meow meow but toy mouse squeak roll over for pretend you want to go out but then dont but cry louder at reflection so jump on human and sleep on her all night long be long in the bed',
+          'Bajo esta etiqueta encontraréis todos aquellos posts dedicados a analizar las obras de arte (pintura, escultura, arquitectura). La intención no es hablar de aspectos técnicos, sino adentrarnos en todas las curiosidades y datos interesantes que hay detrás de las obras y sus artistas. ¿Por qué Cupido aparece dormido en esa obra? ¿Por qué el Guernika es en blanco y negro? En definitiva, hablaremos de aquellas curiosidades y secretos que envuelven las obras.',
         image: this.landingInfo.art_primary_picture,
       }
     },
     secondaryArt() {
       return {
-        title: 'Kitty poochy bite off humans toes so find box',
+        title: 'Disney y el arte',
         content:
-          'Poop in litter box, scratch the walls catto munch salmono, hell is other people. With tail in the air cereal boxes make for five star accommodation yet white cat sleeps on a black shirt and spend six hours per day washing,',
+          'Como apasionada de Disney, reconozco que he visto todas sus películas en bucle desde que tengo uso de razón. A medida que crecemos vamos entendiendo mejor algunas situaciones con doble sentido que aparecen. Pero, además, vamos observando y analizando más las escenas. Así fue como me di cuenta que en las películas de Walt Disney son muchas las referencias que se hacen al mundo del arte y en esta sección vamos a analizarlas.',
         image: this.landingInfo.art_secondary_picture,
       }
     },
-  },
+    tertiaryArt(){
+      return {
+        title: 'Viajes',
+        content:
+          'En un mundo azotado por la pandemia, tener un apartado dedicado a los viajes es, cuanto menos, arriesgado. Pero yo no quiero dejar (en la medida de lo posible) de descubrir lugares interesantes y llenos de cultura. Bajo la etiqueta de “viajes” os hablaré de las diferentes escapadas que realice, teniendo en cuenta que el foco siempre estará puesto en la cultura, tradiciones o curiosidades del lugar. ',
+        image: this.landingInfo.art_secondary_picture,
+      }
+    }
+  }
 }
 </script>
 
