@@ -5,7 +5,7 @@ abstract: "El por qué es evidente: una mujer elegantemente vestida se balancea
 author: Mario Rossi
 title: El columpio
 date: 2019-12-13T14:03:50.289Z
-thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1588956207/whatsapp-image-2020-04-25-at-18.52.00_q56zh2_dgjznv.jpg
+thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1588956207/el_columpio/whatsapp-image-2020-04-25-at-18.52.00_q56zh2_dgjznv.jpg
 tags:
   - art
 topic: art
