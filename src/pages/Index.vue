@@ -46,6 +46,7 @@ query Landing{
           intro_picture
           art_primary_picture
           art_secondary_picture
+          art_tertiary_picture
         }
       }
     }
@@ -96,7 +97,7 @@ export default {
         title: 'Viajes',
         content:
           'En un mundo azotado por la pandemia, tener un apartado dedicado a los viajes es, cuanto menos, arriesgado. Pero yo no quiero dejar (en la medida de lo posible) de descubrir lugares interesantes y llenos de cultura. Bajo la etiqueta de “viajes” os hablaré de las diferentes escapadas que realice, teniendo en cuenta que el foco siempre estará puesto en la cultura, tradiciones o curiosidades del lugar. ',
-        image: this.landingInfo.art_secondary_picture,
+        image: this.landingInfo.art_tertiary_picture,
       }
     }
   }

@@ -80,8 +80,7 @@ export default {
     centerImages() {
       const imagesParagraph = document.querySelectorAll('p')
       imagesParagraph.forEach((el) => {
-        if (el.firstChild && el.firstChild.nodeType === 1) {
-          //img is nodeType = 1
+        if (el.firstChild && el.firstChild.tagName === 'IMG') {
           el.classList.add('flex', 'justify-center')
           el.firstChild.setAttribute('class', 'mt-8')
         }
