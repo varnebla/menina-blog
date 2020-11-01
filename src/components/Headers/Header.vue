@@ -3,7 +3,7 @@
     <g-link to="/" class="font-titles header-element">La menina perdida</g-link>
     <div class="flex justify-end">
       <g-link class="ml-5 hidden laptop:inline header-element" to="/blog">Blog</g-link>
-      <g-link class="ml-5 hidden laptop:inline header-element" to="/about/">Sobre mí</g-link>
+      <!-- <g-link class="ml-5 hidden laptop:inline header-element" to="/about/">Sobre mí</g-link> -->
       <MenuThin viewBox="0 0 24 24"
               width="24"
               height="24"

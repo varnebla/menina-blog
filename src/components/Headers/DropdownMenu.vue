@@ -6,7 +6,7 @@
   >
     <g-link to="/" class="font-titles py-2">La menina perdida</g-link>
     <g-link class="py-2" to="/blog">Blog</g-link>
-    <g-link class="py-2" to="/about/">Sobre mí</g-link>
+    <!-- <g-link class="py-2" to="/about/">Sobre mí</g-link> -->
     <!-- <ModeToggle class="py-2" iconColor="text-white" :changeMode="changeMode" /> -->
   </div>
 </template>
