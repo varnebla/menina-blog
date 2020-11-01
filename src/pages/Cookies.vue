@@ -1,5 +1,7 @@
 <template>
-  <Layout>
+  <Landing>
+    <main class="max-w-3xl mx-auto px-3 tablet:px-8 laptop:px-0">
+
     <h1 class="font-sans">Política de cookies</h1>
     <p class="py-4">La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan en esta página web.</p>
     <h2>¿Qué es una cookie?</h2>
@@ -22,7 +24,8 @@
           <li><g-link class="text-gold" to="https://support.microsoft.com/es-es/help/278835/how-to-delete-cookie-files-in-internet-explorer">Internet Explorer</g-link></li>
         </ul>
       </p>
-  </Layout>
+    </main>
+  </Landing>
 </template>
 
 <script>

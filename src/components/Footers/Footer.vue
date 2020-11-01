@@ -1,7 +1,7 @@
 <template>
   <div class="pt-12 justify-center w-full h-48 bg-dark grid grid-rows-4 gap-8">
-    <div class="w-80 flex justify-between text-white text-center">
-      <g-link class="underline" to="/about">Sobre mí</g-link>
+    <div class="w-80 flex justify-around text-white text-center">
+      <!-- <g-link class="underline" to="/about">Sobre mí</g-link> -->
       <g-link class="underline" to="/blog">Blog</g-link>
       <g-link class="underline" to="/cookies">Política de cookies</g-link>
     </div>
