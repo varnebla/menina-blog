@@ -22,6 +22,9 @@ content: >-
   ![Cartel Muerto Mouse del artista Lalo Alcaraz, realizado en 2013.](https://res.cloudinary.com/varnebla/image/upload/v1604405411/muerto_mouse_clqdjg.jpg "Lalo Alcaraz, Muerto Mouse (2013)")
 
 
+  <div align="center"><em>Lalo Alcaraz, Muerto Mouse (2013)</em></div>
+
+
   ## 2. Empapándose de la cultura mexicana
 
 
@@ -37,6 +40,9 @@ content: >-
   ![Familia Ribera al completo](https://res.cloudinary.com/varnebla/image/upload/v1604406021/familia_coco_wiziby.jpg "Miembros vivos y muertos de la familia Ribera")
 
 
+  <div align="center"><em>Miembros vivos y muertos de la familia Ribera</em></div>
+
+
   ## 3. Referencias al Universo Pixar
 
 
@@ -46,22 +52,34 @@ content: >-
   ![Furgoneta de reparto del Pizza Planet, aparece en Toy Story por primera vez.](https://res.cloudinary.com/varnebla/image/upload/v1604406021/Pizza_planet_1_mkbaw7.png "Furgoneta de reparto del Pizza Planet, aparece en Toy Story por primera vez.")
 
 
+  <div align="center"><em>Furgoneta de reparto del Pizza Planet, aparece en Toy Story por primera vez.</em></div>
+
+
   Más tarde, cuando Miguel sale de casa para ir a trabajar a la plaza, pasa por una serie de calles adornadas para la festividad. Al tomar una curva, vemos a la derecha un puesto de recuerdos y piñatas y nos llaman la atención tres de ellas, ya que son **Woddy, Buzz Lightyear y Mike Wazowski.**
 
 
-  ![Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)](https://res.cloudinary.com/varnebla/image/upload/v1604406022/pixar_d6ilcd.png "Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)")
+  ![Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)](https://res.cloudinary.com/varnebla/image/upload/v1604409479/Fotos_BLOG_g8szwh.jpg "Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)")
+
+
+  <div align="center"><em>Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)</em></div>
 
 
   Debo reconocer que esta referencia que os traigo a continuación me costó varios visionados, puesto que está muy camuflada y es casi imperceptible. Cuando Abuelita está colocando bien las fotos del altar, a la derecha y escondido entre las flores, encontramos una pequeña figurita de Nemo. Realmente hay que fijarse muchísimo para verlo pero una vez te das cuenta no puedes dejar de hacerlo.
 
 
-  ![Abajo a la derecha podemos ver una figurita de Nemo entre las ofrendas del altar del Día de Muertos.](https://res.cloudinary.com/varnebla/image/upload/v1604406020/DBwiC8SXsAAFBqQ_wodof4.jpg "Abajo a la derecha podemos ver una figurita de Nemo")
+  ![Abajo a la derecha podemos ver una figurita de Nemo entre las ofrendas del altar del Día de Muertos.](https://res.cloudinary.com/varnebla/image/upload/c_scale,w_639/v1604409267/Fotos_BLOG_9_mdjzcw.jpg "Abajo a la derecha podemos ver una figurita de Nemo")
+
+
+  <div align="center"><em>Abajo a la derecha podemos ver una figurita de Nemo</em></div>
 
 
   Y, para terminar con el apartado de referencias (aunque hay algunas más), os traigo una que ha generado bastante debate: durante la Batalla de Músicos en la Tierra de los Muertos, **aparece un participante que puede resultarnos muy familiar**, concretamente por el look que lleva. Esa camiseta negra con una calavera blanca en el centro la hemos visto antes. ¿Cómo olvidar al maltratador de juguetes y vecino de Andy, Sid? El diabólico niño llevaba esta camiseta en su primera aparición y volvimos a verlo años más tarde ya más crecidito, concretamente en Toy Story 3, trabajando como barrendero. ¿Cómo le fue la vida a Sid? No lo sabemos, pero parece que no muy bien ya que acabó muerto a una edad aparentemente joven.
 
 
   ![Sid niño (Toy Story), Sid adolescente (Toy Story 3), Sid muerto (Coco)](https://res.cloudinary.com/varnebla/image/upload/v1604406023/tvn-sidcoco_lauttp.jpg "Sid niño (Toy Story), Sid adolescente (Toy Story 3), Sid muerto (Coco)")
+
+
+  <div align="center"><em></em></div>
 
 
   Si vemos esta secuencia, nos parece evidente que se trata de Sid. Pero, en el párrafo anterior, os hablaba de un debate en relación a esta figura. ¿Y cuál es el debate? Pues que algunos piensan que no se trataría de Sid sino de la versión muerta del cantante **Skrillex** y su inconfundible peinado.
@@ -82,6 +100,9 @@ content: >-
   ![Detalles de Bichos y Coco, donde vemos el código A113.](https://res.cloudinary.com/varnebla/image/upload/v1604406022/Turquesa_Blanco_Collage_Mujer_Verano_Gu%C3%ADa_de_Estilo_1_wivuqr.jpg "Detalles de películas Pixar donde vemos el código A113.")
 
 
+  <div align="center"><em></em></div>
+
+
   ## 5. La Tierra de los Muertos
 
 
@@ -91,10 +112,16 @@ content: >-
   ![Arriba, Coco ve por primera vez la Tierra de los Muertos; abajo, fotografía de las pirámides de Teotihuacán](https://res.cloudinary.com/varnebla/image/upload/v1604406023/Turquesa_Blanco_Collage_Mujer_Verano_Gu%C3%ADa_de_Estilo_2_jzz6nc.jpg "Arriba, Coco ve por primera vez la Tierra de los Muertos; abajo, fotografía de las pirámides de Teotihuacán")
 
 
+  <div align="center"><em></em></div>
+
+
   Pero las pirámides no son la única referencia arquitectónica que aparece en la película: la iglesia de Santa Cecilia es una réplica de la iglesia de **San Juan Paricutín (Michoacán)** y la plaza del pueblo está inspirada en la **Plaza del Ropero (Guanajuto)** donde encontramos una estatua de Jorge Negrete muy similar a la de De la Cruz. Obviamente, partimos de la base que para la ciudad de Santa Cecilia se inspiran en barrios y casas reales.
 
 
   ![Arriba, iglesia de Santa Cecilia; abajo, iglesia de San Juan Parangaricutiro](https://res.cloudinary.com/varnebla/image/upload/v1604406022/Santa_cecilia_canva_rzi23z.jpg "Arriba, iglesia de Santa Cecilia; abajo, iglesia de San Juan Parangaricutiro")
+
+
+  <div align="center"><em></em></div>
 
 
   ## 6. La flor de Cempasúchil
@@ -107,6 +134,9 @@ content: >-
 
 
   ![Puente que sirve de paso entre la Tierra de los Muertos y la de los Vivos.](https://res.cloudinary.com/varnebla/image/upload/v1604406020/5_ubfgux.jpg "Puente que sirve de paso entre la Tierra de los Muertos y la de los Vivos.")
+
+
+  <div align="center"><em></em></div>
 
 
   Buscando información me he encontrado con la leyenda que hay detrás de la flor y me ha parecido tan maravillosa que os la comparto por aquí:
