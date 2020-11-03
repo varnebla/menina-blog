@@ -112,7 +112,7 @@ content: >-
   ![Arriba, Coco ve por primera vez la Tierra de los Muertos; abajo, fotografía de las pirámides de Teotihuacán](https://res.cloudinary.com/varnebla/image/upload/v1604406023/Turquesa_Blanco_Collage_Mujer_Verano_Gu%C3%ADa_de_Estilo_2_jzz6nc.jpg "Arriba, Coco ve por primera vez la Tierra de los Muertos; abajo, fotografía de las pirámides de Teotihuacán")
 
 
-  <div align="center"><em></em></div>
+  <div align="center"><em>Arriba, Coco ve por primera vez la Tierra de los Muertos; abajo, fotografía de las pirámides de Teotihuacán</em></div>
 
 
   Pero las pirámides no son la única referencia arquitectónica que aparece en la película: la iglesia de Santa Cecilia es una réplica de la iglesia de **San Juan Paricutín (Michoacán)** y la plaza del pueblo está inspirada en la **Plaza del Ropero (Guanajuto)** donde encontramos una estatua de Jorge Negrete muy similar a la de De la Cruz. Obviamente, partimos de la base que para la ciudad de Santa Cecilia se inspiran en barrios y casas reales.
@@ -121,7 +121,7 @@ content: >-
   ![Arriba, iglesia de Santa Cecilia; abajo, iglesia de San Juan Parangaricutiro](https://res.cloudinary.com/varnebla/image/upload/v1604406022/Santa_cecilia_canva_rzi23z.jpg "Arriba, iglesia de Santa Cecilia; abajo, iglesia de San Juan Parangaricutiro")
 
 
-  <div align="center"><em></em></div>
+  <div align="center"><em>Arriba, iglesia de Santa Cecilia; abajo, iglesia de San Juan Parangaricutiro</em></div>
 
 
   ## 6. La flor de Cempasúchil
@@ -136,7 +136,7 @@ content: >-
   ![Puente que sirve de paso entre la Tierra de los Muertos y la de los Vivos.](https://res.cloudinary.com/varnebla/image/upload/v1604406020/5_ubfgux.jpg "Puente que sirve de paso entre la Tierra de los Muertos y la de los Vivos.")
 
 
-  <div align="center"><em></em></div>
+  <div align="center"><em>Puente que sirve de paso entre la Tierra de los Muertos y la de los Vivos.</em></div>
 
 
   Buscando información me he encontrado con la leyenda que hay detrás de la flor y me ha parecido tan maravillosa que os la comparto por aquí:
@@ -199,7 +199,7 @@ content: >-
   ## Y mucho más...
 
 
-  Pero las curiosidades no acaban aquí, ya que en esta película encontramos más secretos ocultos, como la cantidad de personajes célebres reales que aparecen en la Tierra de los Muertos. Pero a ellos les he dedicado un post completo que puedes leer aquí: **Personajes célebres mexicanos que encontramos en Coco.**
+  Pero las curiosidades no acaban aquí, ya que en esta película encontramos más secretos ocultos, como la cantidad de personajes célebres reales que aparecen en la Tierra de los Muertos. Pero a ellos les he dedicado un post completo que puedes leer aquí: **[Personajes célebres mexicanos que encontramos en Coco.](https://lameninaperdida.netlify.app/blog/10-personajes-celebres-mexicanos-que-encontramos-en-coco/)**
 
 
   Por el momento, vamos a terminar este artículo de *8 curiosidades que te encantará saber de Coco* con las palabras del co-director, Adrián Molina, sobre el sentido que quería darle a la película. Él quería conseguir dos cosas: que el que la viera quisiera *"aprender a tocar un instrumento musical"* y que saliera del cine con ganas de llamar *"a sus papás, abuelos y demás para pedirles que les cuenten sobre sus ancestros e ir conociendo más de su pasado y de toda su familia”*. ¿Lo conseguiría? Estoy segura de que en muchos casos fue así.
