@@ -6,7 +6,7 @@ abstract: "Cuando queremos mejorar algo, ponemos música. Para mejorar una comid
   encuentro político suena la música. La música forma parte de nuestras vidas y
   enriquece cualquier situación. Y cuando esa música es en directo, te lleva a
   otro nivel."
-date: 2020-12-11T19:30:00.000Z
+date: 2019-12-19T19:30:00.000Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1593199774/beneficios_musica/concert-768722_1280_bwjyms.jpg
 tags:
   - musica
