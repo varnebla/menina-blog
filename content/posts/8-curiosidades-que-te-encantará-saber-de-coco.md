@@ -52,25 +52,25 @@ content: >-
   ![Furgoneta de reparto del Pizza Planet, aparece en Toy Story por primera vez.](https://res.cloudinary.com/varnebla/image/upload/v1604406021/Pizza_planet_1_mkbaw7.png "Furgoneta de reparto del Pizza Planet, aparece en Toy Story por primera vez.")
 
 
-  <div align="center"><em></em></div>
+  <div align="center"><em>Furgoneta de reparto del Pizza Planet, aparece en Toy Story por primera vez.</em></div>
 
 
   Más tarde, cuando Miguel sale de casa para ir a trabajar a la plaza, pasa por una serie de calles adornadas para la festividad. Al tomar una curva, vemos a la derecha un puesto de recuerdos y piñatas y nos llaman la atención tres de ellas, ya que son **Woddy, Buzz Lightyear y Mike Wazowski.**
 
 
-  ![Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)](https://res.cloudinary.com/varnebla/image/upload/v1604406022/pixar_d6ilcd.png "Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)")
+  ![Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)](https://res.cloudinary.com/varnebla/image/upload/v1604409479/Fotos_BLOG_g8szwh.jpg "Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)")
 
 
-  <div align="center"><em></em></div>
+  <div align="center"><em>Calle de Santa Cecilia, a la derecha podemos ver las piñatas de Woddy y Buzz (Toy Story) y Mike Wazowsky (Monsters S. A.)</em></div>
 
 
   Debo reconocer que esta referencia que os traigo a continuación me costó varios visionados, puesto que está muy camuflada y es casi imperceptible. Cuando Abuelita está colocando bien las fotos del altar, a la derecha y escondido entre las flores, encontramos una pequeña figurita de Nemo. Realmente hay que fijarse muchísimo para verlo pero una vez te das cuenta no puedes dejar de hacerlo.
 
 
-  ![Abajo a la derecha podemos ver una figurita de Nemo entre las ofrendas del altar del Día de Muertos.](https://res.cloudinary.com/varnebla/image/upload/v1604406020/DBwiC8SXsAAFBqQ_wodof4.jpg "Abajo a la derecha podemos ver una figurita de Nemo")
+  ![Abajo a la derecha podemos ver una figurita de Nemo entre las ofrendas del altar del Día de Muertos.](https://res.cloudinary.com/varnebla/image/upload/c_scale,w_639/v1604409267/Fotos_BLOG_9_mdjzcw.jpg "Abajo a la derecha podemos ver una figurita de Nemo")
 
 
-  <div align="center"><em></em></div>
+  <div align="center"><em>Abajo a la derecha podemos ver una figurita de Nemo</em></div>
 
 
   Y, para terminar con el apartado de referencias (aunque hay algunas más), os traigo una que ha generado bastante debate: durante la Batalla de Músicos en la Tierra de los Muertos, **aparece un participante que puede resultarnos muy familiar**, concretamente por el look que lleva. Esa camiseta negra con una calavera blanca en el centro la hemos visto antes. ¿Cómo olvidar al maltratador de juguetes y vecino de Andy, Sid? El diabólico niño llevaba esta camiseta en su primera aparición y volvimos a verlo años más tarde ya más crecidito, concretamente en Toy Story 3, trabajando como barrendero. ¿Cómo le fue la vida a Sid? No lo sabemos, pero parece que no muy bien ya que acabó muerto a una edad aparentemente joven.
