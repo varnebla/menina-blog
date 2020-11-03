@@ -3,10 +3,10 @@ h2,
 h3 {
   @apply mb-6 font-sans;
 }
-.content p,
+/* .content p,
 .content div {
   @apply my-8;
-}
+} */
 .content ol {
   @apply list-decimal mb-4 px-6;
 }
@@ -21,6 +21,7 @@ h3 {
 }
 .content p > img {
   @apply text-center;
+  @apply m-0;
 }
 .content img:parent {
   @apply py-8 content-center;

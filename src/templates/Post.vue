@@ -7,7 +7,7 @@
           <p class="opacity-50 text-lg w-full border-b-2 border-primary mb-8">
             Publicado el {{ $page.post.date }}
           </p>
-          <div class="grid grid-cols-1 tablet:grid-cols-2 gap-10">
+          <div class="grid grid-cols-1 tablet:grid-cols-2 gap-10 mb-8">
             <div class="col-span-1">
               <h1 class="mb-2 font-titles leading-tight">
                 {{ $page.post.title }}
@@ -81,9 +81,19 @@ export default {
       const imagesParagraph = document.querySelectorAll('p')
       imagesParagraph.forEach((el) => {
         if (el.firstChild && el.firstChild.tagName === 'IMG') {
+          //paragraph contiene img
           el.classList.add('flex', 'justify-center')
-          el.firstChild.setAttribute('class', 'mt-8')
+          //img
+          el.firstChild.setAttribute('class', 'w-full max-w-xl')
+
+          //img footer
+          if(el.nextElementSibling.tagName === 'DIV' && el.nextElementSibling.hasAttribute('align')) {
+            el.classList.add('mb-2')
+            el.nextElementSibling.setAttribute('class', 'w-full max-w-md mx-auto mb-8')
+          }
+          else el.classList.add('mb-8')
         }
+        else el.setAttribute('class', 'mb-8')
       })
     },
     progressState() {
