@@ -39,7 +39,7 @@ content: >-
   El homenaje a esta obra es evidente pero hay dos grandes diferencias: en la obra real Frida aparece sin joyas y con una vestimenta típica indígena y se retrata junto a cuatro monos en lugar de tres. La presencia de estos pequeños peludos también nos la explica la propia pintora, quien dijo que los **monitos representaban a los hijos que nunca pudo tener.** 
 
 
-  ![Izquierda, cuadro "Autorretrato con monos" versión Coco; derecha, obra original de la artista. © Wikipedia.](https://res.cloudinary.com/varnebla/image/upload/v1604405836/Fotos_BLOG_1_ahe9uq.jpg "Izquierda, cuadro \\\"Autorretrato con monos\\\" versión Coco; derecha, obra original de la artista. © Wikipedia.")
+  ![Izquierda, cuadro "Autorretrato con monos" versión Coco; derecha, obra original de la artista. © Wikipedia.](https://res.cloudinary.com/varnebla/image/upload/v1604405836/Fotos_BLOG_1_ahe9uq.jpg "Izquierda, cuadro \\\\"Autorretrato con monos\\\\" versión Coco; derecha, obra original de la artista. © Wikipedia.")
 
 
   <div align="center"><em>Izquierda, cuadro "Autorretrato con monos" versión Coco; derecha, obra original de la artista.© Wikipedia.</em></div>
@@ -117,8 +117,6 @@ content: >-
   ![Izquierda, Pedro Infante como Pepe el Toro ©Archivo Tomás Montero; derecha, fotografía de Jorge Negrete ©Pinterest.](https://res.cloudinary.com/varnebla/image/upload/c_scale,w_705/v1604405835/Fotos_BLOG_5_y77kwr.jpg "Izquierda, Pedro Infante como Pepe el Toro ©Archivo Tomás Montero; derecha, fotografía de Jorge Negrete ©Pinterest.")
 
 
-
-
   <div align="center"><em>Izquierda, Pedro Infante como Pepe el Toro ©Archivo Tomás Montero; derecha, fotografía de Jorge Negrete ©Pinterest.</em></div>
 
 
@@ -163,5 +161,5 @@ content: >-
 
 
 
-  Post recomendado: 8 curiosidades que te encantará saber de Coco.
+  Post recomendado: [8 curiosidades que te encantará saber de Coco.](https://lameninaperdida.netlify.app/blog/8-curiosidades-que-te-encantara-saber-de-coco/)
 ---
