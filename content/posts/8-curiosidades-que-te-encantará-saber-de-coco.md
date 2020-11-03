@@ -199,7 +199,7 @@ content: >-
   ## Y mucho más...
 
 
-  Pero las curiosidades no acaban aquí, ya que en esta película encontramos más secretos ocultos, como la cantidad de personajes célebres reales que aparecen en la Tierra de los Muertos. Pero a ellos les he dedicado un post completo que puedes leer aquí: **Personajes célebres mexicanos que encontramos en Coco.**
+  Pero las curiosidades no acaban aquí, ya que en esta película encontramos más secretos ocultos, como la cantidad de personajes célebres reales que aparecen en la Tierra de los Muertos. Pero a ellos les he dedicado un post completo que puedes leer aquí: **[Personajes célebres mexicanos que encontramos en Coco.](https://lameninaperdida.netlify.app/blog/10-personajes-celebres-mexicanos-que-encontramos-en-coco/)**
 
 
   Por el momento, vamos a terminar este artículo de *8 curiosidades que te encantará saber de Coco* con las palabras del co-director, Adrián Molina, sobre el sentido que quería darle a la película. Él quería conseguir dos cosas: que el que la viera quisiera *"aprender a tocar un instrumento musical"* y que saliera del cine con ganas de llamar *"a sus papás, abuelos y demás para pedirles que les cuenten sobre sus ancestros e ir conociendo más de su pasado y de toda su familia”*. ¿Lo conseguiría? Estoy segura de que en muchos casos fue así.
