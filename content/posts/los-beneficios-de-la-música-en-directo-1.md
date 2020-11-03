@@ -12,15 +12,16 @@ tags:
   - musica
 topic: music
 content: >-
-  ## Los beneficios de la música en directo
-
-
-  La música en directo tiene algo difícil de describir que empieza mucho antes de la asistencia al concierto, mucho antes de estar en la cola y mucho antes de, tan si quiera, comprar las entradas. Esa emoción, ese “no sé qué que qué se yo” empieza en el momento en que escuchas la primera canción del que, sin saberlo, se convertirá en tu grupo favorito. No recuerdas lo que sentiste la primera vez que los escuchaste, pero, sin saberlo, desde ese momento **has querido cantar sus canciones en las primeras filas de todos sus conciertos**.
+  La música en directo tiene algo difícil de describir que empieza mucho antes
+  de la asistencia al concierto, mucho antes de estar en la cola y mucho antes
+  de, tan si quiera, comprar las entradas. Esa emoción, ese “no sé qué que qué
+  se yo” empieza en el momento en que escuchas la primera canción del que, sin
+  saberlo, se convertirá en tu grupo favorito. No recuerdas lo que sentiste la
+  primera vez que los escuchaste, pero, sin saberlo, desde ese momento **has
+  querido cantar sus canciones en las primeras filas de todos sus conciertos**.
 
 
   Y no solo estamos hablando de una sensación. Ya que, según un estudio de la Universidad de Deakin (Australia), ir a conciertos te hace más feliz. Para “[If you’re happy and you know it: Music engagement and subjective wellbeing](https://journals.sagepub.com/doi/10.1177/0305735616659552)”, que es el nombre del estudio, se entrevistó a más de 1000 personas y se demostró que aquellos que asisten a conciertos tienen **un nivel de satisfacción mayor en su vida**.
-
-
 
 
   Es muy curioso, no importa lo alto que pongas la música cuando vas conduciendo (y cantas como si te estuvieras jugando tu estancia en la Academia), nada se compara a la sensación de escuchar las voces de miles de personas cantando contigo, marcando el ritmo con los pies y levantando los brazos al cielo mientras el grupo está tocando sobre el escenario.
