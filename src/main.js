@@ -25,4 +25,15 @@ export default function(Vue, { router, head, isClient }) {
     href:
       'https://fonts.googleapis.com/css2?family=Yeseva+One&family=Playfair+Display:wght@700&display=swap"',
   })
+  head.meta.push({
+    key: 'og:description',
+    name: 'og:description',
+    content: `La menina perdida es un blog de arte`,
+  })
+
+  head.meta.push({
+    key: 'twitter:description',
+    name: 'twitter:description',
+    content: `La menina perdida es un blog de arte`,
+  })
 }

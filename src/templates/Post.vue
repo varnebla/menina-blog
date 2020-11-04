@@ -60,6 +60,24 @@
 import ProgressBar from '~/components/Headers/ProgressBar.vue'
 
 export default {
+   metaInfo() {
+    return {
+      title: this.$page.post.title,
+      meta: [
+        {
+          key: 'og:description',
+          name: 'og:description',
+          content: this.$page.post.abstract,
+        },
+
+        {
+          key: 'twitter:description',
+          name: 'twitter:description',
+          content: this.$page.post.abstract,
+        },
+      ],
+    }
+  },
   data: function () {
     return {
       progress: 0,
