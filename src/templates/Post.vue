@@ -64,12 +64,23 @@ export default {
     return {
       title: this.$page.post.title,
       meta: [
+        
+        {
+          key: 'og:title',
+          name: 'og:title',
+          content: this.$page.post.title,
+        },
+        
         {
           key: 'og:description',
           name: 'og:description',
           content: this.$page.post.abstract,
         },
-
+        {
+          key: 'twitter:title',
+          name: 'twitter:title',
+          content: this.$page.post.title,
+        },
         {
           key: 'twitter:description',
           name: 'twitter:description',
