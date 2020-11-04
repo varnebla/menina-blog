@@ -28,17 +28,17 @@ export default function(Vue, { router, head, isClient }) {
   })
   head.meta.push({
     key: 'og:title',
-    name: 'og:title',
+    property: 'og:title',
     content: `La menina perdida`,
   })
   head.meta.push({
     key: 'og:description',
-    name: 'og:description',
+    property: 'og:description',
     content: `Para que veas el arte con otros ojos`,
   })
   head.meta.push({
     key: 'og:image',
-    name: 'og:image',
+    property: 'og:image',
     content: `https://res.cloudinary.com/varnebla/image/upload/c_thumb,w_200,g_face/v1596361718/El_caballero_de_la_mano_en_el_pecho_ksmaeb.jpg`,
   })
 

@@ -67,17 +67,17 @@ export default {
         // Card general information for post
         {
           key: 'og:title',
-          name: 'og:title',
+          property: 'og:title',
           content: this.$page.post.title,
         },        
         {
           key: 'og:description',
-          name: 'og:description',
+          property: 'og:description',
           content: this.$page.post.abstract,
         },
           {
             key: 'og:image',
-            name: 'og:image',
+            property: 'og:image',
             content: this.$page.post.thumbnail,
           },
           // Card twitter information for post
