@@ -56,6 +56,7 @@ module.exports = {
       boxShadow: {
         '3d-effect': '0 0 12px 3px black',
         images: '0 0 15px 3px #444242',
+        twitter: '0 0 12px -2px #1DA1F2'
       },
     },
     fontFamily: {

@@ -1,6 +1,6 @@
 <template>
   <div :class="imgClass">
-    <g-image :src="source" class="h-full w-full object-cover" />
+    <g-image :src="source" width="480" class="h-full w-full object-cover" />
   </div>
 </template>
 
