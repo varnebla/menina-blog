@@ -36,4 +36,11 @@ export default function(Vue, { router, head, isClient }) {
     name: 'twitter:description',
     content: `La menina perdida es un blog de arte`,
   })
+  head.meta.push({
+    key: 'twitter:card',
+    name: 'twitter:card',
+    content: `summary`,
+  })
+
+  
 }
