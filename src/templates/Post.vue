@@ -64,6 +64,12 @@ export default {
     return {
       title: this.$page.post.title,
       meta: [
+        // Card general information for post
+        {
+          key: 'og:title',
+          name: 'og:title',
+          content: this.$page.post.title,
+        },        
         {
           key: 'og:description',
           name: 'og:description',
@@ -74,7 +80,12 @@ export default {
             name: 'og:image',
             content: this.$page.post.thumbnail,
           },
-
+          // Card twitter information for post
+        {
+          key: 'twitter:title',
+          name: 'twitter:title',
+          content: this.$page.post.title,
+        },
         {
           key: 'twitter:description',
           name: 'twitter:description',
