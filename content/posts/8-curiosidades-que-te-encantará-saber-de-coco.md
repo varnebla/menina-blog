@@ -37,10 +37,10 @@ content: >-
   Los tres años que pasaron documentándose, sumados a los tres años que tardaron en hacer la película, convierten a Coco en el **film Disney que más tiempo ha tardado en producirse.**
 
 
-  ![Familia Ribera al completo](https://res.cloudinary.com/varnebla/image/upload/v1604406021/familia_coco_wiziby.jpg "Miembros vivos y muertos de la familia Ribera")
+  ![Familia Rivera al completo](https://res.cloudinary.com/varnebla/image/upload/v1604406021/familia_coco_wiziby.jpg "Miembros vivos y muertos de la familia Rivera")
 
 
-  <div align="center"><em>Miembros vivos y muertos de la familia Ribera</em></div>
+  <div align="center"><em>Miembros vivos y muertos de la familia Rivera</em></div>
 
 
   ## 3. Referencias al Universo Pixar
@@ -190,7 +190,7 @@ content: >-
   ![Héctor y Miguel durante la Batalla de Músicos en la Tierra de los Muertos.](https://res.cloudinary.com/varnebla/image/upload/v1604406022/rkXfUfLIM_1256x620__1_rgvfx3.jpg "Héctor y Miguel durante la Batalla de Músicos en la Tierra de los Muertos.")
 
 
-  Durante la película, Miguel tiene en sus manos tanto la guitarra original (en principio de Ernesto de La Cruz) y una réplica que él mismo fabrica. El director de la película quería que la réplica pareciera realmente el trabajo de un niño, por lo que **pidió a su propio hijo que dibujara los bocetos**. Tanto en esta réplica como en la real, observamos una curiosa forma en la zona del clavijero: una calavera con un diente de oro. ¿Y dónde hemos visto a un personaje con un diente de oro? Exacto, este detalle no deja de hablarnos del verdadero propietario de la guitarra: Héctor.
+  Durante la película, Miguel tiene en sus manos tanto la guitarra original (en principio de Ernesto De la Cruz) y una réplica que él mismo fabrica. El director de la película quería que la réplica pareciera realmente el trabajo de un niño, por lo que **pidió a su propio hijo que dibujara los bocetos**. Tanto en esta réplica como en la real, observamos una curiosa forma en la zona del clavijero: una calavera con un diente de oro. ¿Y dónde hemos visto a un personaje con un diente de oro? Exacto, este detalle no deja de hablarnos del verdadero propietario de la guitarra: Héctor.
 
 
   ![Arriba, Miguel con la guitarra que él mismo diseña; abajo, Coco con la guitarra real en el cementerio.](https://res.cloudinary.com/varnebla/image/upload/v1604406021/guitarra_Hector_eivgk8.jpg "Arriba, Miguel con la guitarra que él mismo diseña; abajo, Coco con la guitarra real en el cementerio.")
