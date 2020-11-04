@@ -69,11 +69,21 @@ export default {
           name: 'og:description',
           content: this.$page.post.abstract,
         },
+          {
+            key: 'og:image',
+            name: 'og:image',
+            content: this.$page.post.thumbnail,
+          },
 
         {
           key: 'twitter:description',
           name: 'twitter:description',
           content: this.$page.post.abstract,
+        },
+        {
+          key: 'twitter:image',
+          name: 'twitter:image',
+          content: this.$page.post.thumbnail,
         },
       ],
     }
