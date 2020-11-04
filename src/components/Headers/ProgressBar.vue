@@ -5,9 +5,6 @@
 <script>
 export default {
   props: ['progress'],
-  mounted: function () {
-    console.log(this.progress)
-  },
 }
 </script>
 

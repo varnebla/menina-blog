@@ -4,7 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import LandingLayout from '~/layouts/Landing.vue'
 import VueCookies from 'vue-cookies'
-// import browserDetect from 'vue-browser-detect-plugin'
+import VueSocialSharing from 'vue-social-sharing'
 import '~/assets/css/tailwind.css'
 import '~/assets/css/styles.css'
 // require('typeface-playfair-display')
@@ -18,6 +18,7 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component('Landing', LandingLayout)
   head.bodyAttrs = { class: 'font-sans font-light bg-background' }
   Vue.use(VueCookies)
+  Vue.use(VueSocialSharing)
   // Vue.use(browserDetect)
 
   head.link.push({
@@ -25,4 +26,47 @@ export default function(Vue, { router, head, isClient }) {
     href:
       'https://fonts.googleapis.com/css2?family=Yeseva+One&family=Playfair+Display:wght@700&display=swap"',
   })
+  head.meta.push({
+    key: 'og:title',
+    property: 'og:title',
+    content: `La menina perdida`,
+  })
+  head.meta.push({
+    key: 'og:description',
+    property: 'og:description',
+    content: `Para que veas el arte con otros ojos`,
+  })
+  head.meta.push({
+    key: 'og:image',
+    property: 'og:image',
+    content: `https://res.cloudinary.com/varnebla/image/upload/c_thumb,w_200,g_face/v1596361718/El_caballero_de_la_mano_en_el_pecho_ksmaeb.jpg`,
+  })
+
+  head.meta.push({
+    key: 'twitter:title',
+    name: 'twitter:title',
+    content: `La menina perdida`,
+  })
+  head.meta.push({
+    key: 'twitter:description',
+    name: 'twitter:description',
+    content: `Para que veas el arte con otros ojos`,
+  })
+  head.meta.push({
+    key: 'twitter:card',
+    name: 'twitter:card',
+    content: `summary`,
+  })
+  head.meta.push({
+    key: 'twitter:creator',
+    name: 'twitter:creator',
+    content: `@lameninaperdida`,
+  })
+  head.meta.push({
+    key: 'twitter:image',
+    name: 'twitter:image',
+    content: `https://res.cloudinary.com/varnebla/image/upload/c_thumb,w_200,g_face/v1596361718/El_caballero_de_la_mano_en_el_pecho_ksmaeb.jpg`,
+  })
+
+  
 }

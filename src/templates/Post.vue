@@ -29,6 +29,24 @@
             ></div>
           </div>
         </article>
+        <ShareNetwork
+          network="twitter"
+          :url="`https://www.lameninaperdida.art${$route.path}`"
+          :title="$page.post.title"
+          :description="$page.post.abstract"
+          hashtags="art,disney"
+          twitter-user="lameninaperdida"
+          class="bg-twitter text-white py-3 px-3 block rounded-full w-12 cursor-pointer"
+        >
+        <Twitter
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          class=" text-white fill-current transform scale-75"
+          key="twitter"
+          focusable="false"
+        />
+        </ShareNetwork>
         <div class="border-t border-gold mt-12">
           <p class="mt-12">
             Espero que te haya gustado este post. Si quieres comentar algo no dudes en mandarme un
@@ -58,14 +76,54 @@
 
 <script>
 import ProgressBar from '~/components/Headers/ProgressBar.vue'
+import Twitter from '~/assets/svg/Twitter.svg'
 
 export default {
+   metaInfo() {
+    return {
+      title: this.$page.post.title,
+      meta: [
+        // Card general information for post
+        {
+          key: 'og:title',
+          property: 'og:title',
+          content: this.$page.post.title,
+        },        
+        {
+          key: 'og:description',
+          property: 'og:description',
+          content: this.$page.post.abstract,
+        },
+          {
+            key: 'og:image',
+            property: 'og:image',
+            content: this.$page.post.thumbnail,
+          },
+          // Card twitter information for post
+        {
+          key: 'twitter:title',
+          name: 'twitter:title',
+          content: this.$page.post.title,
+        },
+        {
+          key: 'twitter:description',
+          name: 'twitter:description',
+          content: this.$page.post.abstract,
+        },
+        {
+          key: 'twitter:image',
+          name: 'twitter:image',
+          content: this.$page.post.thumbnail,
+        },
+      ],
+    }
+  },
   data: function () {
     return {
       progress: 0,
     }
   },
-  components: { ProgressBar },
+  components: { ProgressBar, Twitter },
   mounted: function () {
     this.centerImages()
     document.addEventListener(
