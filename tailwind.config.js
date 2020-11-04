@@ -51,6 +51,7 @@ module.exports = {
         gold: 'var(--gold)',
         olive: 'var(--olive)',
         dark: 'var(--dark)',
+        twitter: '#1DA1F2',
       },
       boxShadow: {
         '3d-effect': '0 0 12px 3px black',

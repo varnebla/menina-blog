@@ -62,7 +62,7 @@
               focusable="false"
             />
           </g-link>
-          <g-link
+          <!-- <g-link
             class="border-2 border-primary rounded-full p-2 hover:bg-primary icon-transparent transition-all duration-200 ease-in-out ml-2"
             to="https://linkedin.com/in/jenniferarellano-cm"
             aria-label="Ir a linkedin"
@@ -75,7 +75,7 @@
               key="linkedin"
               focusable="false"
             />
-          </g-link>
+          </g-link> -->
         </div>
     </div>
   </transition>
