@@ -7,6 +7,7 @@
 const tailwindcss = require('tailwindcss')
 
 module.exports = {
+  icon: './favicon.png',
   siteName: 'La menina perdida',
   templates: {
     Post: '/blog/:title',
