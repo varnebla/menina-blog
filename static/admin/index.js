@@ -17,12 +17,14 @@ CMS.registerEditorComponent({
   },
   //Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    return 'imageFooter' + obj.id;
+    return(
+      '<div align="center"><em>'+obj.text+'</em></div>'
+    )
   },
   //Preview output for this component.
   toPreview: function(obj) {
     return(
-      '<div align="center"><em>'+obj.id+'</em></div>'
+      '<div align="center"><em>'+obj.text+'</em></div>'
     )
   }
 })

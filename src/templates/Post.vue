@@ -143,6 +143,7 @@ export default {
           el.classList.add('flex', 'justify-center')
           //img
           el.firstChild.setAttribute('class', 'w-full max-w-xl')
+          el.firstChild.setAttribute('style', 'height: intrinsic')
 
           //img footer
           if(el.nextElementSibling.tagName === 'DIV' && el.nextElementSibling.hasAttribute('align')) {

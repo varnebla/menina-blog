@@ -14,6 +14,9 @@ module.exports = {
   plugins: [
     {
       use: 'gridsome-plugin-netlify-cms',
+      options: {
+        modulePath: 'static/admin/index.js'
+      }
     },
     {
       use: '@gridsome/source-filesystem',
