@@ -7,7 +7,7 @@ thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1604405230/22coco1-
 tags: []
 topic: art
 content: >-
-  ## 1. Controversias con el título
+  ## 1. Controversia con el título
 
 
   Walt Disney quiso registrar la marca **"Día de Muertos"** y usarla como título para su nueva película. No obstante, las voces en contra no tardaron en surgir y hubo todo un movimiento para impedir que Disney se apropiara de una tradición y la convirtiera en marca.
