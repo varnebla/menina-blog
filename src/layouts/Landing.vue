@@ -19,7 +19,7 @@
     </transition>
     <!-- <transition name="landing-fade" appear>
     </transition>
-    <Presentation data-type="presentation" />
+    <ImageBanner data-type="presentation" />
     <div data-type="art" class="px-2 tablet:px-16 laptop:px-32 landscape:px-96 opacity-0">
       <Art
         v-for="(edge, index) in $page.landing.edges[0].node.topics"
@@ -62,7 +62,7 @@ query {
 <script>
 import Vue from 'vue'
 import Header from '~/components/Headers/Header.vue'
-import Presentation from '~/components/Landing/Presentation.vue'
+import ImageBanner from '~/components/Landing/ImageBanner.vue'
 import Art from '~/components/Landing/Art.vue'
 import ShowPosts from '~/components/Landing/ShowPosts.vue'
 import Contact from '~/components/Landing/Contact.vue'
@@ -73,7 +73,7 @@ import Backdrop from '~/components/Headers/Backdrop.vue'
 export default {
   components: {
     Header,
-    Presentation,
+    ImageBanner,
     Art,
     ShowPosts,
     Contact,

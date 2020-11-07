@@ -5,6 +5,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 import LandingLayout from '~/layouts/Landing.vue'
 import VueCookies from 'vue-cookies'
 import VueSocialSharing from 'vue-social-sharing'
+import Cloudinary, {CldImage, CldTransformation, CldPlaceholder} from 'cloudinary-vue'
 import '~/assets/css/tailwind.css'
 import '~/assets/css/styles.css'
 // require('typeface-playfair-display')
@@ -19,6 +20,16 @@ export default function(Vue, { router, head, isClient }) {
   head.bodyAttrs = { class: 'font-sans font-light bg-background' }
   Vue.use(VueCookies)
   Vue.use(VueSocialSharing)
+  Vue.use(Cloudinary, {
+    configuration: {
+      cloudName: 'varnebla'
+    },
+    components: {
+      CldImage,
+      CldTransformation,
+      CldPlaceholder
+    }
+  })
   // Vue.use(browserDetect)
 
   head.link.push({

@@ -3,8 +3,8 @@
     data-cy="art-component"
     class="w-full grid grid-cols-1 tablet:grid-cols-2 py-8"
   >
-    <Presentation
-      :picture="option.image"
+    <ImageBanner
+      :picture="option.getImageName()"
       imgClass="p-6 w-full h-80 tablet:h-128 tablet:m-auto"
       :class="odd ? 'tablet:order-2' : 'tablet:order-1'"
     />
@@ -30,11 +30,11 @@
 </template>
 
 <script>
-import Presentation from '~/components/Landing/Presentation.vue'
+import ImageBanner from '~/components/Landing/ImageBanner.vue'
 export default {
   props: ['option', 'odd'],
   components: {
-    Presentation,
+    ImageBanner,
   },
 }
 </script>
