@@ -8,12 +8,12 @@
     <h5 class="font-serif text-white text-center ">
       © {{ year }} | La menina perdida
     </h5>
-    <p class="text-gray-500 text-center">
+    <div class="text-center text-background">
       Web creada por
       <g-link class="text-gold underline" to="https://twitter.com/varnebla"
         >Víctor Arnedo</g-link
       >
-    </p>
+    </div>
   </div>
 </template>
 
@@ -28,4 +28,5 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>

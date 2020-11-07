@@ -39,7 +39,7 @@ content: >-
   El homenaje a esta obra es evidente pero hay dos grandes diferencias: en la obra real Frida aparece sin joyas y con una vestimenta típica indígena y se retrata junto a cuatro monos en lugar de tres. La presencia de estos pequeños peludos también nos la explica la propia pintora, quien dijo que los **monitos representaban a los hijos que nunca pudo tener.** 
 
 
-  ![Izquierda, cuadro "Autorretrato con monos" versión Coco; derecha, obra original de la artista. © Wikipedia.](https://res.cloudinary.com/varnebla/image/upload/v1604405836/Fotos_BLOG_1_ahe9uq.jpg "Izquierda, cuadro \\\\"Autorretrato con monos\\\\" versión Coco; derecha, obra original de la artista. © Wikipedia.")
+  ![Izquierda, cuadro "Autorretrato con monos" versión Coco; derecha, obra original de la artista. © Wikipedia.](https://res.cloudinary.com/varnebla/image/upload/v1604405836/Fotos_BLOG_1_ahe9uq.jpg "Izquierda, cuadro \\\\\"Autorretrato con monos\\\\\" versión Coco; derecha, obra original de la artista. © Wikipedia.")
 
 
   <div align="center"><em>Izquierda, cuadro "Autorretrato con monos" versión Coco; derecha, obra original de la artista.© Wikipedia.</em></div>
@@ -159,7 +159,5 @@ content: >-
   <div align="center"><em>Grupo de personajes célebres mexicanos cantando en la fiesta de Ernesto de La Cruz</em></div>
 
 
-
-
-  Post recomendado: [8 curiosidades que te encantará saber de Coco.](https://lameninaperdida.netlify.app/blog/8-curiosidades-que-te-encantara-saber-de-coco/)
+  Post recomendado: [8 curiosidades que te encantará saber de Coco.](https://lameninaperdida.art/blog/8-curiosidades-que-te-encantara-saber-de-coco/)
 ---

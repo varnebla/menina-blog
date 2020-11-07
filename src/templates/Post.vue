@@ -77,6 +77,7 @@
 <script>
 import ProgressBar from '~/components/Headers/ProgressBar.vue'
 import Twitter from '~/assets/svg/Twitter.svg'
+import { pictureFormat } from '~/helpers/helper-functions.js'
 
 export default {
    metaInfo() {
@@ -143,6 +144,9 @@ export default {
           el.classList.add('flex', 'justify-center')
           //img
           el.firstChild.setAttribute('class', 'w-full max-w-xl')
+          //if safari, we have to add this property
+          pictureFormat() === 'jp2' &&
+          el.firstChild.setAttribute('style', 'height: intrinsic')
 
           //img footer
           if(el.nextElementSibling.tagName === 'DIV' && el.nextElementSibling.hasAttribute('align')) {
