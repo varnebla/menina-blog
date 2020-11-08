@@ -22,7 +22,7 @@
       <g-link
         to="/blog/"
         class="border border-primary hover:border-gold text-primary hover:text-gold transition duration-200 ease-in-out uppercase py-3 px-6 text-base btn-blog flex justify-around"
-        ><div class="mr-2">Ir a los posts</div>
+        ><div class="mr-2">Ir a los posts de {{option.id}}</div>
         <div class="arrow">&#8594;</div></g-link
       >
     </div>

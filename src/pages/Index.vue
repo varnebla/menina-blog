@@ -75,16 +75,17 @@ export default {
       return this.$page.landing.edges[0].node
     },
     mainImage(){
-      return new ImageInformation(null, null, this.landingInfo.presentation_picture);
+      return new ImageInformation(null,null, null, this.landingInfo.presentation_picture);
     },
     secondaryImage(){
-      return new ImageInformation(null, null, this.landingInfo.presentation_secondary_picture);
+      return new ImageInformation(null, null, null, this.landingInfo.presentation_secondary_picture);
     },
     introImage(){
-      return new ImageInformation(null, null, this.landingInfo.intro_picture);
+      return new ImageInformation(null, null, null, this.landingInfo.intro_picture);
     },
     primaryArtImage() {
       return new ImageInformation(
+        'arte',
         'Arte y cultura ',
         'Bajo esta etiqueta encontraréis todos aquellos posts dedicados a analizar las obras de arte (pintura, escultura, arquitectura). La intención no es hablar de aspectos técnicos, sino adentrarnos en todas las curiosidades y datos interesantes que hay detrás de las obras y sus artistas. ¿Por qué Cupido aparece dormido en esa obra? ¿Por qué el Guernika es en blanco y negro? En definitiva, hablaremos de aquellas curiosidades y secretos que envuelven las obras.',
         this.landingInfo.art_primary_picture,
@@ -92,6 +93,7 @@ export default {
     },
     secondaryArtImage() {
       return new ImageInformation(
+        'disney',
         'Disney y el arte',
         'Como apasionada de Disney, reconozco que he visto todas sus películas en bucle desde que tengo uso de razón. A medida que crecemos vamos entendiendo mejor algunas situaciones con doble sentido que aparecen. Pero, además, vamos observando y analizando más las escenas. Así fue como me di cuenta que en las películas de Walt Disney son muchas las referencias que se hacen al mundo del arte y en esta sección vamos a analizarlas.',
         this.landingInfo.art_secondary_picture,
@@ -99,6 +101,7 @@ export default {
     },
     tertiaryArtImage(){
       return new ImageInformation(
+        'viajes',
         'Viajes',
         'En un mundo azotado por la pandemia, tener un apartado dedicado a los viajes es, cuanto menos, arriesgado. Pero yo no quiero dejar (en la medida de lo posible) de descubrir lugares interesantes y llenos de cultura. Bajo la etiqueta de “viajes” os hablaré de las diferentes escapadas que realice, teniendo en cuenta que el foco siempre estará puesto en la cultura, tradiciones o curiosidades del lugar. ',
         this.landingInfo.art_tertiary_picture

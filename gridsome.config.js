@@ -10,6 +10,8 @@ module.exports = {
   siteName: 'La menina perdida',
   templates: {
     Post: '/blog/:title',
+    Topics: '/blog/topics/:id',
+    Tag: '/blog/tags/:title'
   },
   plugins: [
     {
@@ -23,13 +25,21 @@ module.exports = {
       options: {
         path: 'content/posts/*.md',
         typeName: 'Post',
+        refs: {
+          topics: 'Topics',
+          tags:{
+            typeName: 'Tag',
+            create: true
+
+          }
+        }
       },
     },
     {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/topics/*.md',
-        typeName: 'Topic',
+        typeName: 'Topics',
       },
     },
     {
