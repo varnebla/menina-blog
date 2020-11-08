@@ -5,7 +5,7 @@ abstract: Coco es una de las películas de Disney más queridas por el público.
 date: 2020-11-02T12:06:24.621Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1604405230/22coco1-videoSixteenByNineJumbo1600_dzpjsc.jpg
 tags: []
-topic: art
+topic: disney
 content: >-
   ## 1. Controversias con el título
 
