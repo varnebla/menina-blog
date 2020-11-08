@@ -32,17 +32,16 @@ collections:
           label: 'Tags',
           name: 'tags',
           widget: 'list',
-          field:
-            { label: 'Tag', name: 'title', widget: 'string', default: '' },
+          field: { label: 'Tag', name: 'title', widget: 'string', default: '' },
         }
       - {
           label: 'Tema',
           name: 'topic',
           widget: 'relation',
           collection: 'topics',
-          search_fields: ['name'],
-          value_field: 'id',
-          display_fields: ['name']
+          searchFields: ['id', 'name'],
+          valueField: 'id',
+          displayFields: 'name',
         }
       - { label: 'Contenido', name: 'content', widget: 'markdown' }
   - name: 'topics'
