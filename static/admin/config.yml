@@ -34,25 +34,30 @@ collections:
           widget: 'list',
           field: { label: 'Tag', name: 'title', widget: 'string', default: '' },
         }
+      # - {
+      #     label: 'Tema',
+      #     name: 'topic',
+      #     widget: 'relation',
+      #     collection: 'topics',
+      #     searchFields: ['id', 'name'],
+      #     valueField: 'id',
+      #     displayFields: 'id',
+      #   }
       - {
           label: 'Tema',
           name: 'topic',
-          widget: 'relation',
-          collection: 'topics',
-          searchFields: ['id', 'name'],
-          valueField: 'id',
-          displayFields: 'name',
+          widget: 'select',
+          options: ['arte', 'disney', 'viajes'],
         }
       - { label: 'Contenido', name: 'content', widget: 'markdown' }
-  - name: 'topics'
-    label: 'Temas'
-    folder: 'content/topics' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    extension: 'md'
-    identifier_field: 'id'
-    fields:
-      - { label: 'Identificador', name: 'id', widget: 'string' }
-      - { label: 'Tema', name: 'name', widget: 'string' }
+  # - name: 'topics'
+  #   label: 'Temas'
+  #   folder: 'content/topics' # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   extension: 'md'
+  #   fields:
+  #     - { label: 'Identificador', name: 'id', widget: 'string' }
+  #     - { label: 'Tema', name: 'name', widget: 'string' }
   - name: 'pages'
     label: 'Páginas'
     files:

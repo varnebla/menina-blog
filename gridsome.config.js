@@ -10,8 +10,8 @@ module.exports = {
   siteName: 'La menina perdida',
   templates: {
     Post: '/blog/:title',
-    Topics: '/blog/topics/:id',
-    Tag: '/blog/tags/:title'
+    Topic: '/blog/topic/:id',
+    Tag: '/blog/tag/:title'
   },
   plugins: [
     {
@@ -26,7 +26,10 @@ module.exports = {
         path: 'content/posts/*.md',
         typeName: 'Post',
         refs: {
-          topics: 'Topics',
+          topic: {
+            typeName: 'Topic',
+            create: true
+          },
           tags:{
             typeName: 'Tag',
             create: true
@@ -35,13 +38,13 @@ module.exports = {
         }
       },
     },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/topics/*.md',
-        typeName: 'Topics',
-      },
-    },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: 'content/topics/*.md',
+    //     typeName: 'Topics',
+    //   },
+    // },
     {
       use: '@gridsome/source-filesystem',
       options: {

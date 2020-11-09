@@ -13,7 +13,7 @@
 </template>
 
 <page-query> 
- query ($page:Int){
+ query BlogPosts($page:Int){
    posts: allPost(perPage:5, page:$page, sortBy: "date", order: DESC)@paginate {
      pageInfo{
        totalPages
