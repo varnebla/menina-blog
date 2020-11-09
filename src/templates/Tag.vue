@@ -1,13 +1,17 @@
 <template>
-  <div>
-    <h1>Posts de {{tagInfo.id}}</h1>
-  </div>
+  <Landing>
+    <BlogList :list="tagPosts"/>
+  </Landing>
 </template>
 <page-query>
-query Tag($id:ID!){
+query Tag($id:ID!, $page:Int){
    tag(id: $id){
      id
-     belongsTo(filter: { typeName: { eq: Post } }) {
+     belongsTo(filter: { typeName: { eq: Post } },perPage:5, page:$page, sortBy: "date", order: DESC) @paginate {
+     pageInfo{
+       totalPages
+       currentPage
+     }
       edges{
        node{
          ...on Post {
@@ -25,13 +29,17 @@ query Tag($id:ID!){
  }
 </page-query>
 <script>
+  import BlogList from '~/components/Blog/BlogList.vue'
   export default {
+    components:{
+      BlogList
+    },
     computed:{
       tagInfo() {
         return this.$page.tag
       },
       tagPosts(){
-        return this.$page.tag.belongsTo.edges
+        return this.$page.tag.belongsTo
       }
     }
   }

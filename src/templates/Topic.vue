@@ -1,16 +1,17 @@
 <template>
-  <div>
-    <h1>Posts de {{topicInfo.id}}</h1>
-    <ul>
-      <li v-for="item in topicPosts">{{item.node.title}}</li>
-    </ul>
-  </div>
+  <Landing>
+    <BlogList :list="topicPosts"/>
+  </Landing>
 </template>
 <page-query>
-  query Topic($id:ID!){
+  query Topic($id:ID!, $page:Int){
    topic (id: $id){
      id
-     belongsTo(sortBy: "date", order: DESC) {
+     belongsTo(sortBy: "date",perPage:5, page:$page, order: DESC)@paginate {
+     pageInfo{
+       totalPages
+       currentPage
+     }
       edges{
        node{
          ... on Post {
@@ -31,13 +32,17 @@
  }
 </page-query>
 <script>
+  import BlogList from '~/components/Blog/BlogList.vue'
   export default {
+    components:{
+      BlogList
+    },
     computed:{
       topicInfo() {
         return this.$page.topic
       },
       topicPosts(){
-        return this.$page.topic.belongsTo.edges
+        return this.$page.topic.belongsTo
       }
     }
   }
