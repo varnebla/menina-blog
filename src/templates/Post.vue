@@ -9,6 +9,7 @@
           </p>
           <div class="grid grid-cols-1 tablet:grid-cols-2 gap-10 mb-8">
             <div class="col-span-1">
+              <TagList :option="$page.post.tags"/>
               <h1 class="mb-2 font-titles leading-tight">
                 {{ $page.post.title }}
               </h1>
@@ -17,13 +18,15 @@
               </p>
 
             </div>
-            <div
+            <ImageBanner class="cols-span-1 h-80" :picture="postThumbnail.getImageName()" />
+            <!-- <div
               class="cols-span-1 h-80 bg-cover bg-center text-right"
               :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
-            ></div>
+            ></div> -->
           </div>
           <div class="">
             <div
+              id="content_block"
               class="font-light content text-lg leading-relaxed"
               v-html="$page.post.content"
             ></div>
@@ -70,14 +73,20 @@
       abstract
       content
       thumbnail
+      tags{
+        title
+      }
     }
   }
 </page-query>
 
 <script>
 import ProgressBar from '~/components/Headers/ProgressBar.vue'
+import TagList from '~/components/Blog/TagList.vue'
+import ImageBanner from '~/components/Landing/ImageBanner.vue'
 import Twitter from '~/assets/svg/Twitter.svg'
 import { pictureFormat } from '~/helpers/helper-functions.js'
+import ImageInformation from '~/helpers/imageInformation.js'
 
 export default {
    metaInfo() {
@@ -124,7 +133,7 @@ export default {
       progress: 0,
     }
   },
-  components: { ProgressBar, Twitter },
+  components: { ProgressBar, Twitter, TagList, ImageBanner},
   mounted: function () {
     this.centerImages()
     document.addEventListener(
@@ -137,7 +146,7 @@ export default {
   },
   methods: {
     centerImages() {
-      const imagesParagraph = document.querySelectorAll('p')
+      const imagesParagraph = document.querySelectorAll('#content_block p')
       imagesParagraph.forEach((el) => {
         if (el.firstChild && el.firstChild.tagName === 'IMG') {
           //paragraph contiene img
@@ -166,6 +175,11 @@ export default {
         ).toFixed(2)
     },
   },
+  computed:{
+    postThumbnail() {
+      return new ImageInformation(null, null, null, this.$page.post.thumbnail)
+    }
+  }
 }
 </script>
 
