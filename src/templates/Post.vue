@@ -2,20 +2,20 @@
   <Landing>
     <ProgressBar :progress="progress"/>
     <transition name="post-slide">
-      <section class="mb-8 max-w-3xl m-auto px-3 tablet:px-8 laptop:px-0">
+      <section class="mb-8 h-full max-w-3xl m-auto px-3 tablet:px-8 laptop:px-0">
         <article class="mb-8">
           <p class="opacity-50 text-lg w-full border-b-2 border-primary mb-8">
             Publicado el {{ $page.post.date }}
           </p>
           <div class="grid grid-cols-1 tablet:grid-cols-2 gap-10 mb-8">
             <div class="col-span-1">
-              <TagList :option="$page.post.tags"/>
               <h1 class="mb-2 font-titles leading-tight">
                 {{ $page.post.title }}
               </h1>
               <p class="font-light opacity-50 mb-4 text-base">
                 {{ $page.post.abstract }}
               </p>
+              <TagList :option="$page.post.tags"/>
 
             </div>
             <ImageBanner class="cols-span-1 h-80" :picture="postThumbnail.getImageName()" />
@@ -32,6 +32,7 @@
             ></div>
           </div>
         </article>
+        <p class="my-2">Compartir:</p>
         <ShareNetwork
           network="twitter"
           :url="`https://www.lameninaperdida.art${$route.path}`"

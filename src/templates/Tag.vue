@@ -1,5 +1,6 @@
 <template>
   <Landing>
+    <h1 class="max-w-3xl mx-auto px-3 tablet:px-8 laptop:px-0">Posts sobre {{tagInfo.id}}</h1>
     <BlogList :list="tagPosts"/>
   </Landing>
 </template>
