@@ -1,10 +1,6 @@
 <template>
   <div class="w-full h-full">
     <div class="my-12 flex flex-col tablet:flex-row py-2 post-card">
-      <!-- <div
-        class="w-full tablet:w-1/3 h-full bg-cover bg-center"
-        :style="{ 'background-image': 'url(' + post.thumbnail + ')' }"
-      ></div> -->
       <g-link class="w-full tablet:w-1/3" :to="post.path">
         <g-image
           class="object-cover w-full h-56"
@@ -13,7 +9,6 @@
         >
         </g-image>
       </g-link>
-      <!-- <g-image class="w-full tablet:w-1/3" :src="post.thumbnail" fit="outside"/> -->
       <div
         class="tablet:w-2/3 tablet:pl-5 tablet:pt-0 flex flex-col justify-start"
       >

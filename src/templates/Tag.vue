@@ -45,7 +45,3 @@ query Tag($id:ID!, $page:Int){
     }
   }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
