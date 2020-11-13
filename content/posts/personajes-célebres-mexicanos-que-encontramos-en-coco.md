@@ -6,7 +6,7 @@ abstract: Miguel quiere ser músico y para conseguir la bendición de su familia
   pero también conocerá a algunos personajes que fueron iconos mexicanos en
   vida.
 date: 2020-11-01T11:00:19.982Z
-thumbnail: /images/uploads/frida_-_copia_ey3dxj.jpg
+thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1605294405/frida_-_copia_k8pyxy.jpg
 tags: []
 topic: art
 content: >-
