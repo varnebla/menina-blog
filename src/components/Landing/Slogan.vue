@@ -5,8 +5,6 @@
   <div
       class="flex flex-col justify-center items-end"
     >
-    <!-- ml-4 mobileS:ml-6 mobileL:ml-20 laptop:ml-24 -->
-
         <h1
           data-cy="app_title"
           class="laptop:w-2/3 desktop:1/2 text-primary leading-tight font-normal font-landing text-6xl text-right mb-4"
@@ -21,7 +19,7 @@
         
         <div class="flex justify-end" data-cy="links">
           <g-link
-            class="border-2 border-primary rounded-full p-2 hover:bg-primary icon-transparent transition-all duration-200 ease-in-out"
+            class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out"
             to="https://instagram.com/lameninaperdida"
             aria-label="Ir a instagram"
           >
@@ -29,13 +27,13 @@
               viewBox="0 0 24 24"
               width="24"
               height="24"
-              class=" text-primary transform scale-75"
+              class=" fill-current transform scale-75"
               key="instagram"
               focusable="false"
             />
           </g-link>
           <g-link
-            class="border-2 border-primary rounded-full p-2 hover:bg-primary icon-transparent transition-all duration-200 ease-in-out ml-2"
+            class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out ml-2"
             to="https://twitter.com/lameninaperdida"
             aria-label="Ir a twitter"
           >
@@ -43,13 +41,13 @@
               viewBox="0 0 24 24"
               width="24"
               height="24"
-              class=" text-primary transform scale-75"
+              class=" fill-current transform scale-75"
               key="twitter"
               focusable="false"
             />
           </g-link>
           <g-link
-            class="border-2 border-primary rounded-full p-2 hover:bg-primary icon-transparent transition-all duration-200 ease-in-out ml-2"
+            class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out ml-2"
             to="https://facebook.com/lameninaperdida"
             aria-label="Ir a facebook"
           >
@@ -57,13 +55,13 @@
               viewBox="0 0 24 24"
               width="24"
               height="24"
-              class=" text-primary transform scale-75"
+              class="fill-current transform scale-75"
               key="facebook"
               focusable="false"
             />
           </g-link>
           <!-- <g-link
-            class="border-2 border-primary rounded-full p-2 hover:bg-primary icon-transparent transition-all duration-200 ease-in-out ml-2"
+            class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out ml-2"
             to="https://linkedin.com/in/jenniferarellano-cm"
             aria-label="Ir a linkedin"
           >
@@ -71,7 +69,7 @@
               viewBox="0 0 24 24"
               width="24"
               height="24"
-              class=" text-primary transform scale-75"
+              class="fill-current transform scale-75"
               key="linkedin"
               focusable="false"
             />
@@ -108,13 +106,5 @@ export default {
 .menina-fade-leave-to {
   transform: translateX(-30%);
   opacity: 0;
-}
-.icon-transparent > svg {
-  fill: var(--primary);
-  @apply transition-all duration-200 ease-in-out;
-}
-.icon-transparent:hover svg {
-  fill: var(--background);
-  @apply transition-all duration-200 ease-in-out;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div
-    class="my-0 max-w-full mx-auto overflow-hidden bg-background text-primary transition-all duration-300 ease-in-out"
+    class="my-0 min-h-full max-w-full mx-auto overflow-hidden bg-background text-primary transition-all duration-300 ease-in-out flex flex-col"
     :class="theme"
   >
     <transition name="menina-nav-fade" appear>
-      <Header v-on:toggleMenu="toggleMenu" />
+      <Header v-on:toggleMenu="toggleMenu" class="flex-auto"/>
     </transition>
     <transition name="fade-backdrop">
       <Backdrop v-if="showMenu" :toggleMenu="toggleMenu" />
@@ -13,40 +13,11 @@
       <DropdownMenu v-if="showMenu" :changeMode="changeMode" />
     </transition>
     <transition name="landing-fade" appear>
-      <main>
+      <main class="flex-auto">
         <slot />
       </main>
     </transition>
-    <!-- <transition name="landing-fade" appear>
-    </transition>
-    <ImageBanner data-type="presentation" />
-    <div data-type="art" class="px-2 tablet:px-16 laptop:px-32 landscape:px-96 opacity-0">
-      <Art
-        v-for="(edge, index) in $page.landing.edges[0].node.topics"
-        :topic="edge"
-        :key="edge.name"
-        :position="getOddOrEven(index)"
-        class="max-w-screen-xl"
-      />
-    </div>
-    <div data-type="posts" class="opacity-0">
-    <h2
-      class="text-secondary w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96"
-    >
-      Últimos posts
-    </h2>
-    <div
-      class="grid grid-cols-1 laptop:grid-cols-3 gap-8 w-full px-2 tablet:px-16 laptop:px-32 landscape:px-96 py-8"     
-    >
-      <ShowPosts
-        v-for="edge in $page.posts.edges"
-        :post="edge.node"
-        :key="edge.node.id"
-      />
-    </div>
-    </div>
-    <Contact :contact="landingInfo.contact" /> -->
-    <Footer />
+    <Footer class="flex-auto"/>
   </div>
 </template>
 
@@ -79,20 +50,13 @@ export default {
     Contact,
     Footer,
     DropdownMenu,
-    Backdrop,
-    // ModeToggle,
+    Backdrop
   },
   data: function() {
     return {
-      // theme: this.$cookies.get('theme') || 'theme-light',
       theme: 'theme-light',
       showMenu: false,
-      // presentationObserver: null,
-      // presentationIntersected: false,
-      // postsObserver: null,
-      // postsIntersected: false,
-      // artsObserver: null,
-      // artsIntersected: false,
+
     }
   },
   computed: {
@@ -100,37 +64,6 @@ export default {
       return this.$page.landing.edges[0].node
     },
   },
-  // mounted: function() {
-  //   this.theme =
-  //     (localStorage && localStorage.getItem('theme')) || 'theme-light'
-  // },
-  // mounted: function () {
-  //   //we need a function for each intersection observer
-  //   const posts = document.querySelector('[data-type="posts"]')
-  //   const arts = document.querySelector('[data-type="art"]')
-  //   this.postsObserver = new IntersectionObserver((entries) => {
-  //     const post = entries[0]
-  //     if (post.isIntersecting) {
-  //       posts.classList.add('art-appear')
-  //       this.postsIntersected = true
-  //       this.postsObserver.disconnect()
-  //     }
-  //   })
-  //   this.artsObserver = new IntersectionObserver((entries) => {
-  //     const art = entries[0]
-  //     if (art.isIntersecting) {
-  //       arts.classList.add('art-appear')
-  //       this.artsIntersected = true
-  //       this.artsObserver.disconnect()
-  //     }
-  //   })
-  //   this.postsObserver.observe(posts)
-  //   this.artsObserver.observe(arts)
-  // },
-  // destroyed: function () {
-  //   this.postsObserver.disconnect()
-  //   this.artsObserver.disconnect()
-  // },
   methods: {
     getOddOrEven(index) {
       return index % 2 == 0 // if true, number is even
