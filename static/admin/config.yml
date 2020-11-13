@@ -6,7 +6,7 @@ media_folder: 'static/images/uploads' #Media files will be stored in the repo un
 public_folder: '/images/uploads'
 media_library:
   name: cloudinary
-  output_filename_only: true
+  # output_filename_only: true
   config:
     cloud_name: varnebla
     api_key: 384885582618967
@@ -79,8 +79,8 @@ collections:
               name: 'presentation_picture',
               widget: 'image',
               required: true,
-              media_library: { name: cloudinary, output_filename_only: true },
             }
+            # media_library: { name: cloudinary, output_filename_only: true },
           - {
               label: 'Imágen secundaria presentación',
               name: 'presentation_secondary_picture',
