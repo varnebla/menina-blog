@@ -5,7 +5,7 @@ abstract: Entre las obras más importantes del Museo del Louvre se encuentra “
 date: 2020-11-09T11:36:00.000Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1589035417/WhatsApp_Image_2020-04-25_at_18.52.00_1_wlasc7_gnvd7h.jpg
 tags:
-  - Louvre
+  - Museo del Louvre
   - Romanticismo
 topic: arte
 content: >-
