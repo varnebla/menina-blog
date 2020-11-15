@@ -1,0 +1,137 @@
+---
+title: Ribadesella
+abstract: "Hace unas semanas tuve la oportunidad de hacer una breve escapada a
+  Asturias. Me gustaría compartir con vosotros algunos aspectos del viaje:
+  sitios que visité, curiosidades que aprendí, paisajes de los que me enamoré."
+date: 2020-11-11T18:18:05.134Z
+thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1605464843/IMG_20201027_194550_488_y1wx3r.jpg
+tags:
+  - Asturias
+  - Turismo por España
+topic: viajes
+content: >-
+  La crisis del Covid-19 ha hecho que nos replanteemos muchas cosas, entre
+  ellas, la forma en la que viajamos. Ya sea por miedo a meternos en un avión
+  durante horas o a la incertidumbre de las medidas al llegar a otros países,
+  muchos de nosotros hemos optado por, en la medida de lo posible, hacer turismo
+  nacional este año.
+
+
+  Así que, aprovechando que podía tener una semana de vacaciones en octubre, decidí conocer un destino al que hacía mucho tiempo que le tenía ganas pero que por un motivo u otro acababa dejando para más adelante: Asturias. La necesidad de verde y naturaleza por un lado y el hecho de que fuera la comunidad más segura en ese momento acabaron por decidirme.
+
+
+  ## ¿Dónde nos hospedamos?
+
+
+  Lo primero que había que decidir era dónde íbamos a dormir (ya que viajé en pareja) y optamos por establecer nuestro "cuartel general" en un pueblecito y desde allí ir moviéndonos. Había muchas opciones pero acabamos decidiéndonos por hospedarnos en el hotel rural **La Llosona (Ardines)**. Íbamos buscando alejarnos del alboroto de la ciudad para rodearnos solo de naturaleza y silencio y lo conseguimos. Además, los dueños eran encantadores, así como el gatito que rondaba por allí. Si tenéis que viajar a Asturias, sin duda os recomiendo este hotelito porque además de que las camas son muy cómodas, el desayuno que nos preparaban cada mañana era el chute de energía que necesitábamos para llegar a la hora de comer.
+
+
+  ![Hotel rural La Llosona (Ardines)](https://res.cloudinary.com/varnebla/image/upload/v1605470461/IMG20201016102548_g2bqoz.jpg "Hotel rural La Llosona (Ardines) ©Fotografía propia")
+
+
+  <div align="center"><em>Hotel rural La Llosona (Ardines)</em></div>
+
+
+  ## Ribadesella
+
+
+  Como llegamos ya pasada la hora de comer, decidimos que el primer día lo íbamos a dedicar a conocer el pueblo más cercano: Ribadesella. Esta villa asturiana es conocida sobre todo por dos sucesos:
+
+
+  * Encontramos la **cueva prehistórica de Tito Bustillo**, declarada Patrimonio de la Humanidad por la UNESCO, debido a la importancia de sus pinturas y grabados.
+
+  * Es la meta del **“Descenso del Sella”**, una de las carreras de piraguas más conocidas del mundo y que también ha sido declarada Interés Turístico Nacional. De hecho, es la única fiesta asturiana con este título.
+
+
+  ¿Y qué pasas si visitas Ribeseya en octubre de 2020? Pues que el descenso no lo vas a ver y que la cueva tenía un limitadísimo aforo todo ocupado. Pero no es problema, esto sin duda es otro de los mil motivos que nos animarán a volver a visitarla.
+
+
+  ### Paseo de la Grúa
+
+
+  El río, que acaba en la ría y así al mar, es sin duda el elemento clave del paisaje. Muy recomendable es pasear por el paseo de la Grúa donde encontramos dos instalaciones que nos hacen movernos entre la historia y la mitología.
+
+
+  ![Paseo de la Grúa](https://res.cloudinary.com/varnebla/image/upload/v1605470460/IMG20201012181608_qjagp8.jpg "Paseo de la Grúa")
+
+
+  <div align="center"><em>Paseo de la Grúa ©Fotografía propia</em></div>
+
+
+  A través de la historia nos movemos si observamos las paredes del paseo, donde se han instalado 6 paneles cerámicos que tienen como objetivo mantener viva la memoria histórica del puerto, desde la Prehistoria hasta inicios del S. XXI. Tal y como podemos leer en la placa que se instaló a la vez que los paneles (enero 2007): *"a lo largo de la historia, la desembocadura del Sella ha constituido un refugio natural de embarcaciones, dando lugar a una arraigada tradición pesquera y portuaria que ha forjado su carácter marinero".*
+
+
+  ![Panel cerámico dedicado al Renacimiento](https://res.cloudinary.com/varnebla/image/upload/v1605470464/IMG20201012181455_tidclz.jpg "Panel cerámico dedicado al Renacimiento")
+
+
+  <div align="center"><em>Panel cerámico dedicado al Renacimiento ©Fotografía propia</em></div>
+
+
+  El proyecto fue posible gracias a la participación del escritor e investigador local J**osé Antonio Silva Sastre** (Toni Silva), quien se encargó de la elaboración del guion; el ceramista **Francisco Muñiz** (Taller Carrió), quien traslado los dibujos a la cerámica; y el humorista y dibujante **Antonio Mingote**, quien plasmó en imágenes la historia.
+
+
+  Además de la calidad de la obras, una de las cosas que más me sorprendió fue el buen estado de conservación que presentan. Por otro lado, también me gustó el trabajo en cuanto a labores de accesibilidad: delante de cada panel se han colocado unos pequeños atriles con tres imágenes **acompañadas de código braille y un código QR**. Si lo escaneamos con nuestro móvil accedemos rápidamente a un corto audio (1-3 minutos) que nos habla del período histórico del panel que tenemos delante.
+
+
+  ![Panel cerámico dedicado a la Prehistoria, delante el panel con código braille y código QR](https://res.cloudinary.com/varnebla/image/upload/v1605470466/IMG20201012181226_jtwtd0.jpg "Panel cerámico dedicado a la Prehistoria, delante el panel con código braille y código QR")
+
+
+  <div align="center"><em>Panel cerámico dedicado a la Prehistoria, delante el panel con código braille y código QR ©Fotografía propia</em></div>
+
+
+  Y, como os decía, si hacemos este paseo también estamos haciendo un viaje por el mundo de la mitología asturiana. Todas las sociedades, especialmente las rurales, **desarrollan un mundo mágico que les permite explicar y entender factores** que no tienen una explicación más sencilla. En el caso de Asturias, las criaturas que encontramos son numerosas y en esta área mitológica del paseo podemos acercarnos a ellas. Aproximadamente coincidiendo con el medio camino entre un panel histórico y el otro, se ha colocado un panel con datos interesantes de las sirenas, el trasgu, el nuberu y otros encantadores personajes.
+
+
+  ![Paseo con el panel del área mitológica dedicado a las sirenas.](https://res.cloudinary.com/varnebla/image/upload/v1605470466/IMG20201012182535_gkkngl.jpg "Paseo con el panel del área mitológica dedicado a las sirenas.")
+
+
+  <div align="center"><em>Paseo con el panel del área mitológica dedicado a las sirenas. ©Fotografía propia</em></div>
+
+
+  ### Monte Corberu
+
+
+  Si seguimos caminando por el paseo y llegamos hasta el mar, encontramos una escalinata a la derecha por la que podemos ascender al **Monte Corberu.** Este era un lugar muy estratégico, por lo que se convirtió en el punto de vigilancia y control de la villa. Según textos del S. XVI, antiguamente había una estructura de defensa para protegerse de los posibles ataques de la flota francesa. Ya sabemos que, durante ese siglo, hubo constantes enfrentamientos entre ambos países.
+
+
+  Como os decía, gracias a los textos sabemos que había una estructura con al menos una torre de defensa, que fue reforzada en el S. XVIII y que estuvo en uso hasta la Guerra de la Independencia (1808). Es en este momento cuando seguramente se destruye y ya no vuelve a ponerse en funcionamiento. A modo de recordatorio de lo que fue el sitio, se han dejado tres cañones.
+
+
+  ![Los tres cañones rescatados del mar ubiados en el Monte Corberu](https://res.cloudinary.com/varnebla/image/upload/v1605470847/IMG20201012190627_sutdv3.jpg "Los tres cañones rescatados del mar ubiados en el Monte Corberu")
+
+
+  <div align="center"><em>Los tres cañones rescatados del mar ubiados en el Monte Corberu ©Fotografía propia</em></div>
+
+
+  Algo muy curioso sobre estos cañones es que fueron rescatados del fondo del mar, donde aún permanecen al menos dos más. Dado que eran los propios vecinos los encargados de la defensa, se dice que, durante el asedio de las tropas francesas en la Guerra de la Independencia, **tiraron los cañones al mar para evitar que cayeran en manos enemigas**. Tras su recuperación, se colocaron en el muelle y se usaban como amarre para los barcos. Actualmente, los encontramos en el monte, lugar para el que fueron fabricados hace 200 años. La verdad es que las vistas son increíbles y fue un lujo poder disfrutar durante unos minutos de tanta paz y tranquilidad.
+
+
+  Y si nos damos la vuelta, acabaremos nuestra visita al Monte Corberu con la imagen de la ermita dedicada a la Virgen de la Guía, patrona de los marineros. Según la tradición, esta virgen fue encontrada en el mar en una embarcación dirigida por una paloma. Este es el motivo por el que se la representa con una pequeña barca en la mano. El primer domingo de julio, coincidiendo con su festividad y en muestra de agradecimiento por su protección, la sacan en procesión en un barco hasta el mar.
+
+
+  ![Ermita dedicada a la Virgen de la Guía](https://res.cloudinary.com/varnebla/image/upload/v1605471005/IMG20201012190427_enkax2.jpg "Ermita dedicada a la Virgen de la Guía")
+
+
+  <div align="center"><em>Ermita dedicada a la Virgen de la Guía ©Fotografía propia</em></div>
+
+
+  ¡Por cierto! Una cosa que no había comentado y que quizá debería haber sido lo primero. Te encantará saber que estás en una zona propensa a los derrumbes. De hecho, el último derrumbe se llevó parte de la ermita y por eso actualmente tiene este aspecto. El edificio que hoy podemos contemplar es, por tanto, **una parte del original del S. XVI**, construido seguramente a la vez que el refuerzo de la estructura de defensa. Toda la parte de la cabecera desapareció acantilado abajo debido **a un derrumbe en el S. XIX**. Esto significa que la ermita no tiene altar, aunque sí podemos ver el arco original.
+
+
+  ![Ermita dedicada a la Virgen de la Guía](https://res.cloudinary.com/varnebla/image/upload/v1605471003/IMG20201012191020_qgyjdr.jpg "Ermita dedicada a la Virgen de la Guía")
+
+
+  <div align="center"><em>Cabecera de la ermita dedicada a la Virgen de la Guía ©Fotografía propia</em></div>
+
+
+  El estado del exterior se debe a una reconstrucción del 1892 y el interior está adornado con retablos, figuras e imágenes de los años 40 (S. XX). Lamentablemente **no se puede entrar,** pero intenté hacer unas fotos por las ventanas para que vierais que está todo decorado al más puro estilo marinero. Además, os añado una fotografía de la Virgen con la embarcación en las manos. Y una última cosa, que luego me dicen que no aviso: la disposición del acantilado, con sus grandes planchas que periódicamente se desploman, hacen prever un futuro desprendimiento que podría llevar a la total destrucción del edificio.
+
+
+  ![Interior de la ermita desde la ventana](https://res.cloudinary.com/varnebla/image/upload/v1605470456/HORIZONTAL_tsh8tk.jpg "Interior de la ermita desde la ventana")
+
+
+  <div align="center"><em>Interior de la ermita ©Fotografía propia</em></div>
+
+
+  Para hacer un camino de vuelta diferente, podéis optar por seguir más allá de la ermita y volver por una calle que está al otro extremo del monte. Se pasa por callejuelas hasta llegar a unas escaleras que vuelven a dejarte a pie de río. Nosotros pudimos aparcar el coche en el paseo sin problemas, así que acabada nuestra visita decidimos cenar algo rápido y volver al hotel, ya que al día siguiente teníamos organizada muy temprano una ruta en Jeep.
+---
