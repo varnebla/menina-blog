@@ -34,7 +34,7 @@ content: >-
   Este hecho llevó a la construcción de una balsa, sobre la que consiguió escapar un grupo de 150 personas. Obviamente, los oficiales y personas con cargo ya habían abandonado el barco en los pocos botes salvavidas disponibles. La balsa no tardó en ser un hervidero de nervios, malestar y descontento y los tripulantes improvisados tenían sed y hambre. Al parecer, la situación llegó a tal punto crítico que muchos enfermaron o se volvieron locos. De hecho, según algunas fuentes, hubo episodios de canibalismo.
 
 
-  ![Detalle de la obra](https://res.cloudinary.com/varnebla/image/upload/v1593867087/balsa-medusa/detalle-balsa_ltbxtr.webp "Detalle de la obra")
+  ![Detalle de la obra](https://res.cloudinary.com/varnebla/image/upload/v1605464884/1280px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa__Museo_del_Louvre__1818-19_1_xkchay.jpg "Detalle de la obra")
 
 
   <div align="center"><em>Detalle de la obra</em></div>
