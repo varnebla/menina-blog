@@ -7,8 +7,11 @@ abstract: Miguel quiere ser músico y para conseguir la bendición de su familia
   vida.
 date: 2020-11-01T11:00:19.982Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1605294405/frida_-_copia_k8pyxy.jpg
-tags: []
-topic: art
+tags:
+  - cine
+  - Frida Kahlo
+  - Diego Rivera
+topic: disney
 content: >-
   Para honrar la tradición mexicana del **Día de Muertos** (1 y 2 de noviembre)
   de una forma global, el protagonista debía viajar a la Tierra de los Muertos.
