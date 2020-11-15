@@ -11,7 +11,14 @@ module.exports = {
   templates: {
     Post: '/blog/:title',
     Topic: '/blog/topic/:id',
-    Tag: '/blog/tag/:title'
+    Tag: [
+     {
+       path: (node) => {
+         const regex = / /gi
+         return `/blog/tag/${node.title.replace(regex, '-')}`
+       }
+     } 
+    ]
   },
   plugins: [
     {

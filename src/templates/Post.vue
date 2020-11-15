@@ -38,7 +38,6 @@
           :url="`https://www.lameninaperdida.art${$route.path}`"
           :title="$page.post.title"
           :description="$page.post.abstract"
-          hashtags="art,disney"
           twitter-user="lameninaperdida"
           class="bg-twitter text-white py-3 px-3 block rounded-full w-12 cursor-pointer hover:shadow-twitter transition-shadow duration-200 ease-in-out"
         >
@@ -76,6 +75,7 @@
       thumbnail
       tags{
         title
+        path
       }
     }
   }

@@ -19,22 +19,22 @@
       <p class="text-left pb-4">
         {{ option.content }}
       </p>
-      <g-link
-        to="/blog/"
-        class="border border-primary hover:border-gold text-primary hover:text-gold transition duration-200 ease-in-out uppercase py-3 px-6 text-base btn-blog flex justify-around" :title="`Ir a los posts de ${option.id}`"
-        ><div class="mr-2">Ir a los posts de {{option.id}}</div>
-        <div class="arrow">&#8594;</div></g-link
-      >
+      <ArrowButton 
+        :path="`/blog/topic/${option.id}/`"
+        :text="`Ir a los posts de ${option.id}`"
+      />
     </div>
   </section>
 </template>
 
 <script>
 import ImageBanner from '~/components/Landing/ImageBanner.vue'
+import ArrowButton from '~/components/General/ArrowButton.vue'
 export default {
   props: ['option', 'odd'],
   components: {
     ImageBanner,
+    ArrowButton
   },
 }
 </script>
