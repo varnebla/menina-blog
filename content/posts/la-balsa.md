@@ -2,18 +2,18 @@
 title: La balsa de la medusa
 abstract: Entre las obras más importantes del Museo del Louvre se encuentra “La
   balsa de la Medusa” de Théodore Géricault.
-date: 2020-05-09T15:36:53.038Z
+date: 2020-11-09T11:36:00.000Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1589035417/WhatsApp_Image_2020-04-25_at_18.52.00_1_wlasc7_gnvd7h.jpg
 tags:
-  - tag
-topic: art
+  - Museo del Louvre
+  - Romanticismo
+topic: arte
 content: >-
-  Entre las obras más importantes del **[Museo del
-  Louvre](https://www.louvre.fr/en)** se encuentra “La balsa de la Medusa” de
-  Théodore Géricault. Lo primero que capta nuestra atención cuando nos detenemos
-  delante del cuadro son sus dimensiones, pues esta gran obra mide 4 metros de
-  alto por 7 de largo. Lo segundo, es la gran fuerza que desprenden todos los
-  elementos que aparecen en la obra.
+  Entre las obras más importantes del **Museo del Louvre** se encuentra “La
+  balsa de la Medusa” de Théodore Géricault. Lo primero que capta nuestra
+  atención cuando nos detenemos delante del cuadro son sus dimensiones, pues
+  esta gran obra mide 4 metros de alto por 7 de largo. Lo segundo, es la gran
+  fuerza que desprenden todos los elementos que aparecen en la obra.
 
 
   Al fondo, el cielo oscuro lleno de nubes que amenazan tormenta y el mar embravecido que dificulta cualquier navegación. En primer término, un barco que se compone de unos pocos tablones y al que apenas le quedan velas, navega con dificultad con unas veinte personas en posturas dramáticas. Y si esta primera visión no es suficiente para impactarnos, seguro que hay un factor que acaba por sobrecogernos: el tema elegido por T. Géricault **está basado en hechos reales**.
@@ -25,17 +25,23 @@ content: >-
   ![Exposición en el Salon del Louvre en 1787, grabado de Johann Heinrich Ramberg](https://res.cloudinary.com/varnebla/image/upload/c_scale,w_591/v1593867087/balsa-medusa/grabado_irtydg.webp "Exposición en el Salon del Louvre en 1787, grabado de Johann Heinrich Ramberg")
 
 
-  <div  align="center"><em>Pietro Antonio Martini (1738–1797), Exposición en el Salon del Louvre en 1787, grabado de Johann Heinrich Ramberg, 1787.</em></div>
+  <div align="center"><em>Pietro Antonio Martini (1738–1797), Exposición en el Salon del Louvre en 1787, grabado de Johann Heinrich Ramberg, 1787.</em></div>
 
 
-  Al mando de la nave conocida como la fragata Medusa, el rey colocó al oficial de marina Chaumareys, quien cometió tal multitud de errores de navegación que acabó llevando a la embarcación, que ya no estaba en muy buen estado, a encallar. Una tormenta fue lo que acabó de dañar la nave y las casi 400 personas que iban a bordo empezaron a vivir una situación de gran estrés cuando comprobaron que no había suficientes botes salvavidas. Este hecho llevó a la construcción de una balsa, sobre la que consiguió escapar un grupo de 150 personas. Obviamente, los oficiales y personas con cargo ya habían abandonado el barco en los pocos botes salvavidas disponibles. La balsa no tardó en ser un hervidero de nervios, malestar y descontento y los tripulantes improvisados tenían sed y hambre. Al parecer, la situación llegó a tal punto crítico que muchos enfermaron o se volvieron locos. De hecho, según algunas fuentes, hubo episodios de canibalismo.
+  Al mando de la nave conocida como la fragata Medusa, el rey colocó al oficial de marina Chaumareys, quien cometió tal multitud de errores de navegación que acabó llevando a la embarcación, que ya no estaba en muy buen estado, a encallar. Una tormenta fue lo que acabó de dañar la nave y las casi 400 personas que iban a bordo empezaron a vivir una situación de gran estrés cuando comprobaron que no había suficientes botes salvavidas. 
+
+
+  Este hecho llevó a la construcción de una balsa, sobre la que consiguió escapar un grupo de 150 personas. Obviamente, los oficiales y personas con cargo ya habían abandonado el barco en los pocos botes salvavidas disponibles. La balsa no tardó en ser un hervidero de nervios, malestar y descontento y los tripulantes improvisados tenían sed y hambre. Al parecer, la situación llegó a tal punto crítico que muchos enfermaron o se volvieron locos. De hecho, según algunas fuentes, hubo episodios de canibalismo.
 
 
   ![Detalle de la obra](https://res.cloudinary.com/varnebla/image/upload/v1593867087/balsa-medusa/detalle-balsa_ltbxtr.webp "Detalle de la obra")
 
 
-  <div  align="center"><em>Detalle de la obra</em></div>
+  <div align="center"><em>Detalle de la obra</em></div>
 
 
-  A pesar de la fuerte crítica que supone la obra del Louvre, el pintor **no escoge representar a los hombres y mujeres de la balsa en actitudes extremas,** como por ejemplo devorándose unos a otros o bebiendo la propia orina. Al contrario, nos muestra lo que estaría representando el final del viaje, el momento en que algunos miran al horizonte, donde seguramente han avistado otra nave y, con la esperanza de ser rescatados, agitan trapos y brazos para hacerse notar. Pero, a pesar de la positividad del rescate, **es un error olvidar el desastre** derivado de la mala gestión de la fragata Medusa, que ha provocado la muerte dramática de personas: algunas aún sobre la balsa, muchas otras hundidas en el océano.
+  A pesar de la fuerte crítica que supone la obra del Louvre, el pintor **no escoge representar a los hombres y mujeres de la balsa en actitudes extremas,** como por ejemplo devorándose unos a otros o bebiendo la propia orina. Al contrario, nos muestra lo que estaría representando el final del viaje, el momento en que algunos miran al horizonte, donde seguramente han avistado otra nave y, con la esperanza de ser rescatados, agitan trapos y brazos para hacerse notar. 
+
+
+  Pero, a pesar de la positividad del rescate, **es un error olvidar el desastre** derivado de la mala gestión de la fragata Medusa, que ha provocado la muerte dramática de personas: algunas aún sobre la balsa, muchas otras hundidas en el océano.
 ---
