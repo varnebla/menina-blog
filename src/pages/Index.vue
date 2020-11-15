@@ -25,7 +25,7 @@
     <section></section>
     <section id="introduction" class="mb-24 tablet:mb-32">
       <IntroInfo class="mb-12" />
-      <ImageBanner imgClass="max-w-3xl mx-auto" :picture="introImage.getImageName()"/>
+      <ImageBanner imgClass="max-w-3xl mx-auto h-104" :picture="introImage.getImageName()"/>
       <!-- <IntroImage :option="introImage.getImageName()" /> -->
     </section>
     <section class="mb-32 max-w-3xl mx-auto">

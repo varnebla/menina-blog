@@ -53,11 +53,11 @@
         </ShareNetwork>
         <div class="border-t border-gold mt-12">
           <p class="mt-12">
-            Espero que te haya gustado este post. Si quieres comentar algo no dudes en mandarme un
+            Puedes encontrar más posts como este en mi perfil de 
             <a
               class="underline text-gold"
-              href="https://twitter.com/lameninaperdida"
-              >tweet</a
+              href="https://instagram.com/lameninaperdida"
+              >Instagram</a
             >
           </p>
         </div>
@@ -169,11 +169,17 @@ export default {
       })
     },
     progressState() {
-      if (process.isClient)
+      if (process.isClient) {
+        const headerHeight = document.querySelector('nav').offsetHeight;
+        const postHeight = document.querySelector('main').offsetHeight;
+        const footerHeight = document.querySelector('footer').offsetHeight;
+        const bodyHeight = headerHeight + postHeight + footerHeight;
         this.progress = (
-          (window.scrollY / (document.body.offsetHeight - window.innerHeight)) *
+          (window.scrollY / (bodyHeight - window.innerHeight)) *
           100
         ).toFixed(2)
+
+      }
     },
   },
   computed:{

@@ -11,17 +11,18 @@
         >
           la menina perdida
         </h1>
-        <h1
+        <h2
           class="laptop:w-2/3 desktop:1/2 text-primary font-sans text-right font-thin mb-8 text-3xl"
         >
           Para que veas el <i>arte</i> con otros ojos
-        </h1>
+        </h2>
         
         <div class="flex justify-end" data-cy="links">
           <g-link
             class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out"
             to="https://instagram.com/lameninaperdida"
             aria-label="Ir a instagram"
+            title="Ir a instagram"
           >
             <Instagram
               viewBox="0 0 24 24"
@@ -36,6 +37,7 @@
             class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out ml-2"
             to="https://twitter.com/lameninaperdida"
             aria-label="Ir a twitter"
+            title="Ir a twitter"
           >
             <Twitter
               viewBox="0 0 24 24"
@@ -50,6 +52,7 @@
             class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out ml-2"
             to="https://facebook.com/lameninaperdida"
             aria-label="Ir a facebook"
+            title="Ir a facebook"
           >
             <Facebook
               viewBox="0 0 24 24"
@@ -64,6 +67,7 @@
             class="border-2 border-primary rounded-full p-2 text-primary bg-background hover:bg-primary hover:text-background transition-all duration-200 ease-in-out ml-2"
             to="https://linkedin.com/in/jenniferarellano-cm"
             aria-label="Ir a linkedin"
+            title="Ir a linkedin"
           >
             <Linkedin
               viewBox="0 0 24 24"

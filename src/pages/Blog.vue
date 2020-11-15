@@ -29,9 +29,14 @@
 import BlogList from '~/components/Blog/BlogList.vue'
 
 export default {
-  metaInfo: {
-    title: 'Blog',
-  },
+  // metaInfo: {
+  //   title: 'Blog',
+  //   meta: {
+  //     key: 'description',
+  //     name: 'description',
+  //     content: 'Posts para que veas el arte con otros ojos'
+  //   }
+  // },
   components: {
     BlogList
   },

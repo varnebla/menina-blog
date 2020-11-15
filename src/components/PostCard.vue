@@ -1,18 +1,21 @@
 <template>
   <div class="w-full h-full">
     <div class="my-12 flex flex-col tablet:flex-row py-2 post-card">
-      <g-link class="w-full tablet:w-1/3" :to="post.path">
-        <g-image
+      <g-link class="w-full tablet:w-1/3" :to="post.path" title="Ir al post">
+        <ImageBanner 
+          :picture="postCardThumbnail.getImageName()"
+          imgClass="object-cover w-full h-56"/>
+        <!-- <g-image
           class="object-cover w-full h-56"
           :src="post.thumbnail"
           :alt="post.title"
         >
-        </g-image>
+        </g-image> -->
       </g-link>
       <div
         class="tablet:w-2/3 tablet:pl-5 tablet:pt-0 flex flex-col justify-start"
       >
-        <g-link :to="post.path">
+        <g-link :to="post.path" title="Ir al post">
           <h3
             class="font-titles mb-2 hover:text-secondary transition-all duration-200 ease-in-out"
           >
@@ -29,8 +32,18 @@
 </template>
 
 <script>
+import ImageBanner from '~/components/Landing/ImageBanner.vue';
+import ImageInformation from '~/helpers/imageInformation.js'
 export default {
+  components:{
+    ImageBanner
+  },
   props: ['post'],
+  computed:{
+    postCardThumbnail() {
+      return new ImageInformation(null, null, null, this.post.thumbnail);
+    }
+  }
 }
 </script>
 

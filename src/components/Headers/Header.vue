@@ -1,8 +1,8 @@
 <template>
   <nav class="z-50 right-0 text-primary px-4 py-12 tablet:p-12 flex justify-between">
-    <g-link to="/" class="font-titles header-element">La menina perdida</g-link>
+    <g-link to="/" class="font-titles header-element" title="Ir al inicio">La menina perdida</g-link>
     <div class="flex justify-end">
-      <g-link class="ml-5 hidden laptop:inline header-element" to="/blog">Blog</g-link>
+      <g-link class="ml-5 hidden laptop:inline header-element" to="/blog" title="Ir al blog">Blog</g-link>
       <!-- <g-link class="ml-5 hidden laptop:inline header-element" to="/about/">Sobre mí</g-link> -->
       <MenuThin viewBox="0 0 24 24"
               width="24"

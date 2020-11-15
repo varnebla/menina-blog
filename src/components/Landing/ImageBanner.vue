@@ -8,7 +8,7 @@
       width="auto:breakpoints"
       responsive="fill"
     >
-      <cld-placeholder width="auto:breakpoints" responsive="fill"></cld-placeholder>
+      <!-- <cld-placeholder width="auto:breakpoints" responsive="fill"></cld-placeholder> -->
     </cld-image>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-12 justify-center w-full h-48 bg-dark grid grid-rows-4 gap-8">
+  <footer class="pt-12 justify-center w-full h-48 bg-dark grid grid-rows-4 gap-8">
     <div class="w-80 flex justify-around text-white text-center">
       <!-- <g-link class="underline" to="/about">Sobre mí</g-link> -->
       <g-link class="underline" to="/blog">Blog</g-link>
@@ -14,7 +14,7 @@
         >Víctor Arnedo</g-link
       >
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
