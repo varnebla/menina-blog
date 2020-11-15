@@ -3,7 +3,7 @@ title: Ribadesella
 abstract: "Hace unas semanas tuve la oportunidad de hacer una breve escapada a
   Asturias. Me gustaría compartir con vosotros algunos aspectos del viaje:
   sitios que visité, curiosidades que aprendí, paisajes de los que me enamoré."
-date: 2020-11-15T18:18:05.134Z
+date: 2020-11-11T18:18:05.134Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1605464843/IMG_20201027_194550_488_y1wx3r.jpg
 tags:
   - Asturias
