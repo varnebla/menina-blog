@@ -78,6 +78,10 @@ export default function(Vue, { router, head, isClient }) {
     name: 'twitter:image',
     content: `https://res.cloudinary.com/varnebla/image/upload/c_thumb,w_200,g_face/v1596361718/El_caballero_de_la_mano_en_el_pecho_ksmaeb.jpg`,
   })
-
+  head.meta.push({
+    key: 'description',
+      name: 'description',
+      content: 'La menina perdida es un lugar donde reunirnos a hablar de arte y cultura, sin importar el nivel de formación o conocimiento en el tema. ¡Estáis todos invitados!'
+  })
   
 }

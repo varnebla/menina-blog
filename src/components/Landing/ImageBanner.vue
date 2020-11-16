@@ -2,7 +2,9 @@
   <div :class="imgClass">
     <cld-image
       cloudName="varnebla"
-      :public-id="picture"
+      :public-id="picInformation.getImageName()"
+      :alt="picInformation.title"
+      :title="picInformation.title"
       loading="lazy"
       dpr="auto"
       width="auto:breakpoints"
@@ -16,7 +18,7 @@
 <script>
 import { pictureFormat } from '~/helpers/helper-functions.js'
 export default {
-  props: ['imgClass', 'picture'],
+  props: ['imgClass', 'picInformation'],
   // computed: {
   //   //detect browser to get images in the best format
   //   source: function() {

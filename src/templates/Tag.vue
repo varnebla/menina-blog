@@ -32,6 +32,11 @@ query Tag($id:ID!, $page:Int){
 <script>
   import BlogList from '~/components/Blog/BlogList.vue'
   export default {
+    metaInfo() {
+      return {
+        title: this.$page.tag.id,
+      }
+    },
     components:{
       BlogList
     },

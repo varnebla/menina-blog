@@ -14,8 +14,9 @@ module.exports = {
     Tag: [
      {
        path: (node) => {
-         const regex = / /gi
-         return `/blog/tag/${node.title.replace(regex, '-')}`
+         const chars = {' ': '-', 'ñ': 'n'}
+         const regex = /[ ,ñ]/gi
+         return `/blog/tag/${node.title.replace(regex, m=>chars[m])}`
        }
      } 
     ]

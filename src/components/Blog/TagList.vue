@@ -4,7 +4,8 @@
       v-for="tag in option" 
       :to="`${tag.path}`" 
       class="rounded-full bg-yellow-700  bg-opacity-25 hover:bg-opacity-50 text-primary transition-all duration-200 ease-in-out py-1 px-3 mr-2 flex" 
-      :key="tag.title">
+      :key="tag.title"
+      :title="tag.title">
         {{tag.title}}
     </g-link>
   </div>

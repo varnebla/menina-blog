@@ -1,5 +1,6 @@
 <template>
   <Landing>
+    <h1 class="max-w-3xl mx-auto px-3 tablet:px-8 laptop:px-0">Blog</h1>
     <BlogList :list="postList"/>
   </Landing>
 </template>
@@ -29,14 +30,9 @@
 import BlogList from '~/components/Blog/BlogList.vue'
 
 export default {
-  // metaInfo: {
-  //   title: 'Blog',
-  //   meta: {
-  //     key: 'description',
-  //     name: 'description',
-  //     content: 'Posts para que veas el arte con otros ojos'
-  //   }
-  // },
+  metaInfo: {
+    title: 'Blog',
+  },
   components: {
     BlogList
   },

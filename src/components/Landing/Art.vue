@@ -4,7 +4,7 @@
     class="w-full grid grid-cols-1 tablet:grid-cols-2 py-8"
   >
     <ImageBanner
-      :picture="option.getImageName()"
+      :picInformation="option"
       imgClass="p-6 w-full h-80 tablet:h-128 tablet:m-auto"
       :class="odd ? 'tablet:order-2' : 'tablet:order-1'"
     />
@@ -20,8 +20,8 @@
         {{ option.content }}
       </p>
       <ArrowButton 
-        :path="`/blog/topic/${option.id}/`"
-        :text="`Ir a los posts de ${option.id}`"
+        :path="`/blog/topic/${option.name}/`"
+        :text="`Ir a los posts de ${option.name}`"
       />
     </div>
   </section>

@@ -18,11 +18,7 @@
               <TagList :option="$page.post.tags"/>
 
             </div>
-            <ImageBanner class="cols-span-1 h-80" :picture="postThumbnail.getImageName()" />
-            <!-- <div
-              class="cols-span-1 h-80 bg-cover bg-center text-right"
-              :style="{ 'background-image': 'url(' + $page.post.thumbnail + ')' }"
-            ></div> -->
+            <ImageBanner class="cols-span-1 h-80" :picInformation="postThumbnail" />
           </div>
           <div class="">
             <div
@@ -126,6 +122,10 @@ export default {
           name: 'twitter:image',
           content: this.$page.post.thumbnail,
         },
+        {
+          name:'description',
+          content: this.$page.post.abstract
+        }
       ],
     }
   },
@@ -184,7 +184,7 @@ export default {
   },
   computed:{
     postThumbnail() {
-      return new ImageInformation(null, null, null, this.$page.post.thumbnail)
+      return new ImageInformation(null, this.$page.post.title, null, this.$page.post.thumbnail)
     }
   }
 }

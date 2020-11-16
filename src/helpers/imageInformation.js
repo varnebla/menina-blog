@@ -1,6 +1,6 @@
 export default class ImageInformation  {
-  constructor (id, title, content, image) {
-    this.id = id;
+  constructor (name, title, content, image) {
+    this.name = name;
     this.title = title;
     this.content = content;
     this.image = image;

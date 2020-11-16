@@ -11,21 +11,20 @@
         <ImageBanner
           class="hidden tablet:inline col-start-8  laptop:col-start-8 desktop:col-start-6 col-span-5 laptop:col-span-5 desktop:col-span-4"
           imgClass="h-142 mobileS:h-156 tablet:h-164 z-0 -mt-6"
-          :picture="mainImage.getImageName()"
+          :picInformation="mainImage"
         />
       </transition>
       <transition name="menina-nav-fade" appear>
         <ImageBanner
           class="hidden desktop:inline desktop:col-start-10 desktop:col-span-3"
           imgClass="h-112 z-0 mx-2 mt-32"
-          :picture="secondaryImage.getImageName()"
+          :picInformation="secondaryImage"
         />
       </transition>
     </section>
-    <section></section>
     <section id="introduction" class="mb-24 tablet:mb-32">
       <IntroInfo class="mb-12" />
-      <ImageBanner imgClass="max-w-3xl mx-auto h-104" :picture="introImage.getImageName()"/>
+      <ImageBanner imgClass="max-w-3xl mx-auto h-104" :picInformation="introImage"/>
       <!-- <IntroImage :option="introImage.getImageName()" /> -->
     </section>
     <section class="mb-32 max-w-3xl mx-auto">
@@ -61,6 +60,7 @@ import IntroInfo from '~/components/Landing/IntroInfo.vue'
 import ArtInfo from '~/components/Landing/ArtInfo.vue'
 import Art from '~/components/Landing/Art.vue'
 import ImageInformation from '~/helpers/imageInformation.js'
+import {images} from '~/helpers/imagesData.js'
 
 export default {
   components: {
@@ -75,37 +75,39 @@ export default {
       return this.$page.landing.edges[0].node
     },
     mainImage(){
-      return new ImageInformation(null,null, null, this.landingInfo.presentation_picture);
+      const {name, title} = this.findElement(1);
+      return new ImageInformation(name, title, null, this.landingInfo.presentation_picture);
     },
     secondaryImage(){
-      return new ImageInformation(null, null, null, this.landingInfo.presentation_secondary_picture);
+      const {name, title} = this.findElement(2);
+      return new ImageInformation(name, title, null, this.landingInfo.presentation_secondary_picture);
     },
     introImage(){
-      return new ImageInformation(null, null, null, this.landingInfo.intro_picture);
+      const {name, title} = this.findElement(3);
+      return new ImageInformation(name, title, null, this.landingInfo.intro_picture);
     },
     primaryArtImage() {
-      return new ImageInformation(
-        'arte',
-        'Arte y cultura ',
-        'Bajo esta etiqueta encontraréis todos aquellos posts dedicados a analizar las obras de arte (pintura, escultura, arquitectura). La intención no es hablar de aspectos técnicos, sino adentrarnos en todas las curiosidades y datos interesantes que hay detrás de las obras y sus artistas. ¿Por qué Cupido aparece dormido en esa obra? ¿Por qué el Guernika es en blanco y negro? En definitiva, hablaremos de aquellas curiosidades y secretos que envuelven las obras.',
+      const {name, title, content} = this.findElement(4);
+      return new ImageInformation(name, title, content,
         this.landingInfo.art_primary_picture,
       )
     },
     secondaryArtImage() {
-      return new ImageInformation(
-        'disney',
-        'Disney y el arte',
-        'Como apasionada de Disney, reconozco que he visto todas sus películas en bucle desde que tengo uso de razón. A medida que crecemos vamos entendiendo mejor algunas situaciones con doble sentido que aparecen. Pero, además, vamos observando y analizando más las escenas. Así fue como me di cuenta que en las películas de Walt Disney son muchas las referencias que se hacen al mundo del arte y en esta sección vamos a analizarlas.',
+      const {name, title, content} = this.findElement(5);
+      return new ImageInformation(name, title, content,
         this.landingInfo.art_secondary_picture,
       )
     },
     tertiaryArtImage(){
-      return new ImageInformation(
-        'viajes',
-        'Viajes',
-        'En un mundo azotado por la pandemia, tener un apartado dedicado a los viajes es, cuanto menos, arriesgado. Pero yo no quiero dejar (en la medida de lo posible) de descubrir lugares interesantes y llenos de cultura. Bajo la etiqueta de “viajes” os hablaré de las diferentes escapadas que realice, teniendo en cuenta que el foco siempre estará puesto en la cultura, tradiciones o curiosidades del lugar. ',
+      const {name, title, content} = this.findElement(6);
+      return new ImageInformation(name, title, content,
         this.landingInfo.art_tertiary_picture
       )
+    }
+  },
+  methods: {
+    findElement(id){
+      return images.find(el => el.hid === id)
     }
   }
 }

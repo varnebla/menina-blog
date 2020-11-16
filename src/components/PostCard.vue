@@ -3,7 +3,7 @@
     <div class="my-12 flex flex-col tablet:flex-row py-2 post-card">
       <g-link class="w-full tablet:w-1/3" :to="post.path" title="Ir al post">
         <ImageBanner 
-          :picture="postCardThumbnail.getImageName()"
+          :picInformation="postCardThumbnail"
           imgClass="object-cover w-full h-56"/>
         <!-- <g-image
           class="object-cover w-full h-56"
@@ -41,7 +41,7 @@ export default {
   props: ['post'],
   computed:{
     postCardThumbnail() {
-      return new ImageInformation(null, null, null, this.post.thumbnail);
+      return new ImageInformation(null, this.post.title, this.post.abstract, this.post.thumbnail);
     }
   }
 }
