@@ -9,8 +9,8 @@
         text="Ir a la página de inicio"
         class="w-72 mb-8"
       />
-      <ImageBanner 
-        picture="v1605469151/Bufon_libros_vkbp8e.jpg"
+      <ImageBanner         
+        :picInformation="pictureInfo"
         imgClass="h-120 w-88"
       />
     </main>
@@ -24,6 +24,16 @@ import ArrowButton from '~/components/General/ArrowButton.vue'
     components: {
       ImageBanner,
       ArrowButton
+    },
+    computed:{
+      pictureInfo() {
+        return {
+          title: 'Bufón con libros',
+          getImageName: ()=> {
+            return 'v1605469151/Bufon_libros_vkbp8e.jpg'
+          }
+        }
+      }
     }
   }
 </script>
