@@ -9,10 +9,11 @@ tags:
   - Moda
 topic: arte
 content: >-
-  <!--StartFragment-->
-
-
-  Si tuviera que describir esta obra en una palabra sería “**sensualidad**“. El por qué es evidente: una mujer elegantemente vestida se balancea en un columpio y sus faldas se levantan debido al movimiento, lo que nos permite ver sus piernas y hasta una liga. Además, uno de sus zapatos sale disparado, dejando ver un pie solo recubierto por las medias.
+  Si tuviera que describir esta obra en una palabra sería “**sensualidad**“. El
+  por qué es evidente: una mujer elegantemente vestida se balancea en un
+  columpio y sus faldas se levantan debido al movimiento, lo que nos permite ver
+  sus piernas y hasta una liga. Además, uno de sus zapatos sale disparado,
+  dejando ver un pie solo recubierto por las medias.
 
 
   En contraposición con la luz que incide directamente en la mujer, encontramos a dos personajes masculinos, uno más oculto que el otro. En las sombras de los árboles, sentado en un banco de piedra, un hombre de avanzada edad (como parece indicar su pelo blanco), controla el mecanismo de cuerdas que mueve el columpio de la mujer, seguramente su esposa. El personaje que cierra el grupo es un hombre aparentemente más joven, que está tumbado en primer término, mirando directamente a la mujer (y seguramente lo que hay bajo sus faldas). Este personaje ha sido interpretado como el amante, que se burla. Por tanto, **las tres figuras forman un triángulo,** tanto en el soporte plástico como en la vida real.
@@ -60,10 +61,10 @@ content: >-
   ## Los zapatos salen del cuadro
 
 
-  Y para terminar, os quiero contar algo que a los amantes de la moda en general y de los zapatos en particular os va a encantar: los zapatos de la mujer que se mece sensualmente en el columpio, ¡existen!. Son obra del diseñador español Manolo Blahnik, quien los creó para Maria Antonieta en la película homónima de Sofia Coppola. Sus creaciones, en sintonía con el resto del vestuario de la película, la convirtieron en merecedora ganadora del Óscar al Mejor Vestuario.
+  Y para terminar, os quiero contar algo que a los amantes de la moda en general y de los zapatos en particular os va a encantar: los zapatos de la mujer que se mece sensualmente en el columpio, **¡existen!**. Son obra del diseñador español Manolo Blahnik, quien los creó para Maria Antonieta en la película homónima de Sofia Coppola. Sus creaciones, en sintonía con el resto del vestuario de la película, la convirtieron en merecedora **ganadora del Óscar al Mejor Vestuario.**
 
 
-  ![Zapatos diseñados por Manolo Blahnik para la película "Marie Antoinette" de Sofia Coppola (2006)](https://res.cloudinary.com/varnebla/image/upload/v1606757450/ManoloBlahnik05-vogueint-10jun19-WallaceCollection_mi6sw5.jpg "Zapatos diseñados por Manolo Blahnik para la película \"Marie Antoinette\" de Sofia Coppola (2006)")
+  ![Zapatos diseñados por Manolo Blahnik para la película "Marie Antoinette" de Sofia Coppola (2006)](https://res.cloudinary.com/varnebla/image/upload/v1606757450/ManoloBlahnik05-vogueint-10jun19-WallaceCollection_mi6sw5.jpg "Zapatos diseñados por Manolo Blahnik para la película \\"Marie Antoinette\\" de Sofia Coppola (2006)")
 
 
   <div align="center"><em>Zapatos diseñados por Manolo Blahnik para la película "Marie Antoinette" de Sofia Coppola (2006)</em></div>
