@@ -3,7 +3,7 @@ title: El columpio
 abstract: "Una obra que representa el espíritu del Rococó:  naturaleza, paisaje,
   sofisticación, galantería y adulterio."
 date: 2020-11-25T16:47:43.695Z
-thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1606819385/Miniatura_web_tpjkxb.jpg
+thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1606838823/Miniatura_web_orcikv.jpg
 tags:
   - Rococó
   - Moda
