@@ -3,7 +3,7 @@ title: El columpio
 abstract: "Una obra que representa el espíritu del Rococó:  naturaleza, paisaje,
   sofisticación, galantería y adulterio."
 date: 2020-11-25T16:47:43.695Z
-thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1606755205/Fragonard__The_Swing_da9lsu.jpg
+thumbnail: https://res.cloudinary.com/varnebla/image/upload/c_scale,h_364/v1606755205/Fragonard__The_Swing_da9lsu.jpg
 tags:
   - Rococó
   - Moda
@@ -64,7 +64,7 @@ content: >-
   Y para terminar, os quiero contar algo que a los amantes de la moda en general y de los zapatos en particular os va a encantar: los zapatos de la mujer que se mece sensualmente en el columpio, **¡existen!**. Son obra del diseñador español Manolo Blahnik, quien los creó para Maria Antonieta en la película homónima de Sofia Coppola. Sus creaciones, en sintonía con el resto del vestuario de la película, la convirtieron en merecedora **ganadora del Óscar al Mejor Vestuario.**
 
 
-  ![Zapatos diseñados por Manolo Blahnik para la película "Marie Antoinette" de Sofia Coppola (2006)](https://res.cloudinary.com/varnebla/image/upload/v1606757450/ManoloBlahnik05-vogueint-10jun19-WallaceCollection_mi6sw5.jpg "Zapatos diseñados por Manolo Blahnik para la película \\"Marie Antoinette\\" de Sofia Coppola (2006)")
+  ![Zapatos diseñados por Manolo Blahnik para la película "Marie Antoinette" de Sofia Coppola (2006)](https://res.cloudinary.com/varnebla/image/upload/v1606757450/ManoloBlahnik05-vogueint-10jun19-WallaceCollection_mi6sw5.jpg "Zapatos diseñados por Manolo Blahnik para la película \\\"Marie Antoinette\\\" de Sofia Coppola (2006)")
 
 
   <div align="center"><em>Zapatos diseñados por Manolo Blahnik para la película "Marie Antoinette" de Sofia Coppola (2006)</em></div>
