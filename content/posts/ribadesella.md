@@ -97,7 +97,7 @@ content: >-
   Como os decía, gracias a los textos sabemos que había una estructura con al menos una torre de defensa, que fue reforzada en el S. XVIII y que estuvo en uso hasta la Guerra de la Independencia (1808). Es en este momento cuando seguramente se destruye y ya no vuelve a ponerse en funcionamiento. A modo de recordatorio de lo que fue el sitio, se han dejado tres cañones.
 
 
-  ![Los tres cañones rescatados del mar ubiados en el Monte Corberu](https://res.cloudinary.com/varnebla/image/upload/v1605470847/IMG20201012190627_sutdv3.jpg "Los tres cañones rescatados del mar ubiados en el Monte Corberu")
+  ![Los tres cañones rescatados del mar ubicados en el Monte Corberu](https://res.cloudinary.com/varnebla/image/upload/v1605470847/IMG20201012190627_sutdv3.jpg "Los tres cañones rescatados del mar ubicados en el Monte Corberu")
 
 
   <div align="center"><em>Los tres cañones rescatados del mar ubiados en el Monte Corberu ©Fotografía propia</em></div>
