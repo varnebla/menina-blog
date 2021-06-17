@@ -39,4 +39,13 @@ content: >-
 
 
   ![]()
+
+
+  Pero, sin duda, el gran atractivo de este mágico lugar es la gruta de la Santa Cueva. 
+
+
+  Los 104 peldaños de piedra son subidos por algunos descalzos o incluso de rodillas, en señal de promesa. Pero ahora os voy a pedir que os fijéis en el elemento que hay justo en el lado opuesto: la fuente de los 7 caños, llamada popularmente como la fuente del matrimonio.
+
+
+  Yo no pude llegar a ella porque la lluvia había hecho subir "la marea". Y como estaba lloviendo, el suelo estaba encharcado y resbaladizo. No me fiaba yo de ir para pedir boda y volver chorreando.
 ---
