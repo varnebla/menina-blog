@@ -36,4 +36,7 @@ content: >-
 
 
   La Basílica se construye entre 1877-1901 para sustituir un antiguo edificio de madera que se quemó totalmente. La decisión final de su construcción se debe a Alfonso XII y aunque el diseño es de Roberto Frassinelli, la obra es de Federico Aparici, ya que Frassinelli no era arquitecto. Este monumental edificio, construido enteramente con piedra caliza rosa, resulta un símbolo para todos los peregrinos que visitan el lugar. Como curiosidad, os cuento que a los lados del altar se conservan dos lienzos: uno de Carducho y otro de Madrazo. La lástima es el estado de conservación, ambos están sucios y llenos de polvo, por lo que apenas se aprecia lo que se representó en ellos.
+
+
+  ![]()
 ---
