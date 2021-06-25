@@ -60,5 +60,17 @@ content: >-
   ![La Campana](https://res.cloudinary.com/varnebla/image/upload/v1624653447/IMG20201014112448_qo2cut.jpg)
 
 
-  Antes de volver a casa subimos por unas escaleras de madera hasta llegar a la campana.
+  Antes de volver a casa subimos por unas escaleras de madera hasta llegar a la campana, conocida popularmente como *La Campanona*. Sobre su superficie de hierro, tiene una serie de **bajo relieves** (tanto cristianas como paganas) **obra de Francesco Saverio.** La gran campana se expuso en la Exposición Universal de París en 1900, donde consiguió el primer premio de su categoría. En la década de 1950 volvió a España y se estableció en el Santuario.
+
+
+  ![Detalle de La Campanona]( "Detalle de La Campanona ©Fotografía propia")
+
+
+  ## Prosiguiendo el viaje...
+
+
+  Tras una breve visita a la tienda, al lado de la cual hay un proyector que está continuamente transmitiendo un reportaje de la historia del lugar (de donde saqué mucha información para elaborar este artículo), nos fuimos a nuestro siguiente destino. Digamos que el día fue muy productivo ya que empezó en **Covadonga**, siguió hacia la **playa de Celorio,** con breve parada para comer, y acabamos en **San Vicente de la Barquera**, por aquello de hacer la broma de ir a visitar a Bustamante. Más allá del chiste os recomiendo la visita, porque echas perfectamente la tarde y es un pueblo muy bonito. De vuelta a la casa rural decidimos aprovechar el parón de lluvia para visitar la Playa de Gulpiyuri, pero entonces empezó a llover y la visita tuvo que ser muy breve. Os cuento curiosidades de esta pequeña playa en otro artículo. Y para rematar el completo día, fuimos a cenar a una pizzería de Villaviciosa que se llama La Trigona, muy recomendable.
+
+
+  ¡Hasta el próximo viaje!
 ---
