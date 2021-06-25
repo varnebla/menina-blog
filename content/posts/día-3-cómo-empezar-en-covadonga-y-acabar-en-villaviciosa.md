@@ -1,7 +1,6 @@
 ---
-title: "Día 3: Cómo empezar en Covadonga y acabar en Villaviciosa"
-abstract: "Al recordar todo lo que hicimos en un día me doy cuenta de algo: el
-  poder de la organización y las ganas de volver a respirar aire puro."
+title: Covadonga histórica, espiritual y natural
+abstract: "Un lugar mágico envuelto en un entorno natural puro. "
 date: 2020-12-02T17:25:37.215Z
 thumbnail: https://res.cloudinary.com/varnebla/image/upload/v1623952175/IMG20201014111036_uwvzes.jpg
 tags:
@@ -38,14 +37,28 @@ content: >-
   La Basílica se construye entre 1877-1901 para sustituir un antiguo edificio de madera que se quemó totalmente. La decisión final de su construcción se debe a Alfonso XII y aunque el diseño es de Roberto Frassinelli, la obra es de Federico Aparici, ya que Frassinelli no era arquitecto. Este monumental edificio, construido enteramente con piedra caliza rosa, resulta un símbolo para todos los peregrinos que visitan el lugar. Como curiosidad, os cuento que a los lados del altar se conservan dos lienzos: uno de Carducho y otro de Madrazo. La lástima es el estado de conservación, ambos están sucios y llenos de polvo, por lo que apenas se aprecia lo que se representó en ellos.
 
 
-  ![]()
+  ![Cuadros del altar de la Basílica]( "Cuadros del altar de la Basílica ©Fotografía propia")
 
 
   Pero, sin duda, el gran atractivo de este mágico lugar es la gruta de la Santa Cueva. 
 
 
-  Los 104 peldaños de piedra son subidos por algunos descalzos o incluso de rodillas, en señal de promesa. Pero ahora os voy a pedir que os fijéis en el elemento que hay justo en el lado opuesto: la fuente de los 7 caños, llamada popularmente como la fuente del matrimonio.
 
 
-  Yo no pude llegar a ella porque la lluvia había hecho subir "la marea". Y como estaba lloviendo, el suelo estaba encharcado y resbaladizo. No me fiaba yo de ir para pedir boda y volver chorreando.
+  Una vez vista la gruta internamente, decidimos bajar unas escaleras para verla desde abajo. Cambiamos el silencio de la cueva por el sonido que hacía la cascada o "chorrón", que choca en el estanque, al que llaman "el pozón". Como ocurre en muchos estanques y fuentes, este espacio se ha convertido en un punto de donaciones en forma de moneda, y los turistas piden el tradicional deseo. 
+
+
+  ![El chorrón cayendo al pozón](https://res.cloudinary.com/varnebla/image/upload/v1624653350/IMG20201014115036_bs7bxz.jpg "El chorrón cayendo al pozón ©Fotografía propia")
+
+
+  Además de esta fotografía, hice un vídeo porque quedé muy impresionada de la belleza del agua cayendo y el sonido que nos envolvía. Cuando volvimos al hotel le enseñé el vídeo a Pedro (el señor de la casa rural) y nos dijo que habíamos tenido mucha suerte ya que no todo el mundo ve la cascada tan "potente". Resulta que las dos semanas anteriores a nuestra visita había estado lloviendo mucho **y por eso bajaba tanta agua** y el río Mestas iba cargadito. Realmente nunca me he alegrado tanto de que me lloviera en un viaje.
+
+
+  A la derecha, tenéis **104 peldaños de piedra**, algunos los suben descalzos y otros de rodillas, en señal de promesa. Pero os voy a pedir que os fijéis en el elemento que hay en el lado contrario, a la izquierda del todo. Esa construcción de piedra es una fuente, la **Fuente de los 7 caños, pero es popularmente conocida como la fuente del matrimonio.** Según la leyenda, los 7 caños serían un reflejo de los 7 sacramentos y la llaman del matrimonio porque la tradición asturiana dice que *"La Virgen de Covadonga tiene una fuente muy clara. La niña que de ella beba, dentro del año se casa"*. Yo no pude llegar a ella porque la lluvia había hecho subir "la marea" del estanque. Y como además estaba lloviendo, el suelo estaba encharcado y resbaladizo. No me fiaba yo de ir para pedir boda y acabar ahogada o, como mínimo, chorreando de arriba abajo.
+
+
+  ![La Campana](https://res.cloudinary.com/varnebla/image/upload/v1624653447/IMG20201014112448_qo2cut.jpg)
+
+
+  Antes de volver a casa subimos por unas escaleras de madera hasta llegar a la campana.
 ---
