@@ -48,8 +48,6 @@ content: >-
   ![](https://res.cloudinary.com/varnebla/image/upload/v1624656277/IMG20201014112613_y03kjp.jpg)
 
 
-
-
   Una vez vista la gruta internamente, decidimos bajar unas escaleras para verla desde abajo. Cambiamos el silencio de la cueva por el sonido que hacía la cascada o "chorrón", que choca en el estanque, al que llaman "el pozón". Como ocurre en muchos estanques y fuentes, este espacio se ha convertido en un punto de donaciones en forma de moneda, y los turistas piden el tradicional deseo. 
 
 
