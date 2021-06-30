@@ -43,14 +43,19 @@ content: >-
   Pero, sin duda, el gran atractivo de este mágico lugar es **la gruta de la Santa Cueva**. En esta cueva natural se conserva actualmente la imagen de la Santina, que es como se conoce popularmente a la Virgen de Covadonga. Desde su origen, en este espacio se guardaban artículos de gran valor, como alhajas, joyas y otros elementos de orfebrería. Además, se encontraba una talla de madera que representaba a la Virgen de Covadonga. Lamentablemente, en **1777 hubo un incendio que arrasó con todo.** Debido a la posición natural de la cueva, fue imposible acceder para apagar el incendio o rescatar nada, así que los restos fueron sacados del río a la mañana siguiente.
 
 
-  Posteriormente se elabora otra imagen de la Virgen, que desaparece durante la Guerra Civil. En 1939, alguien la encuentra en el trastero de la Embajada española en París, y se decide devolverla al Santuario. El retorno fue muy celebrado y desde entonces se conserva en la Cueva. La figura data de finales del S. XVI y representa a la Virgen con el niño en brazos, que gira el rostro para observarla. Está coronada con una corona de plata y pedrería y lleva **una flor que simboliza la fertilidad y la pureza.** La Santina se alza sobre una peana de madera en la que hay representados tres ángeles.
+  Posteriormente se elabora otra imagen de la Virgen, que desaparece durante la Guerra Civil. En 1939, alguien la encuentra **en el trastero de la Embajada española en París,** y se decide devolverla al Santuario. El retorno fue muy celebrado y desde entonces se conserva en la Cueva. La figura data de finales del S. XVI y representa a la Virgen con el niño en brazos, que gira el rostro para observarla. Está coronada con una corona de plata y pedrería y lleva **una flor que simboliza la fertilidad y la pureza.** La Santina se alza sobre una peana de madera en la que hay representados tres ángeles.
 
 
-  ![](https://res.cloudinary.com/varnebla/image/upload/v1624656277/IMG20201014112613_y03kjp.jpg)
+  ![Entrada a la Santa Cueva](https://res.cloudinary.com/varnebla/image/upload/v1624656277/IMG20201014112613_y03kjp.jpg "Entrada a la Santa Cueva ©Fotografía propia")
 
 
+  Además del altar, en la Cueva hay una pequeña capilla. El primer templo del que se tiene constancia era una pequeña construcción de madera, en la que se conservaba la imagen, que se colocó sobre una viguería volada: es decir, el templo parecía flotar en el aire. Debido a su curiosa ubicación, se decía que era **un milagro y que había sido construido por los ángeles.** Pero, como os he dicho anteriormente, este templo se quemó en 1777 y se planteó una nueva construcción en forma de templo neoclásico, que constaría de dos plantas y se instalaría enfrente de la Cueva. El proyecto no convenció y, tras años con las obras paradas, una vez más Roberto Frassinelli es llamado para que realice una remodelación del espacio.
 
 
+  Así es como en 1875 el espacio queda configurado de la siguiente manera: Frassinelli ubica un camarín de madera (una pequeña capilla) sobre la que coloca la talla de la Virgen y deja el resto del espacio totalmente diáfano. Lamentablemente, la Guerra Civil provocará daños y pérdidas en el espacio, ya que desmantelaron y se llevaron objetos de valor. La pequeña sacristía que vemos hoy es **obra de Luis Menéndez Pidal,** encargado de devolverle al espacio su belleza y de crear el templo natural que actualmente disfrutamos.
+
+
+  ![Santa Cueva](https://res.cloudinary.com/varnebla/image/upload/v1625059406/IMG20201014113148_1_f5lzxt.jpg "Santa Cueva ©Fotografía propia")
 
 
 
