@@ -16,7 +16,7 @@ content: >-
   que vivimos, os lo cuento más adelante en otro artículo.
 
 
-  Hoy quiero contaros todo lo que hicimos durante nuestro tercer día de vacaciones. Cuando me he puesto a organizar lo que os quería contar, me ha sorprendido a mi misma todos los sitios bonitos que visitamos y la gran cantidad de kilómetros que sumamos. ¡Arrancamos!
+  Hoy quiero hablaros de nuestra visita a Covadonga durante nuestro tercer día de vacaciones. Cuando me he puesto a organizar lo que os quería contar, me ha sorprendido a mi misma todos los sitios bonitos que visitamos ese día y la gran cantidad de kilómetros que sumamos. Lo que **empezó en Covadonga continuó por Celorio, y pasamos por San Vicente de la Barquera para acabar cenando en Villaviciosa.** Todos los destinos son muy recomendables, pero me centraré en nuestra visita a Covadonga.
 
 
   # Covadonga histórica, espiritual y natural
@@ -25,7 +25,7 @@ content: >-
   *Los asturianos diferencian tres 'Covadongas': la histórica, la espiritual y la natural.*
 
 
-  Covadonga es una parroquia situada en Cangas de Onís y forma parte del parque nacional de los Picos de Europa. Es un territorio lleno de belleza natural, por lo que no debe extrañarnos que fuera el **primer espacio natural protegido** de España y de los primeros de Europa. El honor del nombramiento se lo debe a Pedro Pidal, que era asturiano y entregado a la Virgen, y que quería para España lo que ya se estilaba en Norteamérica: una ley que protegiera el patrimonio natural y que procurase su protección.
+  Covadonga es una parroquia situada en Cangas de Onís y forma parte del parque nacional de los Picos de Europa. Es un territorio lleno de belleza natural, por lo que no debe extrañarnos que fuera el **primer espacio natural protegido** de España y de los primeros de Europa. El honor de este nombramiento se lo debe a Pedro Pidal, que era asturiano y entregado a la Virgen, y que quería para España lo que ya se estilaba en Norteamérica: **una ley que protegiera el patrimonio natural y que procurase su protección.**
 
 
   Nuestra visita a la parroquia, compuesta por la **Santa Cueva, la Basílica y el Santuario de Covadonga,** empieza bajo una fina lluvia. Normalmente, el hecho de que te llueva en un viaje puede cabrearte. En este viaje la lluvia y las nubes no hicieron otra cosa que reforzar la belleza del paisaje. Y como una imagen vale más que mil palabras, os dejo con esta perspectiva del camino hacia la Basílica de Covadonga, ¿no parece una imagen sacada de un cuento? 
@@ -34,18 +34,25 @@ content: >-
   ![Basílica de Covadonga](https://res.cloudinary.com/varnebla/image/upload/v1623952008/IMG20201014111036_u3yg5g.jpg "Basílica de Covadonga ©Fotografía propia")
 
 
-  La Basílica se construye entre 1877-1901 para sustituir un antiguo edificio de madera que se quemó totalmente. La decisión final de su construcción se debe a Alfonso XII y aunque el diseño es de Roberto Frassinelli, la obra es de Federico Aparici, ya que Frassinelli no era arquitecto. Este monumental edificio, construido enteramente con piedra caliza rosa, resulta un símbolo para todos los peregrinos que visitan el lugar. Como curiosidad, os cuento que a los lados del altar se conservan dos lienzos: uno de Carducho y otro de Madrazo. La lástima es el estado de conservación, ambos están sucios y llenos de polvo, por lo que apenas se aprecia lo que se representó en ellos.
+  La Basílica se construye entre 1877-1901 para sustituir un antiguo edificio de madera que se quemó totalmente. La decisión final de su construcción se debe a Alfonso XII y aunque el diseño es de Roberto Frassinelli, la obra es de **Federico Aparici,** ya que Frassinelli no era arquitecto. Este monumental edificio, construido enteramente con piedra caliza rosa, resulta un símbolo para todos los peregrinos que visitan el lugar. Como curiosidad, os cuento que **a los lados del altar se conservan dos lienzos**: uno de Carducho y otro de Madrazo. La lástima es el estado de conservación, ambos están sucios y llenos de polvo, por lo que apenas se aprecia lo que se representó en ellos.
 
 
   ![Cuadros del altar de la Basílica](https://res.cloudinary.com/varnebla/image/upload/v1624656196/IMG20201014111412_1_i43x3m.jpg "Cuadros del altar de la Basílica ©Fotografía propia")
 
 
-  Pero, sin duda, el gran atractivo de este mágico lugar es la gruta de la Santa Cueva.
+  Pero, sin duda, el gran atractivo de este mágico lugar es **la gruta de la Santa Cueva**. En esta cueva natural se conserva actualmente la imagen de la Santina, que es como se conoce popularmente a la Virgen de Covadonga. Desde su origen, en este espacio se guardaban artículos de gran valor, como alhajas, joyas y otros elementos de orfebrería. Además, se encontraba una talla de madera que representaba a la Virgen de Covadonga. Lamentablemente, en **1777 hubo un incendio que arrasó con todo.** Debido a la posición natural de la cueva, fue imposible acceder para apagar el incendio o rescatar nada, así que los restos fueron sacados del río a la mañana siguiente.
 
 
+  Posteriormente se elabora otra imagen de la Virgen, que desaparece durante la Guerra Civil. En 1939, alguien la encuentra en el trastero de la Embajada española en París, y se decide devolverla al Santuario. El retorno fue muy celebrado y desde entonces se conserva en la Cueva. La figura data de finales del S. XVI y representa a la Virgen con el niño en brazos, que gira el rostro para observarla. Está coronada con una corona de plata y pedrería y lleva **una flor que simboliza la fertilidad y la pureza.** La Santina se alza sobre una peana de madera en la que hay representados tres ángeles.
 
 
   ![](https://res.cloudinary.com/varnebla/image/upload/v1624656277/IMG20201014112613_y03kjp.jpg)
+
+
+
+
+
+
 
 
   Una vez vista la gruta internamente, decidimos bajar unas escaleras para verla desde abajo. Cambiamos el silencio de la cueva por el sonido que hacía la cascada o "chorrón", que choca en el estanque, al que llaman "el pozón". Como ocurre en muchos estanques y fuentes, este espacio se ha convertido en un punto de donaciones en forma de moneda, y los turistas piden el tradicional deseo. 
