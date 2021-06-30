@@ -43,10 +43,13 @@ content: >-
   Pero, sin duda, el gran atractivo de este mágico lugar es **la gruta de la Santa Cueva**. En esta cueva natural se conserva actualmente la imagen de la Santina, que es como se conoce popularmente a la Virgen de Covadonga. Desde su origen, en este espacio se guardaban artículos de gran valor, como alhajas, joyas y otros elementos de orfebrería. Además, se encontraba una talla de madera que representaba a la Virgen de Covadonga. Lamentablemente, en **1777 hubo un incendio que arrasó con todo.** Debido a la posición natural de la cueva, fue imposible acceder para apagar el incendio o rescatar nada, así que los restos fueron sacados del río a la mañana siguiente.
 
 
+  ![Entrada a la Santa Cueva](https://res.cloudinary.com/varnebla/image/upload/v1624656277/IMG20201014112613_y03kjp.jpg "Entrada a la Santa Cueva ©Fotografía propia")
+
+
   Posteriormente se elabora otra imagen de la Virgen, que desaparece durante la Guerra Civil. En 1939, alguien la encuentra **en el trastero de la Embajada española en París,** y se decide devolverla al Santuario. El retorno fue muy celebrado y desde entonces se conserva en la Cueva. La figura data de finales del S. XVI y representa a la Virgen con el niño en brazos, que gira el rostro para observarla. Está coronada con una corona de plata y pedrería y lleva **una flor que simboliza la fertilidad y la pureza.** La Santina se alza sobre una peana de madera en la que hay representados tres ángeles.
 
 
-  ![Entrada a la Santa Cueva](https://res.cloudinary.com/varnebla/image/upload/v1624656277/IMG20201014112613_y03kjp.jpg "Entrada a la Santa Cueva ©Fotografía propia")
+  ![La Santina en la Santa Cueva](https://res.cloudinary.com/varnebla/image/upload/v1625060231/IMG20201014112959_1_gis6na.jpg "La Santina en la Santa Cueva ©Fotografía propia")
 
 
   Además del altar, en la Cueva hay una pequeña capilla. El primer templo del que se tiene constancia era una pequeña construcción de madera, en la que se conservaba la imagen, que se colocó sobre una viguería volada: es decir, el templo parecía flotar en el aire. Debido a su curiosa ubicación, se decía que era **un milagro y que había sido construido por los ángeles.** Pero, como os he dicho anteriormente, este templo se quemó en 1777 y se planteó una nueva construcción en forma de templo neoclásico, que constaría de dos plantas y se instalaría enfrente de la Cueva. El proyecto no convenció y, tras años con las obras paradas, una vez más Roberto Frassinelli es llamado para que realice una remodelación del espacio.
@@ -58,27 +61,22 @@ content: >-
   ![Santa Cueva](https://res.cloudinary.com/varnebla/image/upload/v1625059406/IMG20201014113148_1_f5lzxt.jpg "Santa Cueva ©Fotografía propia")
 
 
-
-
-  Una vez vista la gruta internamente, decidimos bajar unas escaleras para verla desde abajo. Cambiamos el silencio de la cueva por el sonido que hacía la cascada o "chorrón", que choca en el estanque, al que llaman "el pozón". Como ocurre en muchos estanques y fuentes, este espacio se ha convertido en un punto de donaciones en forma de moneda, y los turistas piden el tradicional deseo. 
+  Una vez vista la gruta internamente, decidimos bajar unas escaleras para verla desde abajo. Cambiamos el silencio de la cueva por el sonido que hacía la cascada o "chorrón", que choca en el estanque, al que llaman "el pozón". Como ocurre en muchos estanques y fuentes, este espacio se ha convertido en un punto de donaciones en forma de moneda, y los turistas piden el tradicional deseo. Además de esta fotografía, hice un vídeo porque quedé muy impresionada de la belleza del agua cayendo y el sonido que nos envolvía. Cuando volvimos al hotel le enseñé el vídeo a Pedro (el señor de la casa rural) y nos dijo que habíamos tenido mucha suerte ya que no todo el mundo ve la cascada tan "potente". Resulta que las dos semanas anteriores a nuestra visita había estado lloviendo mucho **y por eso bajaba tanta agua** y el río Mestas iba cargadito. Realmente nunca me he alegrado tanto de que me lloviera en un viaje.
 
 
   ![El chorrón cayendo al pozón](https://res.cloudinary.com/varnebla/image/upload/v1624653350/IMG20201014115036_bs7bxz.jpg "El chorrón cayendo al pozón ©Fotografía propia")
 
 
-  Además de esta fotografía, hice un vídeo porque quedé muy impresionada de la belleza del agua cayendo y el sonido que nos envolvía. Cuando volvimos al hotel le enseñé el vídeo a Pedro (el señor de la casa rural) y nos dijo que habíamos tenido mucha suerte ya que no todo el mundo ve la cascada tan "potente". Resulta que las dos semanas anteriores a nuestra visita había estado lloviendo mucho **y por eso bajaba tanta agua** y el río Mestas iba cargadito. Realmente nunca me he alegrado tanto de que me lloviera en un viaje.
+  A la derecha, tenéis los **104 peldaños de piedra** por los que ya se accedía al primer templo del que os he hablado antes. Algunos los suben descalzos y otros de rodillas, en señal de promesa. Ahora os voy a pedir que os fijéis en el elemento que hay en el lado contrario, a la izquierda del todo. Esa construcción de piedra es una fuente, la **Fuente de los 7 caños, popularmente conocida como la fuente del matrimonio.** Según la leyenda, los 7 caños serían un reflejo de los 7 sacramentos y la llaman del matrimonio porque la tradición asturiana dice que *"La Virgen de Covadonga tiene una fuente muy clara. La niña que de ella beba, dentro del año se casa"*. Yo no pude llegar a ella porque la lluvia había hecho subir "la marea" del estanque. Y como además estaba lloviendo, el suelo estaba encharcado y resbaladizo. No me fiaba yo de ir para pedir boda y acabar ahogada o, como mínimo, chorreando de arriba abajo.
 
 
-  A la derecha, tenéis **104 peldaños de piedra**, algunos los suben descalzos y otros de rodillas, en señal de promesa. Pero os voy a pedir que os fijéis en el elemento que hay en el lado contrario, a la izquierda del todo. Esa construcción de piedra es una fuente, la **Fuente de los 7 caños, pero es popularmente conocida como la fuente del matrimonio.** Según la leyenda, los 7 caños serían un reflejo de los 7 sacramentos y la llaman del matrimonio porque la tradición asturiana dice que *"La Virgen de Covadonga tiene una fuente muy clara. La niña que de ella beba, dentro del año se casa"*. Yo no pude llegar a ella porque la lluvia había hecho subir "la marea" del estanque. Y como además estaba lloviendo, el suelo estaba encharcado y resbaladizo. No me fiaba yo de ir para pedir boda y acabar ahogada o, como mínimo, chorreando de arriba abajo.
+  ![La Campana](https://res.cloudinary.com/varnebla/image/upload/v1624653447/IMG20201014112448_qo2cut.jpg "La Campana o Campanona ©Fotografía propia")
 
 
-  ![La Campana](https://res.cloudinary.com/varnebla/image/upload/v1624653447/IMG20201014112448_qo2cut.jpg)
+  Antes de proseguir con nuestro viaje, subimos por unas escaleras de madera hasta llegar a la campana, conocida popularmente como *La Campanona*. Sobre su superficie de hierro, tiene una serie de **bajo relieves** con imágenes tanto cristianas como paganas, **obra de Francesco Saverio.** La gran campana se expuso en la Exposición Universal de París en 1900, donde consiguió el primer premio de su categoría. En la década de 1950 volvió a España y se estableció en el Santuario.
 
 
-  Antes de volver a casa subimos por unas escaleras de madera hasta llegar a la campana, conocida popularmente como *La Campanona*. Sobre su superficie de hierro, tiene una serie de **bajo relieves** (tanto cristianas como paganas) **obra de Francesco Saverio.** La gran campana se expuso en la Exposición Universal de París en 1900, donde consiguió el primer premio de su categoría. En la década de 1950 volvió a España y se estableció en el Santuario.
-
-
-  ![Detalle de La Campanona]( "Detalle de La Campanona ©Fotografía propia")
+  ![Detalle de La Campanona](https://res.cloudinary.com/varnebla/image/upload/v1625060502/IMG20201014114143_1_dinzo7.jpg "Detalle de La Campanona ©Fotografía propia")
 
 
   ## Prosiguiendo el viaje...
